@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/supercollider/!svn/ver/9121/trunk/Packager
+END
+background.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/7340/trunk/Packager/background.png
+END
+OPTIONALS_README_SOURCE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/7361/trunk/Packager/OPTIONALS_README_SOURCE.txt
+END
+dmg_without_optionals.ds_store
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/7342/trunk/Packager/dmg_without_optionals.ds_store
+END
+USAGE
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/supercollider/!svn/ver/7341/trunk/Packager/USAGE
+END
+pkg-dmg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/supercollider/!svn/ver/7227/trunk/Packager/pkg-dmg
+END
+OPTIONALS_README_OSX.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/7361/trunk/Packager/OPTIONALS_README_OSX.rtf
+END
+dmg_with_optionals.ds_store
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/7342/trunk/Packager/dmg_with_optionals.ds_store
+END
+package
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/supercollider/!svn/ver/9121/trunk/Packager/package
+END

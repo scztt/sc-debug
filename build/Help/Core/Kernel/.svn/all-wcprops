@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9519/trunk/build/Help/Core/Kernel
+END
+Process.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/7289/trunk/build/Help/Core/Kernel/Process.html
+END
+Method.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Core/Kernel/Method.html
+END
+randomSeed.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/Core/Kernel/randomSeed.html
+END
+FunctionList.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/8555/trunk/build/Help/Core/Kernel/FunctionList.html
+END
+Main.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9229/trunk/build/Help/Core/Kernel/Main.html
+END
+Routine.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9148/trunk/build/Help/Core/Kernel/Routine.html
+END
+Function.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9519/trunk/build/Help/Core/Kernel/Function.html
+END
+initClass.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8922/trunk/build/Help/Core/Kernel/initClass.html
+END
+Thunk.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/6452/trunk/build/Help/Core/Kernel/Thunk.html
+END
+RawPointer.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Core/Kernel/RawPointer.html
+END
+Frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Core/Kernel/Frame.html
+END
+Interpreter.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8157/trunk/build/Help/Core/Kernel/Interpreter.html
+END
+FunctionDef.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9402/trunk/build/Help/Core/Kernel/FunctionDef.html
+END
+Class.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Core/Kernel/Class.html
+END
+Thread.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/7234/trunk/build/Help/Core/Kernel/Thread.html
+END
+AbstractFunction.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/8958/trunk/build/Help/Core/Kernel/AbstractFunction.html
+END

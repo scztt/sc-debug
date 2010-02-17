@@ -1,0 +1,101 @@
+10
+
+dir
+9582
+https://supercollider.svn.sourceforge.net/svnroot/supercollider/trunk/build/SCClassLibrary/Common
+https://supercollider.svn.sourceforge.net/svnroot/supercollider
+
+
+
+2009-12-05T16:19:47.233560Z
+9578
+jamshark70
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+a380766d-ff14-0410-b294-a243070f3f08
+
+Helper
+dir
+
+Control
+dir
+
+Audio
+dir
+
+Files
+dir
+
+Unix
+dir
+
+GUI
+dir
+
+Quarks
+dir
+
+Core
+dir
+
+Math
+dir
+
+osx
+dir
+
+Geometry
+dir
+
+.cvsignore
+file
+
+
+
+
+2009-08-11T08:51:04.000000Z
+952fd44d14cee87882239b707231609d
+2002-10-13T20:40:08.000000Z
+65
+asynth
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10
+
+Collections
+dir
+
+Streams
+dir
+

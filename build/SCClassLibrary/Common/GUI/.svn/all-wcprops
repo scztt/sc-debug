@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9576/trunk/build/SCClassLibrary/Common/GUI
+END
+ViewRedirect.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9467/trunk/build/SCClassLibrary/Common/GUI/ViewRedirect.sc
+END
+Document.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9454/trunk/build/SCClassLibrary/Common/GUI/Document.sc
+END
+Model.sc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/Model.sc
+END
+ControlModel.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/ControlModel.sc
+END
+GUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/GUI.sc
+END
+FlowLayout.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/7397/trunk/build/SCClassLibrary/Common/GUI/FlowLayout.sc
+END
+Inspector.sc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/Inspector.sc
+END

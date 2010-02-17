@@ -1,0 +1,80 @@
+10
+
+dir
+9582
+https://supercollider.svn.sourceforge.net/svnroot/supercollider/trunk/build/Help/Libraries/JITLib
+https://supercollider.svn.sourceforge.net/svnroot/supercollider
+
+
+
+2009-10-16T20:59:59.873848Z
+9428
+rkuivila
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a380766d-ff14-0410-b294-a243070f3f08
+
+Patterns
+dir
+
+JITLib.html
+file
+
+
+
+
+2009-08-11T08:51:50.000000Z
+a67b94b8de4425f6dbc3340ec30863dd
+2009-05-10T23:41:42.900053Z
+9150
+jrhb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21199
+
+extras
+dir
+
+tutorials
+dir
+
+environments
+dir
+
+networking
+dir
+
+nodeproxy
+dir
+

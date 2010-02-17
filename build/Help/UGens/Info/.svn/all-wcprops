@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/UGens/Info
+END
+ControlRate.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8713/trunk/build/Help/UGens/Info/ControlRate.html
+END
+SampleDur.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8650/trunk/build/Help/UGens/Info/SampleDur.html
+END
+SampleRate.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8650/trunk/build/Help/UGens/Info/SampleRate.html
+END
+BufRateScale.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/7752/trunk/build/Help/UGens/Info/BufRateScale.html
+END
+BufSamples.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/7752/trunk/build/Help/UGens/Info/BufSamples.html
+END
+SubsampleOffset.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/UGens/Info/SubsampleOffset.html
+END
+CheckBadValues.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/7752/trunk/build/Help/UGens/Info/CheckBadValues.html
+END
+BufDur.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/7752/trunk/build/Help/UGens/Info/BufDur.html
+END
+BufChannels.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/7752/trunk/build/Help/UGens/Info/BufChannels.html
+END
+NumRunningSynths.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/7752/trunk/build/Help/UGens/Info/NumRunningSynths.html
+END
+BufFrames.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/7752/trunk/build/Help/UGens/Info/BufFrames.html
+END
+BufSampleRate.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/7752/trunk/build/Help/UGens/Info/BufSampleRate.html
+END
+ControlDur.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8713/trunk/build/Help/UGens/Info/ControlDur.html
+END

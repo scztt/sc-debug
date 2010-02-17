@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib
+END
+floorf4.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/floorf4.h
+END
+logf4.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/logf4.h
+END
+atanf4.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/atanf4.h
+END
+powf4.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/powf4.h
+END
+simdconst.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/simdconst.h
+END
+sqrtf4.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/sqrtf4.h
+END
+asinf4.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/asinf4.h
+END
+math.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/math.c
+END
+fabsf4.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/fabsf4.h
+END
+expf4.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/expf4.h
+END
+simdmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/simdmath.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/Makefile
+END
+sincosf4.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/lib/sincosf4.h
+END

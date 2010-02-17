@@ -1,0 +1,39 @@
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:21:24: error: SCGraphView.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:22:29: error: SCVirtualMachine.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:23:23: error: PyrKernel.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:24:24: error: PyrMessage.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:25:23: error: VMGlobals.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:26:22: error: PyrSched.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:27:29: error: SC_BoundsMacros.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:28:16: error: GC.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:31: error: expected initializer before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:32: error: expected initializer before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:33: error: expected initializer before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:34: error: expected initializer before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:35: error: expected initializer before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:37: warning: cannot find interface declaration for 'SCGraphView'
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M: In function 'void -[SCGraphView setAcceptsClickThrough:](SCGraphView*, objc_selector*, BOOL)':
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:41: error: 'acceptsClickThrough' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M: In function 'void -[SCGraphView setAutoScrolls:](SCGraphView*, objc_selector*, BOOL)':
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:46: error: 'autoScrolls' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M: At global scope:
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:49: error: expected type-specifier before 'NSEvent'
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:49: error: expected `)' before 'NSEvent'
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M: In function 'BOOL -[SCGraphView acceptsFirstMouse:](SCGraphView*, objc_selector*, <type error>)':
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:49: error: expected `{' before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:49: error: expected unqualified-id before ')' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:49: error: expected constructor, destructor, or type conversion before ')' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M: At global scope:
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:65: error: expected type-specifier before 'NSEvent'
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:65: error: expected `)' before 'NSEvent'
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M: In function 'BOOL -[SCGraphView performKeyEquivalent:](SCGraphView*, objc_selector*, <type error>)':
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:65: error: expected `{' before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:65: error: expected unqualified-id before ')' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:65: error: expected constructor, destructor, or type conversion before ')' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:75: error: expected type-specifier before 'NSEvent'
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:75: error: expected `)' before 'NSEvent'
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M: In function 'void -[SCGraphView flagsChanged:](SCGraphView*, objc_selector*, <type error>)':
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:75: error: expected `{' before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:75: error: expected unqualified-id before ')' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:75: error: expected constructor, destructor, or type conversion before ')' token
+/Users/scott/Documents/_code/SuperCollider3/Source/app/SCGraphView.M:1070: error: expected `@end' at end of input

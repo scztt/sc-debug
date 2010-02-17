@@ -1,0 +1,135 @@
+10
+
+dir
+9582
+https://supercollider.svn.sourceforge.net/svnroot/supercollider/trunk/build/Help/Libraries/crucial
+https://supercollider.svn.sourceforge.net/svnroot/supercollider
+
+
+
+2009-09-19T17:16:19.852602Z
+9411
+danstowell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a380766d-ff14-0410-b294-a243070f3f08
+
+Players
+dir
+
+Control
+dir
+
+Sample
+dir
+
+Gui
+dir
+
+Crucial.html
+file
+
+
+
+
+2009-08-11T08:51:46.000000Z
+dd9d7d806211292e910e5233e7172dc8
+2007-03-11T23:40:49.479239Z
+5889
+mullmusik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4815
+
+Scheduling
+dir
+
+CRUCIAL-LIBRARY.html
+file
+
+
+
+
+2009-08-11T08:51:46.000000Z
+666e12244e0eed46ffe1731804323a1b
+2008-10-28T12:39:17.265766Z
+7883
+cruxxial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7237
+
+ServerTools
+dir
+
+Patching
+dir
+
+UncoupledUsefulThings
+dir
+
+Instr
+dir
+
+Introspection
+dir
+
+Constraints
+dir
+
+Editors
+dir
+
+Sequencers
+dir
+

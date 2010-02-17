@@ -1,0 +1,183 @@
+TSuperCollider
+v7
+r1
+
+N/Users/scott/Documents/_code/SuperCollider3/build/SCClassLibrary/Common
+c000000004A8130F80000000000000242
+t1249980664
+s578
+
+N/Users/scott/Documents/_code/SuperCollider3/build/SCClassLibrary/DefaultLibrary
+c000000004AEC99D90000000000000110
+t1257019865
+s272
+
+N/Users/scott/Documents/_code/SuperCollider3/build/SCClassLibrary/Platform
+c000000004AEC99D50000000000000110
+t1257019861
+s272
+
+N/Users/scott/Documents/_code/SuperCollider3/build/SCClassLibrary/backwards_compatibility
+c000000004AEC99D900000000000000EE
+t1257019865
+s238
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Info.plist
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/Common
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/DefaultLibrary
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/Extensions
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/Platform
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/SuperCollider_Browser.nib
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/SuperCollider_FileTransfer.nib
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/SuperCollider_MainWindow.nib
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/backwards_compatibility
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/patches
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/plugins
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/sounds
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Resources/synthdefs
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/Extensions
+c000000004A8131370000000000000066
+t1249980727
+s102
+
+N/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/SuperCollider_Browser.xib
+c000000004A81313A00000000000030A3
+t1249980730
+s12451
+
+N/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/SuperCollider_FileTransfer.xib
+c000000004A81313A0000000000002DBB
+t1249980730
+s11707
+
+N/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/SuperCollider_MainWindow.xib
+c000000004A81313A0000000000009144
+t1249980730
+s37188
+
+N/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/icon.png
+c000000004A81313A0000000000001CE9
+t1249980730
+s7401
+
+N/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/patches
+c000000004A8131370000000000000176
+t1249980727
+s374
+
+N/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/plugins
+c000000004A8131370000000000000066
+t1249980727
+s102
+
+N/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/sounds
+c000000004A81313A0000000000000088
+t1249980730
+s136
+
+N/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/synthdefs
+c000000004A8131370000000000000066
+t1249980727
+s102
+
+NiPhone Resources/SuperCollider.plist
+c000000004A81313A0000000000000397
+t1249980730
+s919
+
+CCompileXIB "/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/SuperCollider_Browser.xib"
+r0
+
+CCompileXIB "/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/SuperCollider_FileTransfer.xib"
+r0
+
+CCompileXIB "/Users/scott/Documents/_code/SuperCollider3/iPhone Resources/SuperCollider_MainWindow.xib"
+r0
+
+CCpResource build_iphone/Debug/SuperCollider.app/Contents/Resources/icon.png "iPhone Resources/icon.png"
+r0
+
+CPBXCp build_iphone/Debug/SuperCollider.app/Contents/Resources/Common build/SCClassLibrary/Common
+r0
+
+CPBXCp build_iphone/Debug/SuperCollider.app/Contents/Resources/DefaultLibrary build/SCClassLibrary/DefaultLibrary
+r0
+
+CPBXCp build_iphone/Debug/SuperCollider.app/Contents/Resources/Extensions "iPhone Resources/Extensions"
+r0
+
+CPBXCp build_iphone/Debug/SuperCollider.app/Contents/Resources/Platform build/SCClassLibrary/Platform
+r0
+
+CPBXCp build_iphone/Debug/SuperCollider.app/Contents/Resources/backwards_compatibility build/SCClassLibrary/backwards_compatibility
+r0
+
+CPBXCp build_iphone/Debug/SuperCollider.app/Contents/Resources/patches "iPhone Resources/patches"
+r0
+
+CPBXCp build_iphone/Debug/SuperCollider.app/Contents/Resources/plugins "iPhone Resources/plugins"
+r0
+
+CPBXCp build_iphone/Debug/SuperCollider.app/Contents/Resources/sounds "iPhone Resources/sounds"
+r0
+
+CPBXCp build_iphone/Debug/SuperCollider.app/Contents/Resources/synthdefs "iPhone Resources/synthdefs"
+r0
+
+CProcessInfoPlistFile /Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app/Contents/Info.plist "iPhone Resources/SuperCollider.plist"
+r0
+
+CTouch /Users/scott/Documents/_code/SuperCollider3/build_iphone/Debug/SuperCollider.app
+r0
+

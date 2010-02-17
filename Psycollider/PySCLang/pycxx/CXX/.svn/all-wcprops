@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/6094/trunk/Psycollider/PySCLang/pycxx/CXX
+END
+Objects.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/6094/trunk/Psycollider/PySCLang/pycxx/CXX/Objects.hxx
+END
+Exception.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/6094/trunk/Psycollider/PySCLang/pycxx/CXX/Exception.hxx
+END
+Extensions.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/6094/trunk/Psycollider/PySCLang/pycxx/CXX/Extensions.hxx
+END
+IndirectPythonInterface.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/6094/trunk/Psycollider/PySCLang/pycxx/CXX/IndirectPythonInterface.hxx
+END
+Config.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/6094/trunk/Psycollider/PySCLang/pycxx/CXX/Config.hxx
+END

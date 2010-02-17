@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9535/trunk/build/SCClassLibrary/Common/GUI/osx/Base
+END
+SCFont.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/osx/Base/SCFont.sc
+END
+SCKnob.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/osx/Base/SCKnob.sc
+END
+SCQuartzComposerView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/osx/Base/SCQuartzComposerView.sc
+END
+SCTextField2.sc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/osx/Base/SCTextField2.sc
+END
+SCView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9467/trunk/build/SCClassLibrary/Common/GUI/osx/Base/SCView.sc
+END
+GUIScreen.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/osx/Base/GUIScreen.sc
+END
+SCCocoaView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9535/trunk/build/SCClassLibrary/Common/GUI/osx/Base/SCCocoaView.sc
+END
+SCViews2.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/osx/Base/SCViews2.sc
+END
+SCPen.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/osx/Base/SCPen.sc
+END
+SCSoundFileView.sc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/osx/Base/SCSoundFileView.sc
+END

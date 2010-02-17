@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/app/iPhone
+END
+isclang_main.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/app/iPhone/isclang_main.m
+END
+isclangAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/app/iPhone/isclangAppDelegate.h
+END
+LiveCodingView.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/app/iPhone/LiveCodingView.h
+END
+LiveCodingView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/app/iPhone/LiveCodingView.mm
+END
+iPhoneSCNSWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/app/iPhone/iPhoneSCNSWindow.h
+END
+isclangAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/app/iPhone/isclangAppDelegate.m
+END
+iPhoneSCNSWindow.mm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/app/iPhone/iPhoneSCNSWindow.mm
+END
+iSCLangController.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/app/iPhone/iSCLangController.h
+END
+iPhoneGUIPrimitives.mm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/app/iPhone/iPhoneGUIPrimitives.mm
+END
+iPhoneSCView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/app/iPhone/iPhoneSCView.mm
+END
+iSCLangController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/app/iPhone/iSCLangController.mm
+END
+iPhoneSCGraphView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/app/iPhone/iPhoneSCGraphView.mm
+END

@@ -1,0 +1,14 @@
+Tlibscsynth
+v7
+r1
+cCheck dependencies
+
+N/Users/scott/Documents/_code/SuperCollider3/build_iphone/libscsynth.a
+c00000000000000000000000000000000
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies280263978#280263978#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos2.2'1(4@58"error: There is no SDK with the name or path 'iphoneos2.2'280263978#18446744073709551615#0#0(1@0"0(0#1#0"29836824280170608#0"0#
+

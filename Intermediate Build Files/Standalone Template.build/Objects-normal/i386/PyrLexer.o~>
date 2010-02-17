@@ -1,0 +1,54 @@
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:36:26: error: PyrParseNode.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:38:26: error: lang11d_tab.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:40:20: error: SCBase.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:41:23: error: PyrObject.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:42:28: error: PyrObjectProto.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:43:22: error: PyrLexer.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:44:22: error: PyrSched.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:45:30: error: SC_InlineUnaryOp.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:46:31: error: SC_InlineBinaryOp.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:47:16: error: GC.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:48:25: error: SimpleStack.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:50:28: error: PyrSymbolTable.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:51:28: error: PyrInterpreter.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:52:26: error: PyrPrimitive.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:54:31: error: PyrPrimitiveProto.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:55:28: error: PyrKernelProto.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:58:23: error: InitAlloc.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:59:20: error: bullet.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:60:31: error: PredefinedSymbols.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:67:30: error: SC_LibraryConfig.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:69:25: error: SC_DirUtils.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:95: error: expected constructor, destructor, or type conversion before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:96: error: expected constructor, destructor, or type conversion before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:106: error: 'LongStack' does not name a type
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:107: error: 'LongStack' does not name a type
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:108: error: 'LongStack' does not name a type
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:112: error: 'MAXYYLEN' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp: In function 'int sc_strtoi(const char*, int, int)':
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:150: error: 'sc_min' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp: In function 'double sc_strtof(const char*, int, int)':
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:165: error: 'sc_min' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp: In function 'void asRelativePath(char*, char*)':
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:177: error: 'uint32' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:177: error: expected `;' before 'len'
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:178: error: 'len' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:183: error: 'len' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp: In function 'bool getFileText(char*, char**, int*)':
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:190: error: 'FILE' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:190: error: 'file' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:197: error: 'fopen' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:201: error: 'fseek' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:202: error: 'ftell' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:204: error: 'pyr_pool_compile' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:210: error: 'MEMFAIL' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:216: error: 'fread' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:221: error: 'fclose' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp: At global scope:
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:330: error: 'PyrSymbol' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:330: error: 'fileSym' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:330: error: expected primary-expression before 'int'
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:330: error: expected primary-expression before 'int'
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:330: error: expected primary-expression before 'int'
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:330: error: initializer expression list treated as compound expression
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrLexer.cpp:331: error: expected ',' or ';' before '{' token

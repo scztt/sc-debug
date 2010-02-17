@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/supercollider/!svn/ver/9535/trunk/Source/app
+END
+MyDocument.M
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9367/trunk/Source/app/MyDocument.M
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/supercollider/!svn/ver/6094/trunk/Source/app/main.m
+END
+GoToPanel.M
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/app/GoToPanel.M
+END
+SCNSWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/app/SCNSWindow.h
+END
+GetStringFromUser.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/app/GetStringFromUser.m
+END
+post_queue.M
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/app/post_queue.M
+END
+HTMLRenderer.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9216/trunk/Source/app/HTMLRenderer.m
+END
+DrawBackground.M
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/app/DrawBackground.M
+END
+syntaxColorize.M
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/app/syntaxColorize.M
+END
+SCNSWindow.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/app/SCNSWindow.m
+END
+UserPanel.M
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9379/trunk/Source/app/UserPanel.M
+END
+TabletEvents.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/6094/trunk/Source/app/TabletEvents.m
+END
+GUIPrimitives.M
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9515/trunk/Source/app/GUIPrimitives.M
+END
+CocoaFilePrimitives.M
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9474/trunk/Source/app/CocoaFilePrimitives.M
+END
+SCView.M
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/supercollider/!svn/ver/9474/trunk/Source/app/SCView.M
+END
+SCVirtualMachine.M
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9471/trunk/Source/app/SCVirtualMachine.M
+END
+SCDialog.mm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/app/SCDialog.mm
+END
+SCService.mm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/6094/trunk/Source/app/SCService.mm
+END
+RendezvousClient.M
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/app/RendezvousClient.M
+END
+SCCocoaView.M
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9535/trunk/Source/app/SCCocoaView.M
+END
+SCTextView.M
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9427/trunk/Source/app/SCTextView.M
+END
+SCImage.M
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/9491/trunk/Source/app/SCImage.M
+END
+SCSoundFileView.M
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9113/trunk/Source/app/SCSoundFileView.M
+END
+TextFinder.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/6094/trunk/Source/app/TextFinder.m
+END
+CocoaBridgePrimitives.M
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9474/trunk/Source/app/CocoaBridgePrimitives.M
+END
+SCGraphView.M
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9265/trunk/Source/app/SCGraphView.M
+END

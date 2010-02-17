@@ -1,0 +1,98 @@
+#!/usr/bin/ruby
+#
+#scvim [the executable]
+#
+#Copyright 2008 Alex Norman
+#
+#This file is part of SCVIM.
+#
+#SCVIM is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#SCVIM is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with SCVIM.  If not, see <http://www.gnu.org/licenses/>.
+
+require 'optparse'
+
+vim = "vim"
+homercfile = File.join(ENV["HOME"], ".scvimrc")
+localrcfile = "/usr/local/share/scvim/scvimrc"
+usrrcfile = "/usr/share/scvim/scvimrc"
+
+#do we use graphical mode
+graphical = false
+#the location of the rc file to source
+rcloc = nil
+
+opts = OptionParser.new do |opts|
+  #the usage banner
+  opts.banner = "Usage: #{$0} [OPTION]... [FILE]..."
+
+  #the options
+  opts.on("-g", "--graphical", "Use vim -g") do
+    graphical = true
+  end
+  opts.on("-r", "--rcfile rcfile", "Use the file indicated as the scvim configuration file") do |f|
+    if File.exists?(f)
+      rcloc = f
+    else
+      STDERR.puts "rcfile #{f} does not exists, aborting"; exit
+    end
+  end
+  opts.on_tail("-h", "--help", "Show this message") do
+    puts opts; exit
+  end
+end
+
+#parse the command line options
+begin
+  opts.parse!(ARGV)
+rescue => e
+  STDERR.puts e.to_s
+  STDERR.puts opts.to_s
+  exit
+end
+
+unless rcloc
+  #find the rc file
+  if File.exists?(homercfile)
+    rcloc = homercfile
+  elsif File.exists?(localrcfile)
+    rcloc = localrcfile
+  elsif File.exists?(usrrcfile)
+    rcloc = usrrcfile
+  else
+    #no rc file found, no user customizations
+    #hopefully ftplugin/supercollider.vim is in the vimruntime
+    STDERR.puts "scvimrc file not found"
+    unless graphical
+      exec(vim, "-c", "set filetype=supercollider | runtime ftplugin/supercollider.vim | SClangStart", *ARGV)
+    else
+      exec(vim, "-g", "-c", "set filetype=supercollider | runtime ftplugin/supercollider.vim | SClangStart", *ARGV)
+    end
+  end
+end
+
+puts "scvim: sourcing #{rcloc}"
+
+vimops = ["--cmd", "source #{rcloc}", 
+	  "-c", "set filetype=supercollider | runtime ftplugin/supercollider.vim | SClangStart", 
+	  *ARGV]
+
+#add -g if we're going graphical
+vimops = ["-g"] + vimops if graphical
+
+#see if the vim install supports servers
+if IO.popen("vim --version") {|f| f.readlines.flatten.join(" ").include?("+clientserver")}
+	vimops = ["--servername", "scvim"] + vimops
+end
+
+#actually execute
+exec(vim, *vimops)

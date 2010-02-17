@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9536/trunk/build/SCClassLibrary/Platform/osx/scide_scapp
+END
+CocoaDocument.sc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Platform/osx/scide_scapp/CocoaDocument.sc
+END
+CocoaGUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9467/trunk/build/SCClassLibrary/Platform/osx/scide_scapp/CocoaGUI.sc
+END
+CocoaMenu.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9536/trunk/build/SCClassLibrary/Platform/osx/scide_scapp/CocoaMenu.sc
+END

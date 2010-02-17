@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9554/trunk/build/SCClassLibrary/JITLib/various
+END
+Client.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9428/trunk/build/SCClassLibrary/JITLib/various/Client.sc
+END
+BufEnvir.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9554/trunk/build/SCClassLibrary/JITLib/various/BufEnvir.sc
+END
+extBufEnvir.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/various/extBufEnvir.sc
+END
+Fdef.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/various/Fdef.sc
+END
+OpFunctionProxy.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/various/OpFunctionProxy.sc
+END
+extFunction.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/various/extFunction.sc
+END

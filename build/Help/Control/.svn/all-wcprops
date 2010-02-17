@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/supercollider/!svn/ver/9563/trunk/build/Help/Control
+END
+Date.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/6200/trunk/build/Help/Control/Date.html
+END
+WiiMote.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6763/trunk/build/Help/Control/WiiMote.html
+END
+OSCBundle.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/7053/trunk/build/Help/Control/OSCBundle.html
+END
+IEnvGen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/6095/trunk/build/Help/Control/IEnvGen.htm
+END
+InterplXYC.htm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Control/InterplXYC.htm
+END
+ServerTree.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9229/trunk/build/Help/Control/ServerTree.html
+END
+NotificationCenter.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/7522/trunk/build/Help/Control/NotificationCenter.html
+END
+AbstractServerAction.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/8873/trunk/build/Help/Control/AbstractServerAction.html
+END
+Env.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9148/trunk/build/Help/Control/Env.html
+END
+UsingMIDI.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8936/trunk/build/Help/Control/UsingMIDI.html
+END
+ServerBoot.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8840/trunk/build/Help/Control/ServerBoot.html
+END
+InterplPairs.htm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Control/InterplPairs.htm
+END
+StartUp.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9229/trunk/build/Help/Control/StartUp.html
+END
+GeneralHIDSlot.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/7958/trunk/build/Help/Control/GeneralHIDSlot.html
+END
+HIDDeviceService.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/6367/trunk/build/Help/Control/HIDDeviceService.html
+END
+ServerQuit
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/8840/trunk/build/Help/Control/ServerQuit
+END
+CmdPeriod.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9076/trunk/build/Help/Control/CmdPeriod.html
+END
+OSCresponder.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8921/trunk/build/Help/Control/OSCresponder.html
+END
+CCResponder.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/7661/trunk/build/Help/Control/CCResponder.html
+END
+ServerQuit.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8840/trunk/build/Help/Control/ServerQuit.html
+END
+MIDIIn.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/7488/trunk/build/Help/Control/MIDIIn.html
+END
+InterplEnv.htm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/Control/InterplEnv.htm
+END
+DebugNodeWatcher.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Control/DebugNodeWatcher.html
+END
+MIDIOut.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/8921/trunk/build/Help/Control/MIDIOut.html
+END
+ContiguousBlockAllocator.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Control/ContiguousBlockAllocator.html
+END
+Score.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Control/Score.html
+END
+OSCresponderNode.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/8921/trunk/build/Help/Control/OSCresponderNode.html
+END
+GeneralHIDSpec.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/7969/trunk/build/Help/Control/GeneralHIDSpec.html
+END
+NetAddr.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/8936/trunk/build/Help/Control/NetAddr.html
+END
+GeneralHIDDevice.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/8418/trunk/build/Help/Control/GeneralHIDDevice.html
+END
+MIDI.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/6631/trunk/build/Help/Control/MIDI.html
+END
+OSCpathResponder.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/7513/trunk/build/Help/Control/OSCpathResponder.html
+END
+SerialPort.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8415/trunk/build/Help/Control/SerialPort.html
+END
+NoteOnResponder.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9023/trunk/build/Help/Control/NoteOnResponder.html
+END
+Spec.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/7188/trunk/build/Help/Control/Spec.html
+END
+ControlSpec.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9562/trunk/build/Help/Control/ControlSpec.html
+END
+GeneralHID.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9563/trunk/build/Help/Control/GeneralHID.html
+END
+NodeWatcher.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Control/NodeWatcher.html
+END
+MIDIResponder.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/7661/trunk/build/Help/Control/MIDIResponder.html
+END
+OSC_communication.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/8826/trunk/build/Help/Control/OSC_communication.html
+END

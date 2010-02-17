@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/supercollider/!svn/ver/9001/trunk/windows/PlugIns
+END
+NoiseUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/NoiseUGens.vcproj
+END
+FFT_UGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/8161/trunk/windows/PlugIns/FFT_UGens.vcproj
+END
+PanUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/PanUGens.vcproj
+END
+TestUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/8810/trunk/windows/PlugIns/TestUGens.vcproj
+END
+MachineListeningUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/MachineListeningUGens.vcproj
+END
+UnpackFFTUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/UnpackFFTUGens.vcproj
+END
+DiskIOUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8443/trunk/windows/PlugIns/DiskIOUGens.vcproj
+END
+BinaryOpUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/BinaryOpUGens.vcproj
+END
+GendynUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/GendynUGens.vcproj
+END
+OSCUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/8215/trunk/windows/PlugIns/OSCUGens.vcproj
+END
+FilterUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/FilterUGens.vcproj
+END
+ReverbUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9001/trunk/windows/PlugIns/ReverbUGens.vcproj
+END
+DynNoiseUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/DynNoiseUGens.vcproj
+END
+DemandUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/DemandUGens.vcproj
+END
+MouseUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/MouseUGens.vcproj
+END
+PhysicalModelingUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/PhysicalModelingUGens.vcproj
+END
+ChaosUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/ChaosUGens.vcproj
+END
+UnaryOpUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/UnaryOpUGens.vcproj
+END
+ExportHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/windows/PlugIns/ExportHelper.cpp
+END
+DelayUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/DelayUGens.vcproj
+END
+diskiotest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/6094/trunk/windows/PlugIns/diskiotest.cpp
+END
+GrainUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/GrainUGens.vcproj
+END
+FFT2_UGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8161/trunk/windows/PlugIns/FFT2_UGens.vcproj
+END
+LFUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/LFUGens.vcproj
+END
+SCPlugIn_Exports.def
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/6094/trunk/windows/PlugIns/SCPlugIn_Exports.def
+END
+JoshUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6719/trunk/windows/PlugIns/JoshUGens.vcproj
+END
+TriggerUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/TriggerUGens.vcproj
+END
+MulAddUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/MulAddUGens.vcproj
+END
+UGEN_TEMPLATE_VCPROJ.vcprojtemplate
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/6094/trunk/windows/PlugIns/UGEN_TEMPLATE_VCPROJ.vcprojtemplate
+END
+IOUGens.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/8094/trunk/windows/PlugIns/IOUGens.vcproj
+END

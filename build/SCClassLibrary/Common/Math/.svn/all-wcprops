@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9516/trunk/build/SCClassLibrary/Common/Math
+END
+Date.sc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Math/Date.sc
+END
+Integer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Math/Integer.sc
+END
+Magnitude.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Math/Magnitude.sc
+END
+Polar.sc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Math/Polar.sc
+END
+Signal.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Math/Signal.sc
+END
+SimpleNumber.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9516/trunk/build/SCClassLibrary/Common/Math/SimpleNumber.sc
+END
+Float.sc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Math/Float.sc
+END
+Complex.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Math/Complex.sc
+END
+Number.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Math/Number.sc
+END

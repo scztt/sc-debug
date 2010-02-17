@@ -1,0 +1,158 @@
+
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrSlot.h:174: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:637: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:673: note: not vectorized: number of iterations cannot be computed.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:668: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2110: note: not vectorized: unhandled data-ref 
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2120: note: not vectorized: unhandled data-ref 
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2083: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1484: note: not vectorized: can't determine dependence between *srcp_96 and *dstp_95
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1489: note: not vectorized: can't determine dependence between *srcp_109 and *dstp_108
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1461: note: not vectorized: can't determine dependence between *srcp_40 and *dstp_39
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1447: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1678: note: not vectorized: can't determine dependence between *srcp_131 and *dstp_130
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1683: note: not vectorized: can't determine dependence between *srcp_144 and *dstp_143
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1655: note: not vectorized: can't determine dependence between *srcp_75 and *dstp_74
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1634: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:930: note: not vectorized: can't determine dependence between *srcp_200 and *dstp_199
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:936: note: not vectorized: can't determine dependence between *srcp_224 and *dstp_223
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:903: note: not vectorized: unsupported use in stmt.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:917: note: not vectorized: can't determine dependence between *srcp_162 and *dstp_161
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:923: note: not vectorized: can't determine dependence between *srcp_186 and *dstp_185
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:890: note: not vectorized: can't determine dependence between *srcp_107 and *dstp_106
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:895: note: not vectorized: can't determine dependence between *srcp_127 and *dstp_126
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:818: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1244: note: not vectorized: can't determine dependence between *srcp_256 and *dstp_255
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1250: note: not vectorized: can't determine dependence between *srcp_280 and *dstp_279
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1217: note: not vectorized: unsupported use in stmt.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1231: note: not vectorized: can't determine dependence between *srcp_218 and *dstp_217
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1237: note: not vectorized: can't determine dependence between *srcp_242 and *dstp_241
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1190: note: not vectorized: can't determine dependence between *srcp_110 and *dstp_109
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1195: note: not vectorized: can't determine dependence between *srcp_130 and *dstp_129
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1203: note: not vectorized: number of iterations cannot be computed.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1117: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:3740: note: not vectorized: can't determine dependence between *srcp_98 and *dstp_97
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:3752: note: not vectorized: can't determine dependence between *srcp_133 and *dstp_132
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:3770: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:3695: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:3653: note: not vectorized: can't determine dependence between *srcp_37 and *dstp_36
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:3631: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2054: note: not vectorized: number of iterations cannot be computed.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2043: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2506: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2493: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:589: note: not vectorized: unhandled data-ref 
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:570: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1545: note: not vectorized: can't determine dependence between *qslot_95 and *pslot_93
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1550: note: not vectorized: can't determine dependence between *srcp_108 and *dstp_107
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1522: note: not vectorized: can't determine dependence between *srcp_41 and *dstp_40
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1508: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1070: note: not vectorized: can't determine dependence between *srcp_207 and *dstp_206
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1078: note: not vectorized: can't determine dependence between *srcp_231 and *dstp_230
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1039: note: not vectorized: unsupported use in stmt.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1055: note: not vectorized: can't determine dependence between *srcp_169 and *dstp_168
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1061: note: not vectorized: can't determine dependence between *srcp_193 and *dstp_192
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1026: note: not vectorized: can't determine dependence between *srcp_114 and *dstp_113
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1031: note: not vectorized: can't determine dependence between *srcp_134 and *dstp_133
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1089: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:954: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2723: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2735: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2757: note: Alignment of access forced using peeling.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2757: note: Vectorizing an unaligned access.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2757: note: LOOP VECTORIZED.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2752: note: not vectorized: can't determine dependence between *D.104819_306 and *out_276
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2714: note: Alignment of access forced using peeling.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2714: note: Vectorizing an unaligned access.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2714: note: LOOP VECTORIZED.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2669: note: vectorized 2 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1746: note: not vectorized: can't determine dependence between *qslot_130 and *pslot_128
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1751: note: not vectorized: can't determine dependence between *srcp_143 and *dstp_142
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1723: note: not vectorized: can't determine dependence between *srcp_76 and *dstp_75
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1702: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:148: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:126: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1795: note: not vectorized: can't determine dependence between *srcp_51 and *dstp_50
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1799: note: not vectorized: can't determine dependence between *srcp_65 and *dstp_64
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1770: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2346: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2287: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1906: note: not vectorized: can't determine dependence between *srcp_56 and *dstp_55
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1911: note: not vectorized: can't determine dependence between *srcp_70 and *dstp_69
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1877: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1852: note: not vectorized: can't determine dependence between *srcp_42 and *dstp_41
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1823: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2544: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2518: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1401: note: not vectorized: can't determine dependence between *srcp_263 and *dstp_262
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1409: note: not vectorized: can't determine dependence between *srcp_287 and *dstp_286
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1370: note: not vectorized: unsupported use in stmt.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1386: note: not vectorized: can't determine dependence between *srcp_225 and *dstp_224
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1392: note: not vectorized: can't determine dependence between *srcp_249 and *dstp_248
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1341: note: not vectorized: can't determine dependence between *srcp_117 and *dstp_116
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1346: note: not vectorized: can't determine dependence between *srcp_137 and *dstp_136
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1354: note: not vectorized: number of iterations cannot be computed.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1420: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1267: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrSlot.h:174: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:693: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:185: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:159: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrDeepCopier.h:86: note: not vectorized: too many BBs in loop.
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrDeepCopier.h:86: note: not vectorized: too many BBs in loop.
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrDeepCopier.h:138: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrDeepCopier.h:178: note: not vectorized: too many BBs in loop.
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrDeepCopier.h:68: note: not vectorized: number of iterations cannot be computed.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2239: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:3531: note: not vectorized: number of iterations cannot be computed.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:3518: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:3508: note: not vectorized: number of iterations cannot be computed.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:3499: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrDeepFreezer.h:77: note: not vectorized: too many BBs in loop.
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrDeepFreezer.h:77: note: not vectorized: too many BBs in loop.
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrDeepFreezer.h:77: note: not vectorized: too many BBs in loop.
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrDeepFreezer.h:108: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Headers/lang/PyrDeepFreezer.h:62: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:2227: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:747: note: not vectorized: can't determine dependence between *srcp_126 and *dstp_125
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:717: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1608: note: Alignment of access forced using versioning.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1608: note: Vectorizing an unaligned access.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1608: note: LOOP VECTORIZED.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1611: note: not vectorized: can't determine dependence between *srcp_169 and *dstp_168
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:1569: note: vectorized 1 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:799: note: not vectorized: can't determine dependence between *srcp_126 and *dstp_125
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangPrimSource/PyrPrimitive.cpp:769: note: vectorized 0 loops in function.

@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9578/trunk/build/SCClassLibrary/Common/Control
+END
+asMIDIPort.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9192/trunk/build/SCClassLibrary/Common/Control/asMIDIPort.sc
+END
+Score.sc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/Score.sc
+END
+GeneralHIDSpec.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/GeneralHIDSpec.sc
+END
+NetAddr.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/NetAddr.sc
+END
+OSCpathResponder.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/OSCpathResponder.sc
+END
+SerialPort.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/SerialPort.sc
+END
+OSC.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/OSC.sc
+END
+extSystemActions.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/8548/trunk/build/SCClassLibrary/Common/Control/extSystemActions.sc
+END
+WII.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/WII.sc
+END
+GeneralHID.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9546/trunk/build/SCClassLibrary/Common/Control/GeneralHID.sc
+END
+NodeWatcher.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/NodeWatcher.sc
+END
+MIDIResponder.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/MIDIResponder.sc
+END
+OSCService.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/OSCService.sc
+END
+Buffer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9578/trunk/build/SCClassLibrary/Common/Control/Buffer.sc
+END
+asBus.sc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/6094/trunk/build/SCClassLibrary/Common/Control/asBus.sc
+END
+OSCBundle.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/OSCBundle.sc
+END
+asGroup.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/asGroup.sc
+END
+schedBundle.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/schedBundle.sc
+END
+asDefName.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/asDefName.sc
+END
+Module.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/Module.sc
+END
+Node.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/Node.sc
+END
+NodeControl.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/NodeControl.sc
+END
+Bus.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9445/trunk/build/SCClassLibrary/Common/Control/Bus.sc
+END
+asNodeArg.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/6210/trunk/build/SCClassLibrary/Common/Control/asNodeArg.sc
+END
+SystemActions.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/SystemActions.sc
+END
+Engine.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/Engine.sc
+END
+HIDDeviceService.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/HIDDeviceService.sc
+END
+Server.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9434/trunk/build/SCClassLibrary/Common/Control/Server.sc
+END
+OSCresponder.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/OSCresponder.sc
+END
+Volume.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/Volume.sc
+END
+GraphBuilder.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9526/trunk/build/SCClassLibrary/Common/Control/GraphBuilder.sc
+END
+asTarget.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/asTarget.sc
+END
+MIDIOut.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Control/MIDIOut.sc
+END

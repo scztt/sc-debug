@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9131/trunk/build/Help/UGens/Multichannel
+END
+Mix.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Multichannel/Mix.html
+END
+Select.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Multichannel/Select.html
+END
+MultiOutUGen.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Multichannel/MultiOutUGen.html
+END
+OutputProxy.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Multichannel/OutputProxy.html
+END

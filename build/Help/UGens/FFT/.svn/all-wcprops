@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/9115/trunk/build/Help/UGens/FFT
+END
+PV_MagDiv.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_MagDiv.html
+END
+PackFFT.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/7988/trunk/build/Help/UGens/FFT/PackFFT.html
+END
+PV_Copy.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8958/trunk/build/Help/UGens/FFT/PV_Copy.html
+END
+UnpackFFT.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/8914/trunk/build/Help/UGens/FFT/UnpackFFT.html
+END
+PV_ConformalMap.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/7945/trunk/build/Help/UGens/FFT/PV_ConformalMap.html
+END
+PV_HainsworthFoote.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/7986/trunk/build/Help/UGens/FFT/PV_HainsworthFoote.html
+END
+PV_Min.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_Min.html
+END
+PV_Max.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_Max.html
+END
+pvcalc2.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9115/trunk/build/Help/UGens/FFT/pvcalc2.html
+END
+pvcollect.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9115/trunk/build/Help/UGens/FFT/pvcollect.html
+END
+PV_PhaseShift270.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/FFT/PV_PhaseShift270.html
+END
+PV_Conj.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/FFT/PV_Conj.html
+END
+PV_MagSmear.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_MagSmear.html
+END
+Convolution2.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8994/trunk/build/Help/UGens/FFT/Convolution2.html
+END
+PV_Mul.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_Mul.html
+END
+PV_LocalMax.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/UGens/FFT/PV_LocalMax.html
+END
+FFT Overview.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/FFT%20Overview.html
+END
+PV_MagShift.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_MagShift.html
+END
+PV_MagNoise.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/FFT/PV_MagNoise.html
+END
+PV_BinShift.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/7945/trunk/build/Help/UGens/FFT/PV_BinShift.html
+END
+PV_Diffuser.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/UGens/FFT/PV_Diffuser.html
+END
+PV_PhaseShift90.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/FFT/PV_PhaseShift90.html
+END
+Convolution2L.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8922/trunk/build/Help/UGens/FFT/Convolution2L.html
+END
+PV_RandWipe.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/UGens/FFT/PV_RandWipe.html
+END
+Convolution.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8922/trunk/build/Help/UGens/FFT/Convolution.html
+END
+FFT.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/FFT/FFT.html
+END
+PV_BrickWall.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/FFT/PV_BrickWall.html
+END
+PV_MagClip.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/6846/trunk/build/Help/UGens/FFT/PV_MagClip.html
+END
+SpecCentroid.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6846/trunk/build/Help/UGens/FFT/SpecCentroid.html
+END
+PV_RectComb2.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_RectComb2.html
+END
+PV_MagAbove.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_MagAbove.html
+END
+PV_BinScramble.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/7945/trunk/build/Help/UGens/FFT/PV_BinScramble.html
+END
+PV_MagMul.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9085/trunk/build/Help/UGens/FFT/PV_MagMul.html
+END
+PV_Div.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9076/trunk/build/Help/UGens/FFT/PV_Div.html
+END
+IFFT.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9059/trunk/build/Help/UGens/FFT/IFFT.html
+END
+PV_RandComb.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_RandComb.html
+END
+SpecFlatness.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/7063/trunk/build/Help/UGens/FFT/SpecFlatness.html
+END
+PartConv.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8914/trunk/build/Help/UGens/FFT/PartConv.html
+END
+PV_Add.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/7945/trunk/build/Help/UGens/FFT/PV_Add.html
+END
+PV_MagSquared.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_MagSquared.html
+END
+StereoConvolution2L.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/8922/trunk/build/Help/UGens/FFT/StereoConvolution2L.html
+END
+PV_CopyPhase.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/7945/trunk/build/Help/UGens/FFT/PV_CopyPhase.html
+END
+PV_MagBelow.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/6846/trunk/build/Help/UGens/FFT/PV_MagBelow.html
+END
+Convolution3.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/7517/trunk/build/Help/UGens/FFT/Convolution3.html
+END
+PV_BinWipe.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/FFT/PV_BinWipe.html
+END
+Unpack1FFT.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/7988/trunk/build/Help/UGens/FFT/Unpack1FFT.html
+END
+FFTTrigger.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/6846/trunk/build/Help/UGens/FFT/FFTTrigger.html
+END
+PV_PhaseShift.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/FFT/PV_PhaseShift.html
+END
+PV_RectComb.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/7952/trunk/build/Help/UGens/FFT/PV_RectComb.html
+END
+PV_JensenAndersen.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/7986/trunk/build/Help/UGens/FFT/PV_JensenAndersen.html
+END
+SpecPcile.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/7063/trunk/build/Help/UGens/FFT/SpecPcile.html
+END
+pvcalc.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9115/trunk/build/Help/UGens/FFT/pvcalc.html
+END
+PV_MagFreeze.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6846/trunk/build/Help/UGens/FFT/PV_MagFreeze.html
+END

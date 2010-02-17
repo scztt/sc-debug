@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9517/trunk/build/SCClassLibrary/Platform/linux
+END
+extMIDIOut.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Platform/linux/extMIDIOut.sc
+END
+GLID.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Platform/linux/GLID.sc
+END
+LinuxPlatform.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9517/trunk/build/SCClassLibrary/Platform/linux/LinuxPlatform.sc
+END
+extMain.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/6094/trunk/build/SCClassLibrary/Platform/linux/extMain.sc
+END
+LID.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Platform/linux/LID.sc
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/sced
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/8382/trunk/editors/sced/AUTHORS
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/supercollider/!svn/ver/8378/trunk/editors/sced/TODO
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/8382/trunk/editors/sced/ChangeLog
+END
+SConstruct
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/sced/SConstruct
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/8378/trunk/editors/sced/COPYING
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/supercollider/!svn/ver/8382/trunk/editors/sced/README
+END

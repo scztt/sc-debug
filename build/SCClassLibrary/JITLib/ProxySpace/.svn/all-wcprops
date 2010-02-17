@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9527/trunk/build/SCClassLibrary/JITLib/ProxySpace
+END
+ProxySpace.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/ProxySpace.sc
+END
+operators.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/operators.sc
+END
+Dispatch.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/Dispatch.sc
+END
+InBus.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9504/trunk/build/SCClassLibrary/JITLib/ProxySpace/InBus.sc
+END
+extDispatch.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/6094/trunk/build/SCClassLibrary/JITLib/ProxySpace/extDispatch.sc
+END
+RecNodeProxy.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/RecNodeProxy.sc
+END
+ProxyInterfaces.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/ProxyInterfaces.sc
+END
+EnvironmentRedirect.sc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/EnvironmentRedirect.sc
+END
+ProxySynthDef.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/ProxySynthDef.sc
+END
+NodeProxy.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/NodeProxy.sc
+END
+wrapForNodeProxy.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/wrapForNodeProxy.sc
+END
+BroadcastServer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/BroadcastServer.sc
+END
+TempoBusClock.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/JITLib/ProxySpace/TempoBusClock.sc
+END
+extStoreOn.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9527/trunk/build/SCClassLibrary/JITLib/ProxySpace/extStoreOn.sc
+END

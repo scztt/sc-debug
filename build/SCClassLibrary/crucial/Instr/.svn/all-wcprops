@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Instr
+END
+instrSupport.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Instr/instrSupport.sc
+END
+Instr.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/7689/trunk/build/SCClassLibrary/crucial/Instr/Instr.sc
+END
+InstrSpawner.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Instr/InstrSpawner.sc
+END
+Patch.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Instr/Patch.sc
+END
+Interface.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Instr/Interface.sc
+END
+MoreSpecs.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Instr/MoreSpecs.sc
+END
+InstrSynthDef.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Instr/InstrSynthDef.sc
+END
+PatchGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Instr/PatchGui.sc
+END
+ControlPrototypes.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Instr/ControlPrototypes.sc
+END

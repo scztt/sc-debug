@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/supercollider/!svn/ver/9582/trunk/Source/plugins
+END
+ChaosUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/ChaosUGens.cpp
+END
+PV_ThirdParty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/PV_ThirdParty.cpp
+END
+DelayUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9441/trunk/Source/plugins/DelayUGens.cpp
+END
+onsetsds.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/onsetsds.c
+END
+LFUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9570/trunk/Source/plugins/LFUGens.cpp
+END
+BeatTrack.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/BeatTrack.h
+END
+TriggerUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9571/trunk/Source/plugins/TriggerUGens.cpp
+END
+onsetsds.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/onsetsds.h
+END
+MFCC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/MFCC.cpp
+END
+FFTInterfaceTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/FFTInterfaceTable.cpp
+END
+ML.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/ML.h
+END
+Convolution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9529/trunk/Source/plugins/Convolution.cpp
+END
+FFT_UGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/FFT_UGens.cpp
+END
+Onsets.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/Onsets.h
+END
+PanUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9582/trunk/Source/plugins/PanUGens.cpp
+END
+PartitionedConvolution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/PartitionedConvolution.cpp
+END
+DiskIO_UGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9547/trunk/Source/plugins/DiskIO_UGens.cpp
+END
+PV_UGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9430/trunk/Source/plugins/PV_UGens.cpp
+END
+OscUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/OscUGens.cpp
+END
+ReverbUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/ReverbUGens.cpp
+END
+BeatTrack2.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/BeatTrack2.h
+END
+FeatureDetection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/FeatureDetection.cpp
+END
+MouseUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/MouseUGens.cpp
+END
+PhysicalModelingUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/PhysicalModelingUGens.cpp
+END
+UnaryOpUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9581/trunk/Source/plugins/UnaryOpUGens.cpp
+END
+BeatTrack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/BeatTrack.cpp
+END
+ML_SpecStats.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9419/trunk/Source/plugins/ML_SpecStats.cpp
+END
+SCComplex.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/SCComplex.h
+END
+GrainUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9469/trunk/Source/plugins/GrainUGens.cpp
+END
+KeyboardUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/KeyboardUGens.cpp
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/6094/trunk/Source/plugins/configure.in
+END
+MulAddUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9581/trunk/Source/plugins/MulAddUGens.cpp
+END
+ML.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/ML.cpp
+END
+IOUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9574/trunk/Source/plugins/IOUGens.cpp
+END
+Onsets.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/Onsets.cpp
+END
+iPhoneUGens.mm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9298/trunk/Source/plugins/iPhoneUGens.mm
+END
+KeyTrack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/KeyTrack.cpp
+END
+NoiseUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/NoiseUGens.cpp
+END
+TestUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/TestUGens.cpp
+END
+BeatTrack2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/BeatTrack2.cpp
+END
+UnpackFFTUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/UnpackFFTUGens.cpp
+END
+BinaryOpUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9580/trunk/Source/plugins/BinaryOpUGens.cpp
+END
+FFT_UGens.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/FFT_UGens.h
+END
+GendynUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/GendynUGens.cpp
+END
+FilterUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9432/trunk/Source/plugins/FilterUGens.cpp
+END
+DemandUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/DemandUGens.cpp
+END
+DynNoiseUGens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/DynNoiseUGens.cpp
+END
+FFT2InterfaceTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/FFT2InterfaceTable.cpp
+END
+Loudness.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/Loudness.cpp
+END
+SCComplex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/plugins/SCComplex.cpp
+END

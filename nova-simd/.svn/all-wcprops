@@ -1,0 +1,401 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/supercollider/!svn/ver/9582/trunk/nova-simd
+END
+simd_memory_fallback_double.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9486/trunk/nova-simd/simd_memory_fallback_double.hpp
+END
+simd_binary_arithmetic_fallbacks_float.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9579/trunk/nova-simd/simd_binary_arithmetic_fallbacks_float.hpp
+END
+simd_round_vec.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_round_vec.hpp
+END
+simd_mix_fallbacks_float.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9582/trunk/nova-simd/simd_mix_fallbacks_float.hpp
+END
+simd_math_vec.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_math_vec.hpp
+END
+simd_peakmeter_sse.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_peakmeter_sse.hpp
+END
+simd_binary_arithmetic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_binary_arithmetic.hpp
+END
+simd_mix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9572/trunk/nova-simd/simd_mix.hpp
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/supercollider/!svn/ver/9487/trunk/nova-simd/COPYING
+END
+simd_pan_fallbacks_double.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9582/trunk/nova-simd/simd_pan_fallbacks_double.hpp
+END
+simd_peakmeter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_peakmeter.hpp
+END
+simd_round_fallbacks_float.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_round_fallbacks_float.hpp
+END
+simd_unary_arithmetic_sse.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_unary_arithmetic_sse.hpp
+END
+simd_round_fallbacks_double.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_round_fallbacks_double.hpp
+END
+generator_unary_generic.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/generator_unary_generic.py
+END
+simd_round.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9566/trunk/nova-simd/simd_round.hpp
+END
+simd_pan_sse.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9582/trunk/nova-simd/simd_pan_sse.hpp
+END
+simd_ternary_arithmetic_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_ternary_arithmetic_generic.hpp
+END
+simd_ternary_arithmetic_fallbacks_double.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_ternary_arithmetic_fallbacks_double.hpp
+END
+generator_binary_sse.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/generator_binary_sse.py
+END
+simd_math.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9572/trunk/nova-simd/simd_math.hpp
+END
+generator_unary_fallbacks.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/generator_unary_fallbacks.py
+END
+ampmod_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/ampmod_generic.hpp
+END
+simd_unary_arithmetic_fallbacks_float.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_unary_arithmetic_fallbacks_float.hpp
+END
+simd_math_fallback_double.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_math_fallback_double.hpp
+END
+simd_unroll_constraints.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_unroll_constraints.hpp
+END
+simd_unary_arithmetic_fallbacks_double.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_unary_arithmetic_fallbacks_double.hpp
+END
+simd_memory_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_memory_generic.hpp
+END
+simd_pan_fallbacks_float.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9582/trunk/nova-simd/simd_pan_fallbacks_float.hpp
+END
+simd_unary_arithmetic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9566/trunk/nova-simd/simd_unary_arithmetic.hpp
+END
+generator_binary_generic.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9579/trunk/nova-simd/generator_binary_generic.py
+END
+simd_memory_fallback_float.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9486/trunk/nova-simd/simd_memory_fallback_float.hpp
+END
+simd_pan.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9572/trunk/nova-simd/simd_pan.hpp
+END
+generator_binary_fallbacks.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9579/trunk/nova-simd/generator_binary_fallbacks.py
+END
+generate_files.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/generate_files.sh
+END
+simd_mix_fallbacks_double.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9582/trunk/nova-simd/simd_mix_fallbacks_double.hpp
+END
+simd_binary_arithmetic_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9579/trunk/nova-simd/simd_binary_arithmetic_generic.hpp
+END
+simd_binary_arithmetic_fallbacks_double.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9579/trunk/nova-simd/simd_binary_arithmetic_fallbacks_double.hpp
+END
+generator_ternary_sse.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/generator_ternary_sse.py
+END
+simd_mix_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_mix_generic.hpp
+END
+generator_round_sse.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/generator_round_sse.py
+END
+simd_math_fallback_float.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_math_fallback_float.hpp
+END
+simd_utils.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_utils.hpp
+END
+simd_ternary_arithmetic_sse.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_ternary_arithmetic_sse.hpp
+END
+simd_peakmeter_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_peakmeter_generic.hpp
+END
+generator_ternary_generic.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/generator_ternary_generic.py
+END
+ampmod_sse.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/ampmod_sse.hpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/CMakeLists.txt
+END
+generator_round_generic.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/generator_round_generic.py
+END
+generator_ternary_fallbacks.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/generator_ternary_fallbacks.py
+END
+simd_memory_sse.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_memory_sse.hpp
+END
+simd_round_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9579/trunk/nova-simd/simd_round_generic.hpp
+END
+generator_common.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/generator_common.py
+END
+simd_ternary_arithmetic_fallbacks_float.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_ternary_arithmetic_fallbacks_float.hpp
+END
+simd_math_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9492/trunk/nova-simd/simd_math_generic.hpp
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/supercollider/!svn/ver/9566/trunk/nova-simd/README
+END
+simd_ternary_arithmetic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_ternary_arithmetic.hpp
+END
+ampmod.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/ampmod.hpp
+END
+simd_unary_arithmetic_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_unary_arithmetic_generic.hpp
+END
+simd_round_sse41.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_round_sse41.hpp
+END
+simd_binary_arithmetic_sse.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/simd_binary_arithmetic_sse.hpp
+END
+simd_mix_sse.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9582/trunk/nova-simd/simd_mix_sse.hpp
+END
+softclip.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9581/trunk/nova-simd/softclip.hpp
+END
+simd_memory.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_memory.hpp
+END
+simd_pan_generic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/simd_pan_generic.hpp
+END
+init_submodules.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/init_submodules.sh
+END

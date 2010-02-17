@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings
+END
+ZArchive.sc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/supercollider/!svn/ver/7507/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/ZArchive.sc
+END
+Def.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/6094/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/Def.sc
+END
+PlayPathButton.sc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/PlayPathButton.sc
+END
+PrettyPrintStream.sc
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/PrettyPrintStream.sc
+END
+AudioHelpers.sc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/supercollider/!svn/ver/7648/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/AudioHelpers.sc
+END
+Constraint.sc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/Constraint.sc
+END
+KeyCodeResponder.sc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/KeyCodeResponder.sc
+END
+UnicodeResponder.sc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/UnicodeResponder.sc
+END
+zArchiveSupport.sc
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/zArchiveSupport.sc
+END
+ModalFreqUGen.sc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/ModalFreqUGen.sc
+END
+MultiChannelRecorder.sc
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/MultiChannelRecorder.sc
+END
+KeyCodeResponderGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/KeyCodeResponderGui.sc
+END
+viewExtensions.sc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/UncoupledUsefulThings/viewExtensions.sc
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9507/trunk/build/SCClassLibrary/Common/Files
+END
+PathName.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Files/PathName.sc
+END
+File.sc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Files/File.sc
+END
+Directory.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Files/Directory.sc
+END
+Help.sc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Files/Help.sc
+END
+SoundFile.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9507/trunk/build/SCClassLibrary/Common/Files/SoundFile.sc
+END

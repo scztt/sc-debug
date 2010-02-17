@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/7567/trunk/editors/scvim/syntax
+END
+supercollider_objects.vim
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/7503/trunk/editors/scvim/syntax/supercollider_objects.vim
+END
+supercollider_operators.vim
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/7503/trunk/editors/scvim/syntax/supercollider_operators.vim
+END
+supercollider.vim
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/7567/trunk/editors/scvim/syntax/supercollider.vim
+END
+supercollider_lang.vim
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/7503/trunk/editors/scvim/syntax/supercollider_lang.vim
+END

@@ -1,0 +1,205 @@
+10
+
+dir
+9582
+https://supercollider.svn.sourceforge.net/svnroot/supercollider/trunk/build/Help
+https://supercollider.svn.sourceforge.net/svnroot/supercollider
+
+
+
+2009-12-04T22:27:35.837231Z
+9577
+jmfuo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a380766d-ff14-0410-b294-a243070f3f08
+
+Control
+dir
+
+UnaryOps
+dir
+
+UGens
+dir
+
+Language
+dir
+
+interfaces
+dir
+
+GUI
+dir
+
+Platform
+dir
+
+Scheduling
+dir
+
+Tutorials
+dir
+
+Core
+dir
+
+Math
+dir
+
+Extending and Customizing SC
+dir
+
+Geometry
+dir
+
+Help.html
+file
+
+
+
+
+2009-11-21T23:36:52.000000Z
+0b2f411388cbec9ecc87316289fcf2fb
+2009-11-19T17:59:18.985918Z
+9539
+jrhb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18706
+
+3vs2
+dir
+
+Linux
+dir
+
+Files
+dir
+
+Other Topics
+dir
+
+More-On-Getting-Help.html
+file
+
+
+
+
+2009-11-21T23:36:52.000000Z
+36f98198640b9e7f2bee2414c9832ff1
+2009-11-19T17:59:18.985918Z
+9539
+jrhb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12778
+
+BinaryOps
+dir
+
+Glossary.html
+file
+
+
+
+
+2009-08-11T08:51:56.000000Z
+69149a0c9117caa705f21bcced0daffe
+2007-10-31T23:11:04.499857Z
+6581
+danstowell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5701
+
+OSX
+dir
+
+ServerArchitecture
+dir
+
+attachments
+dir
+
+Libraries
+dir
+
+help-scripts
+dir
+
+Collections
+dir
+
+Streams-Patterns-Events
+dir
+

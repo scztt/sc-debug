@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9433/trunk/build/SCClassLibrary/backwards_compatibility
+END
+Dialog.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/7368/trunk/build/SCClassLibrary/backwards_compatibility/Dialog.sc
+END
+PMOsc.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/backwards_compatibility/PMOsc.sc
+END
+extMethods.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9433/trunk/build/SCClassLibrary/backwards_compatibility/extMethods.sc
+END

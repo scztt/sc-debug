@@ -1,0 +1,571 @@
+TFFT2_UGens
+v7
+r0
+t281734399.307692
+cCheck dependencies
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004B15D4EB00000000000000EE
+t1259721963
+s238
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004A1199E400000000000005BF
+t1242667492
+s1471
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/vecLib.framework/Headers/vDSP.h
+c000000004628BD800000000000033F55
+t1177075072
+s212821
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/assert.h
+c00000000463BAA5A0000000000000DD6
+t1178315354
+s3542
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/endian.h
+c0000000046F23500000000000000050F
+t1190278400
+s1295
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/math.h
+c00000000462E7AF500000000000004B7
+t1177451253
+s1207
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/netinet/in.h
+c0000000046F235090000000000004DCD
+t1190278409
+s19917
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/pthread.h
+c00000000463BAA5A00000000000038D4
+t1178315354
+s14548
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdio.h
+c00000000463BAA5A0000000000003B7F
+t1178315354
+s15231
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdlib.h
+c00000000463BAA5A0000000000002647
+t1178315354
+s9799
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/string.h
+c00000000463BAA5A00000000000014D3
+t1178315354
+s5331
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/types.h
+c0000000046F235160000000000002641
+t1190278422
+s9793
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004B15D52400000000000000EE
+t1259722020
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004864BE3E00000000000005D7
+t1214561854
+s1495
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/vecLib.framework/Headers/vDSP.h
+c000000004864A63C0000000000033EA8
+t1214555708
+s212648
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/assert.h
+c0000000047BA99300000000000000DCB
+t1203411248
+s3531
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/machine/endian.h
+c0000000047E883B700000000000006C3
+t1206420407
+s1731
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/netinet/in.h
+c0000000047E883C30000000000005346
+t1206420419
+s21318
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/pthread.h
+c0000000047BA9932000000000000380F
+t1203411250
+s14351
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/types.h
+c0000000047E883D2000000000000290F
+t1206420434
+s10511
+
+N/System/Library/Frameworks/vecLib.framework/vecLib
+c000000004A11A0E6000000000005DBF0
+t1242669286
+s383984
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/common/SC_Altivec.h
+c000000004AEC99DE0000000000000F6E
+t1257019870
+s3950
+i<altivec.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/common/SC_Endian.h
+c000000004AEC99DE00000000000006D9
+t1257019870
+s1753
+i<machine/endian.h>
+i<machine/endian.h>
+i<netinet/in.h>
+i<winsock2.h>
+i<endian.h>
+i<netinet/in.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/Hash.h
+c000000004AEC99DE0000000000000FB9
+t1257019870
+s4025
+i"SC_Types.h"
+i"SC_Endian.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_BoundsMacros.h
+c000000004A8130DF00000000000004C5
+t1249980639
+s1221
+i<cstdlib>
+i<cmath>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_BufGen.h
+c000000004A8130DF00000000000004AB
+t1249980639
+s1195
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Constants.h
+c000000004A8671870000000000000647
+t1250324871
+s1607
+i<cmath>
+i<Carbon/Carbon.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_DemandUnit.h
+c000000004AEC99DE0000000000000A7F
+t1257019870
+s2687
+i"SC_Unit.h"
+i"SC_Wire.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Dimension.h
+c000000004A8130DF0000000000000426
+t1249980639
+s1062
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_FifoMsg.h
+c000000004A8130DF0000000000000638
+t1249980639
+s1592
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Graph.h
+c000000004AEC99DE0000000000000620
+t1257019870
+s1568
+i"SC_Node.h"
+i"SC_Rate.h"
+i"SC_Dimension.h"
+i"SC_SndBuf.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_InlineBinaryOp.h
+c000000004B08799200000000000028DE
+t1258846610
+s10462
+i"SC_BoundsMacros.h"
+i<cmath>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_InlineUnaryOp.h
+c000000004AEC99DE0000000000002AB3
+t1257019870
+s10931
+i"SC_Types.h"
+i"SC_Constants.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_InterfaceTable.h
+c000000004B09ADB500000000000018EB
+t1258925493
+s6379
+i"SC_Types.h"
+i"SC_SndBuf.h"
+i"SC_Unit.h"
+i"SC_BufGen.h"
+i"SC_FifoMsg.h"
+i<sndfile-win.h>
+i<sndfile.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Node.h
+c000000004AEC99DE00000000000004FF
+t1257019870
+s1279
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_PlugIn.h
+c000000004A8130DF00000000000006D7
+t1249980639
+s1751
+i"SC_World.h"
+i"SC_Graph.h"
+i"SC_Unit.h"
+i"SC_Wire.h"
+i"SC_InterfaceTable.h"
+i"Unroll.h"
+i"SC_InlineUnaryOp.h"
+i"SC_InlineBinaryOp.h"
+i"SC_BoundsMacros.h"
+i"SC_RGen.h"
+i"SC_DemandUnit.h"
+i"clz.h"
+i"sc_msg_iter.h"
+i"SC_Altivec.h"
+i"SC_VFP11.h"
+i<stdlib.h>
+i<xmath.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_RGen.h
+c000000004AEC99DE0000000000001EF3
+t1257019870
+s7923
+i"SC_Endian.h"
+i"SC_Types.h"
+i"SC_BoundsMacros.h"
+i"Hash.h"
+i<math.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Rate.h
+c000000004AEC99DE000000000000059A
+t1257019870
+s1434
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_SndBuf.h
+c000000004B09ADB50000000000000AE6
+t1258925493
+s2790
+i<sys/types.h>
+i<sndfile-win.h>
+i<sndfile.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Types.h
+c000000004AEC99DE000000000000066B
+t1257019870
+s1643
+i<sys/types.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Unit.h
+c000000004AEC99DE0000000000001533
+t1257019870
+s5427
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Wire.h
+c000000004AEC99DE0000000000000429
+t1257019870
+s1065
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_World.h
+c000000004AEC99DE0000000000000C1B
+t1257019870
+s3099
+i"SC_Types.h"
+i"SC_Rate.h"
+i"SC_SndBuf.h"
+i"SC_RGen.h"
+i"SC_Lock.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/Unroll.h
+c000000004AEC99DE0000000000001609
+t1257019870
+s5641
+i<string.h>
+i"SC_BoundsMacros.h"
+i<assert.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/clz.h
+c000000004AEC99DE0000000000001069
+t1257019870
+s4201
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/sc_msg_iter.h
+c000000004AEC99DE000000000000193A
+t1257019870
+s6458
+i"SC_Endian.h"
+i"SC_Types.h"
+i<string.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_fftlib.h
+c000000004AEC99DE000000000000130F
+t1257019870
+s4879
+i<cstring>
+i<fftw3.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/fftlib.h
+c000000004A8130DF0000000000000956
+t1249980639
+s2390
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Lock.h
+c000000004A8130DF00000000000004A6
+t1249980639
+s1190
+i<pthread.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/Convolution.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/FFT2InterfaceTable.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/FFT2_UGens.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/FeatureDetection.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/PV_ThirdParty.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/SCComplex.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/SC_fftlib.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/fftlib.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_fftlib.cpp
+c000000004AEC99DD0000000000001FFC
+t1257019869
+s8188
+i"SC_fftlib.h"
+i"clz.h"
+i<stdlib.h>
+i<cmath>
+i<stdio.h>
+i<cstring>
+i"vecLib/vDSP.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/fftlib.c
+c000000004AEC99DD0000000000012EA4
+t1257019869
+s77476
+i<math.h>
+i"fftlib.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/Convolution.cpp
+c000000004B0445AB000000000000BA47
+t1258571179
+s47687
+i"FFT_UGens.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/FFT2InterfaceTable.cpp
+c000000004AEC99DC0000000000000584
+t1257019868
+s1412
+i"FFT_UGens.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/FFT_UGens.h
+c000000004AEC99DC0000000000000D0C
+t1257019868
+s3340
+i"SC_PlugIn.h"
+i"SCComplex.h"
+i"SC_fftlib.h"
+i<string.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/FeatureDetection.cpp
+c000000004AEC99DC0000000000002C96
+t1257019868
+s11414
+i"FFT_UGens.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/PV_ThirdParty.cpp
+c000000004AEC99DC0000000000000AF3
+t1257019868
+s2803
+i"FFT_UGens.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp
+c000000004AEC99DC0000000000000F67
+t1257019868
+s3943
+i"SCComplex.h"
+i"SC_Types.h"
+i"SC_Constants.h"
+i"SC_InterfaceTable.h"
+i<math.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.h
+c000000004AEC99DC0000000000000E47
+t1257019868
+s3655
+
+N/Users/scott/Documents/_code/SuperCollider3/build/plugins/FFT2_UGens.scx
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/libsndfile/sndfile.h
+c000000004A8130EC0000000000004E69
+t1249980652
+s20073
+i<stdio.h>
+i<sys/types.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies281734399#281734399#0(0"0(0#1#0"4300934600#0"0#
+
+CCompileC "Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/Convolution.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/Convolution.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281731475.432534
+e281731477.631501
+r1
+xCompileC
+xIntermediate Build Files/FFT2_UGens.build/Objects-normal/i386/Convolution.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/Convolution.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/Convolution.cpp281731475#281731477#0(0"0(0#0#74"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/Convolution.cpp4300934600#1017"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/FFT2_UGens.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources" -DSC_DARWIN -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/Convolution.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/Convolution.o"0#
+
+CCompileC "Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/FFT2InterfaceTable.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/FFT2InterfaceTable.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281731477.631595
+e281731479.598861
+r1
+xCompileC
+xIntermediate Build Files/FFT2_UGens.build/Objects-normal/i386/FFT2InterfaceTable.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/FFT2InterfaceTable.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/FFT2InterfaceTable.cpp281731477#281731479#0(0"0(0#0#81"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/FFT2InterfaceTable.cpp4300934600#1031"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/FFT2_UGens.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources" -DSC_DARWIN -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/FFT2InterfaceTable.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/FFT2InterfaceTable.o"0#
+
+CCompileC "Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/FeatureDetection.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/FeatureDetection.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281731475.814452
+e281731477.962368
+r1
+xCompileC
+xIntermediate Build Files/FFT2_UGens.build/Objects-normal/i386/FeatureDetection.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/FeatureDetection.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/FeatureDetection.cpp281731475#281731477#0(0"0(0#0#79"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/FeatureDetection.cpp4300934600#1027"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/FFT2_UGens.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources" -DSC_DARWIN -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/FeatureDetection.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/FeatureDetection.o"0#
+
+CCompileC "Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/PV_ThirdParty.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/PV_ThirdParty.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281731477.962454
+e281731479.993761
+r1
+xCompileC
+xIntermediate Build Files/FFT2_UGens.build/Objects-normal/i386/PV_ThirdParty.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/PV_ThirdParty.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/PV_ThirdParty.cpp281731477#281731479#0(0"0(0#0#76"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/PV_ThirdParty.cpp4300934600#1021"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/FFT2_UGens.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources" -DSC_DARWIN -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/PV_ThirdParty.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/PV_ThirdParty.o"0#
+
+CCompileC "Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/SCComplex.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281731479.598948
+e281731481.276731
+r1
+xCompileC
+xIntermediate Build Files/FFT2_UGens.build/Objects-normal/i386/SCComplex.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp281731479#281731481#0(0"0(0#0#72"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp4300934600#1013"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/FFT2_UGens.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources" -DSC_DARWIN -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/SCComplex.o"0#
+
+CCompileC "Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/SC_fftlib.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_fftlib.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281731475.255422
+e281731475.432442
+r1
+xCompileC
+xIntermediate Build Files/FFT2_UGens.build/Objects-normal/i386/SC_fftlib.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_fftlib.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_fftlib.cpp281731475#281731475#0(0"0(0#0#71"/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_fftlib.cpp4300934600#1012"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/FFT2_UGens.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources" -DSC_DARWIN -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_fftlib.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/SC_fftlib.o"0#
+
+CCompileC "Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/fftlib.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/fftlib.c normal i386 c com.apple.compilers.gcc.4_2
+s281731475.253617
+e281731475.814366
+r1
+xCompileC
+xIntermediate Build Files/FFT2_UGens.build/Objects-normal/i386/fftlib.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/fftlib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/fftlib.c281731475#281731475#0(0"0(0#0#66"/Users/scott/Documents/_code/SuperCollider3/Source/common/fftlib.c4300934600#974"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/FFT2_UGens.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/DerivedSources" -DSC_DARWIN -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/common/fftlib.c -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/fftlib.o"0#
+
+CLd /Users/scott/Documents/_code/SuperCollider3/build/plugins/FFT2_UGens.scx normal i386
+s281734372.470605
+e281734372.487778
+r0
+xLd
+x/Users/scott/Documents/_code/SuperCollider3/build/plugins/FFT2_UGens.scx
+xnormal
+xi386
+oUndefined symbols:
+o  "_pi", referenced from:
+o      _pi$non_lazy_ptr in Convolution.o
+o      _pi$non_lazy_ptr in FeatureDetection.o
+o      _pi$non_lazy_ptr in FFT2InterfaceTable.o
+o      _pi$non_lazy_ptr in PV_ThirdParty.o
+o      _pi$non_lazy_ptr in SCComplex.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@77"Link /Users/scott/Documents/_code/SuperCollider3/build/plugins/FFT2_UGens.scx281734372#281734372#0(317"Undefined symbols:  "_pi", referenced from:      _pi$non_lazy_ptr in Convolution.o      _pi$non_lazy_ptr in FeatureDetection.o      _pi$non_lazy_ptr in FFT2InterfaceTable.o      _pi$non_lazy_ptr in PV_ThirdParty.o      _pi$non_lazy_ptr in SCComplex.old: symbol(s) not foundcollect2: ld returned 1 exit status8(4@23""_pi", referenced from:281734372#19#26#0(6@0"281734372#0#0#0#0#0"0(13@33"_pi$non_lazy_ptr in Convolution.o281734372#45#40#0(6@0"281734372#0#0#0#0#0"0(13@38"_pi$non_lazy_ptr in FeatureDetection.o281734372#85#45#0(6@0"281734372#0#0#0#0#0"0(13@40"_pi$non_lazy_ptr in FFT2InterfaceTable.o281734372#130#47#0(6@0"281734372#0#0#0#0#0"0(13@35"_pi$non_lazy_ptr in PV_ThirdParty.o281734372#177#42#0(6@0"281734372#0#0#0#0#0"0(13@31"_pi$non_lazy_ptr in SCComplex.o281734372#219#38#0(6@0"281734372#0#0#0#0#0"0(13@19"Symbol(s) not found281734372#257#24#0(6@0"281734372#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status281734372#281#36#0(6@0"281734372#0#0#0#0#0"0(0#0#0"4300934600#569"    cd /Users/scott/Documents/_code/SuperCollider3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/scott/Documents/_code/SuperCollider3/build/plugins -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -filelist "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT2_UGens.build/Objects-normal/i386/FFT2_UGens.LinkFileList" -mmacosx-version-min=10.5 -lm -framework vecLib -o /Users/scott/Documents/_code/SuperCollider3/build/plugins/FFT2_UGens.scx1#
+

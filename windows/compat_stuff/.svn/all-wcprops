@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/9082/trunk/windows/compat_stuff
+END
+getopt.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9082/trunk/windows/compat_stuff/getopt.c
+END
+WSA-pthread-compat-stuff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/6094/trunk/windows/compat_stuff/WSA-pthread-compat-stuff.cpp
+END
+getopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9082/trunk/windows/compat_stuff/getopt.h
+END
+stdbool.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9082/trunk/windows/compat_stuff/stdbool.h
+END

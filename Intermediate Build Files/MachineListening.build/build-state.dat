@@ -1,0 +1,681 @@
+TMachineListening
+v7
+r0
+t281734519.460482
+cCheck dependencies
+cCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/SCComplex.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/BeatTrack.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/Loudness.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Loudness.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/ML.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/Onsets.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Onsets.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/onsetsds.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/onsetsds.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/KeyTrack.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/KeyTrack.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/MFCC.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/MFCC.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/BeatTrack2.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/ML_SpecStats.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML_SpecStats.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /Users/scott/Documents/_code/SuperCollider3/build/plugins/MachineListening.scx normal i386
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004B15D4EB00000000000000EE
+t1259721963
+s238
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004A1199E400000000000005BF
+t1242667492
+s1471
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/assert.h
+c00000000463BAA5A0000000000000DD6
+t1178315354
+s3542
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/endian.h
+c0000000046F23500000000000000050F
+t1190278400
+s1295
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/math.h
+c00000000462E7AF500000000000004B7
+t1177451253
+s1207
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/netinet/in.h
+c0000000046F235090000000000004DCD
+t1190278409
+s19917
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/pthread.h
+c00000000463BAA5A00000000000038D4
+t1178315354
+s14548
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdbool.h
+c00000000463BAA5A00000000000006D8
+t1178315354
+s1752
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdio.h
+c00000000463BAA5A0000000000003B7F
+t1178315354
+s15231
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdlib.h
+c00000000463BAA5A0000000000002647
+t1178315354
+s9799
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/string.h
+c00000000463BAA5A00000000000014D3
+t1178315354
+s5331
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/types.h
+c0000000046F235160000000000002641
+t1190278422
+s9793
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004B15D52400000000000000EE
+t1259722020
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004864BE3E00000000000005D7
+t1214561854
+s1495
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/assert.h
+c0000000047BA99300000000000000DCB
+t1203411248
+s3531
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/machine/endian.h
+c0000000047E883B700000000000006C3
+t1206420407
+s1731
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/math.h
+c0000000047BA987000000000000004B7
+t1203411056
+s1207
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/netinet/in.h
+c0000000047E883C30000000000005346
+t1206420419
+s21318
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/pthread.h
+c0000000047BA9932000000000000380F
+t1203411250
+s14351
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdbool.h
+c0000000047BA993000000000000006D8
+t1203411248
+s1752
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdio.h
+c0000000047BA99310000000000003D1D
+t1203411249
+s15645
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/sys/types.h
+c0000000047E883D2000000000000290F
+t1206420434
+s10511
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/common/SC_Altivec.h
+c000000004AEC99DE0000000000000F6E
+t1257019870
+s3950
+i<altivec.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/common/SC_Endian.h
+c000000004AEC99DE00000000000006D9
+t1257019870
+s1753
+i<machine/endian.h>
+i<machine/endian.h>
+i<netinet/in.h>
+i<winsock2.h>
+i<endian.h>
+i<netinet/in.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/Hash.h
+c000000004AEC99DE0000000000000FB9
+t1257019870
+s4025
+i"SC_Types.h"
+i"SC_Endian.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_BoundsMacros.h
+c000000004A8130DF00000000000004C5
+t1249980639
+s1221
+i<cstdlib>
+i<cmath>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_BufGen.h
+c000000004A8130DF00000000000004AB
+t1249980639
+s1195
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Constants.h
+c000000004A8671870000000000000647
+t1250324871
+s1607
+i<cmath>
+i<Carbon/Carbon.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_DemandUnit.h
+c000000004AEC99DE0000000000000A7F
+t1257019870
+s2687
+i"SC_Unit.h"
+i"SC_Wire.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Dimension.h
+c000000004A8130DF0000000000000426
+t1249980639
+s1062
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_FifoMsg.h
+c000000004A8130DF0000000000000638
+t1249980639
+s1592
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Graph.h
+c000000004AEC99DE0000000000000620
+t1257019870
+s1568
+i"SC_Node.h"
+i"SC_Rate.h"
+i"SC_Dimension.h"
+i"SC_SndBuf.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_InlineBinaryOp.h
+c000000004B08799200000000000028DE
+t1258846610
+s10462
+i"SC_BoundsMacros.h"
+i<cmath>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_InlineUnaryOp.h
+c000000004AEC99DE0000000000002AB3
+t1257019870
+s10931
+i"SC_Types.h"
+i"SC_Constants.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_InterfaceTable.h
+c000000004B09ADB500000000000018EB
+t1258925493
+s6379
+i"SC_Types.h"
+i"SC_SndBuf.h"
+i"SC_Unit.h"
+i"SC_BufGen.h"
+i"SC_FifoMsg.h"
+i<sndfile-win.h>
+i<sndfile.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Node.h
+c000000004AEC99DE00000000000004FF
+t1257019870
+s1279
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_PlugIn.h
+c000000004A8130DF00000000000006D7
+t1249980639
+s1751
+i"SC_World.h"
+i"SC_Graph.h"
+i"SC_Unit.h"
+i"SC_Wire.h"
+i"SC_InterfaceTable.h"
+i"Unroll.h"
+i"SC_InlineUnaryOp.h"
+i"SC_InlineBinaryOp.h"
+i"SC_BoundsMacros.h"
+i"SC_RGen.h"
+i"SC_DemandUnit.h"
+i"clz.h"
+i"sc_msg_iter.h"
+i"SC_Altivec.h"
+i"SC_VFP11.h"
+i<stdlib.h>
+i<xmath.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_RGen.h
+c000000004AEC99DE0000000000001EF3
+t1257019870
+s7923
+i"SC_Endian.h"
+i"SC_Types.h"
+i"SC_BoundsMacros.h"
+i"Hash.h"
+i<math.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Rate.h
+c000000004AEC99DE000000000000059A
+t1257019870
+s1434
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_SndBuf.h
+c000000004B09ADB50000000000000AE6
+t1258925493
+s2790
+i<sys/types.h>
+i<sndfile-win.h>
+i<sndfile.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Types.h
+c000000004AEC99DE000000000000066B
+t1257019870
+s1643
+i<sys/types.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Unit.h
+c000000004AEC99DE0000000000001533
+t1257019870
+s5427
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_Wire.h
+c000000004AEC99DE0000000000000429
+t1257019870
+s1065
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/SC_World.h
+c000000004AEC99DE0000000000000C1B
+t1257019870
+s3099
+i"SC_Types.h"
+i"SC_Rate.h"
+i"SC_SndBuf.h"
+i"SC_RGen.h"
+i"SC_Lock.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/Unroll.h
+c000000004AEC99DE0000000000001609
+t1257019870
+s5641
+i<string.h>
+i"SC_BoundsMacros.h"
+i<assert.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/clz.h
+c000000004AEC99DE0000000000001069
+t1257019870
+s4201
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/../Headers/plugin_interface/sc_msg_iter.h
+c000000004AEC99DE000000000000193A
+t1257019870
+s6458
+i"SC_Endian.h"
+i"SC_Types.h"
+i<string.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_fftlib.h
+c000000004AEC99DE000000000000130F
+t1257019870
+s4879
+i<cstring>
+i<fftw3.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Lock.h
+c000000004A8130DF00000000000004A6
+t1249980639
+s1190
+i<pthread.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/BeatTrack.o
+t1260041715
+s38504
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/BeatTrack2.o
+t1260041718
+s32236
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/KeyTrack.o
+t1260041717
+s38600
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/Loudness.o
+t1260041716
+s26900
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/MFCC.o
+t1260041718
+s41660
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/ML.o
+t1260041716
+s24472
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/ML_SpecStats.o
+t1260041719
+s28924
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/MachineListening.LinkFileList
+c000000004B1AB5F200000000000004CA
+t1260041714
+s1226
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/Onsets.o
+t1260041717
+s26104
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/SCComplex.o
+t1260041715
+s20904
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/onsetsds.o
+t1260041716
+s16624
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack.cpp
+c000000004AEC99DC0000000000005EE5
+t1257019868
+s24293
+i"ML.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack.h
+c000000004AEC99DC0000000000000B25
+t1257019868
+s2853
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack2.cpp
+c000000004AEC99DC00000000000050F6
+t1257019868
+s20726
+i"ML.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack2.h
+c000000004AEC99DC0000000000000CCE
+t1257019868
+s3278
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/FFT_UGens.h
+c000000004AEC99DC0000000000000D0C
+t1257019868
+s3340
+i"SC_PlugIn.h"
+i"SCComplex.h"
+i"SC_fftlib.h"
+i<string.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/KeyTrack.cpp
+c000000004AEC99DC0000000000009F83
+t1257019868
+s40835
+i"ML.h"
+i"FFT_UGens.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Loudness.cpp
+c000000004AEC99DC0000000000002825
+t1257019868
+s10277
+i"ML.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/MFCC.cpp
+c000000004AEC99DC000000000000EC75
+t1257019868
+s60533
+i"ML.h"
+i"FFT_UGens.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML.cpp
+c000000004AEC99DC00000000000007B5
+t1257019868
+s1973
+i"ML.h"
+i"FFT_UGens.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML.h
+c000000004AEC99DC0000000000000DFD
+t1257019868
+s3581
+i"SC_PlugIn.h"
+i"BeatTrack.h"
+i"Onsets.h"
+i"BeatTrack2.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML_SpecStats.cpp
+c000000004AEC99DC0000000000002127
+t1257019868
+s8487
+i"SC_PlugIn.h"
+i"SCComplex.h"
+i"FFT_UGens.h"
+i"ML.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Onsets.cpp
+c000000004AEC99DC0000000000001250
+t1257019868
+s4688
+i"SC_PlugIn.h"
+i"SCComplex.h"
+i"FFT_UGens.h"
+i"Onsets.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Onsets.h
+c000000004AEC99DC0000000000000550
+t1257019868
+s1360
+i"onsetsds.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/SCComplex.h
+c000000004AEC99DC0000000000000E47
+t1257019868
+s3655
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/onsetsds.c
+c000000004AEC99DC0000000000003EE9
+t1257019868
+s16105
+i"onsetsds.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/onsetsds.h
+c000000004AEC99DC00000000000029B7
+t1257019868
+s10679
+i<stdio.h>
+i<string.h>
+i<stdbool.h>
+i<math.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp
+c000000004AEC99DC0000000000000F67
+t1257019868
+s3943
+i"SCComplex.h"
+i"SC_Types.h"
+i"SC_Constants.h"
+i"SC_InterfaceTable.h"
+i<math.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/build/plugins/MachineListening.scx
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/libsndfile/sndfile.h
+c000000004A8130EC0000000000004E69
+t1249980652
+s20073
+i<stdio.h>
+i<sys/types.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies281734514#281734514#0(0"0(0#1#0"4300934600#0"0#
+
+CCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/BeatTrack.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281734514.859186
+e281734515.837216
+r1
+xCompileC
+xIntermediate Build Files/MachineListening.build/Objects-normal/i386/BeatTrack.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack.cpp281734514#281734515#0(0"0(0#0#93"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack.cpp4300934600#1079"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/MachineListening.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources" -DSC_DARWIN -DNO_GPL3_CODE -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/BeatTrack.o"0#
+
+CCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/BeatTrack2.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281734517.757986
+e281734518.729596
+r1
+xCompileC
+xIntermediate Build Files/MachineListening.build/Objects-normal/i386/BeatTrack2.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack2.cpp281734517#281734518#0(0"0(0#0#94"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack2.cpp4300934600#1081"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/MachineListening.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources" -DSC_DARWIN -DNO_GPL3_CODE -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/BeatTrack2.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/BeatTrack2.o"0#
+
+CCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/KeyTrack.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/KeyTrack.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281734516.819769
+e281734517.757903
+r1
+xCompileC
+xIntermediate Build Files/MachineListening.build/Objects-normal/i386/KeyTrack.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/KeyTrack.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/KeyTrack.cpp281734516#281734517#0(0"0(0#0#92"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/KeyTrack.cpp4300934600#1077"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/MachineListening.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources" -DSC_DARWIN -DNO_GPL3_CODE -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/KeyTrack.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/KeyTrack.o"0#
+
+CCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/Loudness.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Loudness.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281734515.757150
+e281734516.683717
+r1
+xCompileC
+xIntermediate Build Files/MachineListening.build/Objects-normal/i386/Loudness.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Loudness.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Loudness.cpp281734515#281734516#0(0"0(0#0#92"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Loudness.cpp4300934600#1077"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/MachineListening.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources" -DSC_DARWIN -DNO_GPL3_CODE -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Loudness.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/Loudness.o"0#
+
+CCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/MFCC.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/MFCC.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281734517.617433
+e281734518.586456
+r1
+xCompileC
+xIntermediate Build Files/MachineListening.build/Objects-normal/i386/MFCC.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/MFCC.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/MFCC.cpp281734517#281734518#0(0"0(0#0#88"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/MFCC.cpp4300934600#1069"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/MachineListening.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources" -DSC_DARWIN -DNO_GPL3_CODE -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/MFCC.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/MFCC.o"0#
+
+CCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/ML.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281734515.837311
+e281734516.746284
+r1
+xCompileC
+xIntermediate Build Files/MachineListening.build/Objects-normal/i386/ML.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML.cpp281734515#281734516#0(0"0(0#0#86"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML.cpp4300934600#1065"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/MachineListening.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources" -DSC_DARWIN -DNO_GPL3_CODE -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/ML.o"0#
+
+CCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/ML_SpecStats.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML_SpecStats.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281734518.586559
+e281734519.444265
+r1
+xCompileC
+xIntermediate Build Files/MachineListening.build/Objects-normal/i386/ML_SpecStats.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML_SpecStats.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML_SpecStats.cpp281734518#281734519#0(0"0(0#0#96"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML_SpecStats.cpp4300934600#1085"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/MachineListening.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources" -DSC_DARWIN -DNO_GPL3_CODE -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/ML_SpecStats.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/ML_SpecStats.o"0#
+
+CCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/Onsets.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Onsets.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281734516.683813
+e281734517.617318
+r1
+xCompileC
+xIntermediate Build Files/MachineListening.build/Objects-normal/i386/Onsets.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Onsets.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Onsets.cpp281734516#281734517#0(0"0(0#0#90"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Onsets.cpp4300934600#1073"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/MachineListening.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources" -DSC_DARWIN -DNO_GPL3_CODE -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/Onsets.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/Onsets.o"0#
+
+CCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/SCComplex.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s281734514.858387
+e281734515.756948
+r1
+xCompileC
+xIntermediate Build Files/MachineListening.build/Objects-normal/i386/SCComplex.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp281734514#281734515#0(0"0(0#0#72"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp4300934600#1058"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/MachineListening.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources" -DSC_DARWIN -DNO_GPL3_CODE -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/SCComplex.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/SCComplex.o"0#
+
+CCompileC "Intermediate Build Files/MachineListening.build/Objects-normal/i386/onsetsds.o" /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/onsetsds.c normal i386 c com.apple.compilers.gcc.4_2
+s281734516.746374
+e281734516.819654
+r1
+xCompileC
+xIntermediate Build Files/MachineListening.build/Objects-normal/i386/onsetsds.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/onsetsds.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/onsetsds.c281734516#281734516#0(0"0(0#0#90"/Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/onsetsds.c4300934600#1045"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/MachineListening.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -Inova-simd -I/Users/scott/Documents/_code/SuperCollider3/build/plugins/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/DerivedSources" -DSC_DARWIN -DNO_GPL3_CODE -DNOVA_SIMD -c /Users/scott/Documents/_code/SuperCollider3/Source/plugins/../../Source/plugins/onsetsds.c -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/onsetsds.o"0#
+
+CLd /Users/scott/Documents/_code/SuperCollider3/build/plugins/MachineListening.scx normal i386
+s281734519.444458
+e281734519.460443
+r0
+xLd
+x/Users/scott/Documents/_code/SuperCollider3/build/plugins/MachineListening.scx
+xnormal
+xi386
+oUndefined symbols:
+o  "_pi", referenced from:
+o      _pi$non_lazy_ptr in SCComplex.o
+o      _pi$non_lazy_ptr in BeatTrack.o
+o      _pi$non_lazy_ptr in Loudness.o
+o      _pi$non_lazy_ptr in ML.o
+o      _pi$non_lazy_ptr in Onsets.o
+o      _pi$non_lazy_ptr in KeyTrack.o
+o      _pi$non_lazy_ptr in MFCC.o
+o      _pi$non_lazy_ptr in BeatTrack2.o
+o      _pi$non_lazy_ptr in ML_SpecStats.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@83"Link /Users/scott/Documents/_code/SuperCollider3/build/plugins/MachineListening.scx281734519#281734519#0(434"Undefined symbols:  "_pi", referenced from:      _pi$non_lazy_ptr in SCComplex.o      _pi$non_lazy_ptr in BeatTrack.o      _pi$non_lazy_ptr in Loudness.o      _pi$non_lazy_ptr in ML.o      _pi$non_lazy_ptr in Onsets.o      _pi$non_lazy_ptr in KeyTrack.o      _pi$non_lazy_ptr in MFCC.o      _pi$non_lazy_ptr in BeatTrack2.o      _pi$non_lazy_ptr in ML_SpecStats.old: symbol(s) not foundcollect2: ld returned 1 exit status12(4@23""_pi", referenced from:281734519#19#26#0(6@0"281734519#0#0#0#0#0"0(13@31"_pi$non_lazy_ptr in SCComplex.o281734519#45#38#0(6@0"281734519#0#0#0#0#0"0(13@31"_pi$non_lazy_ptr in BeatTrack.o281734519#83#38#0(6@0"281734519#0#0#0#0#0"0(13@30"_pi$non_lazy_ptr in Loudness.o281734519#121#37#0(6@0"281734519#0#0#0#0#0"0(13@24"_pi$non_lazy_ptr in ML.o281734519#158#31#0(6@0"281734519#0#0#0#0#0"0(13@28"_pi$non_lazy_ptr in Onsets.o281734519#189#35#0(6@0"281734519#0#0#0#0#0"0(13@30"_pi$non_lazy_ptr in KeyTrack.o281734519#224#37#0(6@0"281734519#0#0#0#0#0"0(13@26"_pi$non_lazy_ptr in MFCC.o281734519#261#33#0(6@0"281734519#0#0#0#0#0"0(13@32"_pi$non_lazy_ptr in BeatTrack2.o281734519#294#39#0(6@0"281734519#0#0#0#0#0"0(13@34"_pi$non_lazy_ptr in ML_SpecStats.o281734519#333#41#0(6@0"281734519#0#0#0#0#0"0(13@19"Symbol(s) not found281734519#374#24#0(6@0"281734519#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status281734519#398#36#0(6@0"281734519#0#0#0#0#0"0(0#0#0"4300934600#569"    cd /Users/scott/Documents/_code/SuperCollider3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/g++-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/scott/Documents/_code/SuperCollider3/build/plugins -F/Users/scott/Documents/_code/SuperCollider3/build/plugins -filelist "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/MachineListening.build/Objects-normal/i386/MachineListening.LinkFileList" -mmacosx-version-min=10.5 -lm -o /Users/scott/Documents/_code/SuperCollider3/build/plugins/MachineListening.scx1#
+

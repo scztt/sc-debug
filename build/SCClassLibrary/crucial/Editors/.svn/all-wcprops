@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Editors
+END
+EnvEditor.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Editors/EnvEditor.sc
+END
+NumberEditor.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Editors/NumberEditor.sc
+END
+EnvEditorGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Editors/EnvEditorGui.sc
+END
+NumberEditorGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Editors/NumberEditorGui.sc
+END

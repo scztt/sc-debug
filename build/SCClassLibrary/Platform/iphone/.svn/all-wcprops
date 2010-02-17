@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Platform/iphone
+END
+extMain.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9298/trunk/build/SCClassLibrary/Platform/iphone/extMain.sc
+END
+extString.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Platform/iphone/extString.sc
+END
+iPhoneGUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Platform/iphone/iPhoneGUI.sc
+END
+iPhonePlatform.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Platform/iphone/iPhonePlatform.sc
+END

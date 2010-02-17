@@ -1,0 +1,52 @@
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1338: note: not vectorized: can't determine dependence between *qslot_26 and *pslot_24
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1352: note: not vectorized: can't determine dependence between *srcp_65 and *dstp_64
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1362: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1329: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1122: note: not vectorized: can't determine dependence between *srcp_252 and *dstp_251
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1128: note: not vectorized: can't determine dependence between *srcp_274 and *dstp_273
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1098: note: not vectorized: unsupported use in stmt.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1112: note: not vectorized: can't determine dependence between *srcp_220 and *dstp_219
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1118: note: not vectorized: can't determine dependence between *srcp_242 and *dstp_241
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1087: note: not vectorized: can't determine dependence between *srcp_169 and *dstp_168
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1092: note: not vectorized: can't determine dependence between *srcp_189 and *dstp_188
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1004: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:792: note: not vectorized: number of iterations cannot be computed.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:776: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:644: note: not vectorized: can't determine dependence between *srcp_396 and *dstp_395
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:626: note: not vectorized: can't determine dependence between *srcp_335 and *dstp_334
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:612: note: not vectorized: can't determine dependence between *srcp_302 and *dstp_301
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:599: note: not vectorized: can't determine dependence between *srcp_272 and *dstp_271
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:510: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:324: note: not vectorized: can't determine dependence between *srcp_413 and *dstp_412
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:306: note: not vectorized: can't determine dependence between *srcp_353 and *dstp_352
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:292: note: not vectorized: can't determine dependence between *srcp_320 and *dstp_319
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:279: note: not vectorized: can't determine dependence between *srcp_290 and *dstp_289
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:191: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1258: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1287: note: not vectorized: too many BBs in loop.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:1199: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:965: note: not vectorized: can't determine dependence between *srcp_259 and *dstp_258
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:971: note: not vectorized: can't determine dependence between *srcp_281 and *dstp_280
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:941: note: not vectorized: unsupported use in stmt.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:955: note: not vectorized: can't determine dependence between *srcp_227 and *dstp_226
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:961: note: not vectorized: can't determine dependence between *srcp_249 and *dstp_248
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:930: note: not vectorized: can't determine dependence between *srcp_176 and *dstp_175
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:935: note: not vectorized: can't determine dependence between *srcp_196 and *dstp_195
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:982: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:846: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:719: note: not vectorized: number of iterations cannot be computed.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:703: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:396: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:376: note: vectorized 0 loops in function.
+
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:77: note: not vectorized: multiple exits.
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrMessage.cpp:58: note: vectorized 0 loops in function.

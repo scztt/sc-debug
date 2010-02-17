@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/supercollider/!svn/ver/9560/trunk/build/Help/Scheduling
+END
+AppClock.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9076/trunk/build/Help/Scheduling/AppClock.html
+END
+Scheduler.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/7598/trunk/build/Help/Scheduling/Scheduler.html
+END
+SystemClock.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9076/trunk/build/Help/Scheduling/SystemClock.html
+END
+TempoClock.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/6872/trunk/build/Help/Scheduling/TempoClock.html
+END
+Task.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/7139/trunk/build/Help/Scheduling/Task.html
+END
+Semaphore.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8227/trunk/build/Help/Scheduling/Semaphore.html
+END
+Condition.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Scheduling/Condition.html
+END
+Quant.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/7313/trunk/build/Help/Scheduling/Quant.html
+END
+Clock.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9560/trunk/build/Help/Scheduling/Clock.html
+END

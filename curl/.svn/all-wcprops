@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/supercollider/!svn/ver/7577/trunk/curl
+END
+stdcheaders.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/supercollider/!svn/ver/7577/trunk/curl/stdcheaders.h
+END
+typecheck-gcc.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/7577/trunk/curl/typecheck-gcc.h
+END
+multi.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/supercollider/!svn/ver/7577/trunk/curl/multi.h
+END
+mprintf.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/supercollider/!svn/ver/7577/trunk/curl/mprintf.h
+END
+easy.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/supercollider/!svn/ver/7577/trunk/curl/easy.h
+END
+curlver.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/supercollider/!svn/ver/7577/trunk/curl/curlver.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/supercollider/!svn/ver/7577/trunk/curl/types.h
+END
+curl.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/supercollider/!svn/ver/7577/trunk/curl/curl.h
+END

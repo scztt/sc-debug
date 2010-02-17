@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source
+END
+ControlSpecs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/ControlSpecs.cpp
+END
+Resources.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/Resources.h
+END
+OSCMessages.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/OSCMessages.h
+END
+SuperColliderAU.r
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9079/trunk/SuperColliderAU/Source/SuperColliderAU.r
+END
+SuperColliderAU.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/SuperColliderAU.cpp
+END
+ControlSpecs.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/ControlSpecs.h
+END
+SCProcess.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/SCProcess.cpp
+END
+SuperColliderAU.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/SuperColliderAU.h
+END
+SCProcess.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/SCProcess.h
+END
+Resources.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/Resources.cpp
+END
+OSCMessages.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/OSCMessages.cpp
+END
+SuperColliderAU.exp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/8577/trunk/SuperColliderAU/Source/SuperColliderAU.exp
+END
+SuperColliderAUVersion.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9417/trunk/SuperColliderAU/Source/SuperColliderAUVersion.h
+END

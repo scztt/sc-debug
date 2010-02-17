@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/supercollider/!svn/ver/9200/trunk/build/Help/UnaryOps
+END
+ceil.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/ceil.html
+END
+floor.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/floor.html
+END
+log10.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/log10.html
+END
+tan.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/tan.html
+END
+softclip.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/softclip.html
+END
+reciprocal.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/reciprocal.html
+END
+cos.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/cos.html
+END
+midicps.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/midicps.html
+END
+distort.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/distort.html
+END
+asin.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/8950/trunk/build/Help/UnaryOps/asin.html
+END
+tanh.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/tanh.html
+END
+cosh.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/cosh.html
+END
+isPositive.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/isPositive.html
+END
+sign.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/sign.html
+END
+sinh.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/sinh.html
+END
+log2.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/log2.html
+END
+neg.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/neg.html
+END
+convertRhythm.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/UnaryOps/convertRhythm.html
+END
+log.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/log.html
+END
+cubed.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/cubed.html
+END
+ampdb.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/8950/trunk/build/Help/UnaryOps/ampdb.html
+END
+atan.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9200/trunk/build/Help/UnaryOps/atan.html
+END
+dbamp.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/dbamp.html
+END
+acos.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/8950/trunk/build/Help/UnaryOps/acos.html
+END
+cpsmidi.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/cpsmidi.html
+END
+sqrt.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/sqrt.html
+END
+sin.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/sin.html
+END
+octcps.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/octcps.html
+END
+cpsoct.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/cpsoct.html
+END
+isStrictlyPositive.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/isStrictlyPositive.html
+END
+exp.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/exp.html
+END
+isNegative.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/isNegative.html
+END
+squared.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/squared.html
+END
+abs.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/8950/trunk/build/Help/UnaryOps/abs.html
+END
+frac.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UnaryOps/frac.html
+END

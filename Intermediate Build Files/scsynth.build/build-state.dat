@@ -1,0 +1,2495 @@
+Tscsynth
+v7
+r0
+t281731463.735107
+cCheck dependencies
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/dtoa.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/dtoa.c normal i386 c com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/g_fmt.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/g_fmt.c normal i386 c com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_AllocPool.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_AllocPool.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_DirUtils.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_DirUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Sem.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Sem.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StandAloneInfo_Darwin.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StandAloneInfo_Darwin.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringBuffer.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringBuffer.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringParser.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringParser.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Win32Utils.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Win32Utils.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynthsend.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/scsynthsend.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/Rendezvous.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/Rendezvous.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/Samp.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/Samp.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_BufGen.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_BufGen.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Carbon.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Carbon.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Complex.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Complex.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_ComPort.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_ComPort.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_CoreAudio.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_CoreAudio.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Dimension.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Dimension.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Errors.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Errors.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Graph.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Graph.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_GraphDef.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_GraphDef.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Group.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Group.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib_Cintf.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib_Cintf.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_MiscCmds.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_MiscCmds.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Node.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Node.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Rate.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Rate.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_SequencedCommand.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SequencedCommand.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Str4.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Str4.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_SyncCondition.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SyncCondition.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Unit.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Unit.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_UnitDef.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_UnitDef.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_World.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_World.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynth_main.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/scsynth_main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cLd /Users/scott/Documents/_code/SuperCollider3/build/scsynth normal i386
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004B15D4EB00000000000000EE
+t1259721963
+s238
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AUGraph.h
+c00000000462ED685000000000000490C
+t1177474693
+s18700
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioConverter.h
+c00000000462ED6850000000000007D07
+t1177474693
+s32007
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c00000000462ED686000000000000076E
+t1177474694
+s1902
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h
+c00000000462ED67500000000000004B5
+t1177474677
+s1205
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004A1199E400000000000005BF
+t1242667492
+s1471
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardware.h
+c0000000046F2373F000000000002937B
+t1190278975
+s168827
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/HostTime.h
+c0000000046F2373F0000000000000FBB
+t1190278975
+s4027
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBundle.h
+c00000000462EA28500000000000032EC
+t1177461381
+s13036
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFMessagePort.h
+c00000000462EA2860000000000000A85
+t1177461382
+s2693
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c00000000462EA28600000000000097A2
+t1177461382
+s38818
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004A1199E300000000000003DC
+t1242667491
+s988
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/TargetConditionals.h
+c000000004628832D0000000000002617
+t1177060141
+s9751
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/assert.h
+c00000000463BAA5A0000000000000DD6
+t1178315354
+s3542
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/ctype.h
+c00000000463BAA5B0000000000002627
+t1178315355
+s9767
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/curl/curl.h
+c0000000044A70D8F000000000000C9D4
+t1151798671
+s51668
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/dirent.h
+c00000000463BAA5A0000000000001397
+t1178315354
+s5015
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/dlfcn.h
+c00000000463BAA0D0000000000000901
+t1178315277
+s2305
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/errno.h
+c00000000463BAA5A00000000000003EB
+t1178315354
+s1003
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/glob.h
+c00000000463BAA5A0000000000001215
+t1178315354
+s4629
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/libgen.h
+c00000000463BAA5A000000000000070D
+t1178315354
+s1805
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/locale.h
+c00000000463BAA5A00000000000008F0
+t1178315354
+s2288
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/mach-o/dyld.h
+c00000000463BAA0D0000000000002BE8
+t1178315277
+s11240
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/mach-o/getsect.h
+c0000000046F232B50000000000000B6F
+t1190277813
+s2927
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/machine/endian.h
+c0000000046F23500000000000000050F
+t1190278400
+s1295
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/math.h
+c00000000462E7AF500000000000004B7
+t1177451253
+s1207
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/netinet/in.h
+c0000000046F235090000000000004DCD
+t1190278409
+s19917
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/netinet/tcp.h
+c0000000046F235090000000000001DA3
+t1190278409
+s7587
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/pthread.h
+c00000000463BAA5A00000000000038D4
+t1178315354
+s14548
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/setjmp.h
+c00000000463BAA5A0000000000000438
+t1178315354
+s1080
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/signal.h
+c00000000463BAA5A00000000000012C4
+t1178315354
+s4804
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdio.h
+c00000000463BAA5A0000000000003B7F
+t1178315354
+s15231
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdlib.h
+c00000000463BAA5A0000000000002647
+t1178315354
+s9799
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/string.h
+c00000000463BAA5A00000000000014D3
+t1178315354
+s5331
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/mman.h
+c0000000046F235140000000000001CA8
+t1190278420
+s7336
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/param.h
+c0000000046F2351400000000000025D9
+t1190278420
+s9689
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/poll.h
+c0000000046F2351400000000000010BF
+t1190278420
+s4287
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/resource.h
+c0000000046F235140000000000001E51
+t1190278420
+s7761
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/socket.h
+c0000000046F235150000000000004F17
+t1190278421
+s20247
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/stat.h
+c0000000046F2351500000000000035F1
+t1190278421
+s13809
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/time.h
+c0000000046F235150000000000001FA5
+t1190278421
+s8101
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/timeb.h
+c0000000046F235150000000000000F32
+t1190278421
+s3890
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/types.h
+c0000000046F235160000000000002641
+t1190278422
+s9793
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/wait.h
+c0000000046F235160000000000002359
+t1190278422
+s9049
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/time.h
+c00000000463BAA5A00000000000016DC
+t1178315354
+s5852
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/unistd.h
+c00000000463BAA5A0000000000004EED
+t1178315354
+s20205
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/float.h
+c000000004A119235000000000000153C
+t1242665525
+s5436
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h
+c000000004A1192350000000000000C7E
+t1242665525
+s3198
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdarg.h
+c000000004A11923500000000000010D9
+t1242665525
+s4313
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stddef.h
+c000000004A1192350000000000003193
+t1242665525
+s12691
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/xmmintrin.h
+c000000004A11923500000000000091AC
+t1242665525
+s37292
+
+N/System/Library/Frameworks/AudioToolbox.framework/Headers/AUGraph.h
+c000000004A67CD070000000000006299
+t1248316679
+s25241
+
+N/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioConverter.h
+c000000004A67CD07000000000000837A
+t1248316679
+s33658
+
+N/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004A67CD070000000000000A22
+t1248316679
+s2594
+
+N/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h
+c000000004A67CCF9000000000000041D
+t1248316665
+s1053
+
+N/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004A77A8FC00000000000005FE
+t1249356028
+s1534
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004A73D8640000000000217030
+t1249106020
+s2191408
+
+N/System/Library/Frameworks/CoreAudio.framework/Headers/AudioHardware.h
+c000000004A73D820000000000002DC86
+t1249105952
+s187526
+
+N/System/Library/Frameworks/CoreAudio.framework/Headers/HostTime.h
+c000000004A73D8200000000000000F8B
+t1249105952
+s3979
+
+N/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBundle.h
+c000000004AB994880000000000003E6A
+t1253676168
+s15978
+
+N/System/Library/Frameworks/CoreFoundation.framework/Headers/CFMessagePort.h
+c000000004AB994880000000000000C0F
+t1253676168
+s3087
+
+N/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004AB99489000000000000B3BB
+t1253676169
+s46011
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004A11F09A0000000000021710
+t1242689690
+s136976
+
+N/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004A11F0980000000000000400
+t1242689688
+s1024
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_AllocPool.h
+c000000004B1E00A60000000000001C67
+t1260257446
+s7271
+i"SC_List.h"
+i"clz.h"
+i<stdlib.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_DirUtils.h
+c000000004A8130DF0000000000001045
+t1249980639
+s4165
+i<limits.h>
+i<stdio.h>
+i<stdio.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_Endian.h
+c000000004AEC99DE00000000000006D9
+t1257019870
+s1753
+i<machine/endian.h>
+i<machine/endian.h>
+i<netinet/in.h>
+i<winsock2.h>
+i<endian.h>
+i<netinet/in.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_Reply.h
+c000000004AEC99DE0000000000000607
+t1257019870
+s1543
+i<stdio.h>
+i<stdlib.h>
+i<winsock2.h>
+i<netinet/in.h>
+i"sc_msg_iter.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_Sem.h
+c000000004A8130DF0000000000000472
+t1249980639
+s1138
+i<pthread.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_StandAloneInfo_Darwin.h
+c000000004AEC99DE000000000000019B
+t1257019870
+s411
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_StringBuffer.h
+c000000004A8130DF00000000000007FF
+t1249980639
+s2047
+i<stdarg.h>
+i<stdlib.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_StringParser.h
+c000000004A8130DF0000000000000520
+t1249980639
+s1312
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/SC_Win32Utils.h
+c000000004A8130DF000000000000075E
+t1249980639
+s1886
+i<stdio.h>
+i<winsock2.h>
+i<pthread.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/common/scsynthsend.h
+c000000004AEC99DE0000000000000E58
+t1257019870
+s3672
+i"SC_Endian.h"
+i"SC_Types.h"
+i<stdexcept>
+i<cstring>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/Hash.h
+c000000004AEC99DE0000000000000FB9
+t1257019870
+s4025
+i"SC_Types.h"
+i"SC_Endian.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_BoundsMacros.h
+c000000004A8130DF00000000000004C5
+t1249980639
+s1221
+i<cstdlib>
+i<cmath>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_BufGen.h
+c000000004A8130DF00000000000004AB
+t1249980639
+s1195
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_Constants.h
+c000000004A8671870000000000000647
+t1250324871
+s1607
+i<cmath>
+i<Carbon/Carbon.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_Dimension.h
+c000000004A8130DF0000000000000426
+t1249980639
+s1062
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_FifoMsg.h
+c000000004A8130DF0000000000000638
+t1249980639
+s1592
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_Graph.h
+c000000004AEC99DE0000000000000620
+t1257019870
+s1568
+i"SC_Node.h"
+i"SC_Rate.h"
+i"SC_Dimension.h"
+i"SC_SndBuf.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_InterfaceTable.h
+c000000004B09ADB500000000000018EB
+t1258925493
+s6379
+i"SC_Types.h"
+i"SC_SndBuf.h"
+i"SC_Unit.h"
+i"SC_BufGen.h"
+i"SC_FifoMsg.h"
+i<sndfile-win.h>
+i<sndfile.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_Node.h
+c000000004AEC99DE00000000000004FF
+t1257019870
+s1279
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_RGen.h
+c000000004AEC99DE0000000000001EF3
+t1257019870
+s7923
+i"SC_Endian.h"
+i"SC_Types.h"
+i"SC_BoundsMacros.h"
+i"Hash.h"
+i<math.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_Rate.h
+c000000004AEC99DE000000000000059A
+t1257019870
+s1434
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_SndBuf.h
+c000000004B09ADB50000000000000AE6
+t1258925493
+s2790
+i<sys/types.h>
+i<sndfile-win.h>
+i<sndfile.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_Types.h
+c000000004AEC99DE000000000000066B
+t1257019870
+s1643
+i<sys/types.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_Unit.h
+c000000004AEC99DE0000000000001533
+t1257019870
+s5427
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_Wire.h
+c000000004AEC99DE0000000000000429
+t1257019870
+s1065
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_World.h
+c000000004AEC99DE0000000000000C1B
+t1257019870
+s3099
+i"SC_Types.h"
+i"SC_Rate.h"
+i"SC_SndBuf.h"
+i"SC_RGen.h"
+i"SC_Lock.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/SC_WorldOptions.h
+c000000004AEC99DE0000000000000EB8
+t1257019870
+s3768
+i<stdarg.h>
+i"SC_Types.h"
+i<CoreFoundation/CFString.h>
+i"SC_Reply.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/Unroll.h
+c000000004AEC99DE0000000000001609
+t1257019870
+s5641
+i<string.h>
+i"SC_BoundsMacros.h"
+i<assert.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/clz.h
+c000000004AEC99DE0000000000001069
+t1257019870
+s4201
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/plugin_interface/sc_msg_iter.h
+c000000004AEC99DE000000000000193A
+t1257019870
+s6458
+i"SC_Endian.h"
+i"SC_Types.h"
+i<string.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/HashTable.h
+c000000004AEC99DE0000000000002021
+t1257019870
+s8225
+i"SC_Types.h"
+i"SC_BoundsMacros.h"
+i"SC_Str4.h"
+i"Hash.h"
+i<stddef.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/MsgFifo.h
+c000000004AEC99DE0000000000001575
+t1257019870
+s5493
+i<CoreServices/CoreServices.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/OSC_Packet.h
+c000000004A8130DF00000000000004AA
+t1249980639
+s1194
+i"SC_Reply.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/PriorityQueue.h
+c000000004AEC99DE0000000000000BD2
+t1257019870
+s3026
+i<stdio.h>
+i<math.h>
+i<stdexcept>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/ReadWriteMacros.h
+c000000004AEC99DE0000000000000996
+t1257019870
+s2454
+i"SC_Types.h"
+i<stdio.h>
+i<string.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/Rendezvous.h
+c000000004AEC99DE00000000000004A8
+t1257019870
+s1192
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_ComPort.h
+c000000004AEC99DE00000000000010F8
+t1257019870
+s4344
+i<sys/types.h>
+i<winsock2.h>
+i<sys/socket.h>
+i"OSC_Packet.h"
+i"SC_Sem.h"
+i<CoreFoundation/CFMessagePort.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Complex.h
+c000000004AEC99DE0000000000000DE5
+t1257019870
+s3557
+i"SC_Types.h"
+i"float.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_CoreAudio.h
+c000000004AEC99DE0000000000002736
+t1257019870
+s10038
+i"MsgFifo.h"
+i"SC_FifoMsg.h"
+i"OSC_Packet.h"
+i"SC_SyncCondition.h"
+i"PriorityQueue.h"
+i"SC_Lock.h"
+i<CoreAudio/AudioHardware.h>
+i<CoreAudio/HostTime.h>
+i<AudioUnit/AudioUnit.h>
+i<AudioToolbox/AudioToolbox.h>
+i<AudioToolbox/AudioConverter.h>
+i<AudioToolbox/AUGraph.h>
+i"portaudio.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Errors.h
+c000000004A8130DF0000000000000602
+t1249980639
+s1538
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_GraphDef.h
+c000000004AEC99DE0000000000000926
+t1257019870
+s2342
+i"SC_SynthDef.h"
+i"HashTable.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Group.h
+c000000004AEC99DE00000000000003FD
+t1257019870
+s1021
+i"SC_Graph.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_HiddenWorld.h
+c000000004AEC99DE0000000000000B47
+t1257019870
+s2887
+i"SC_Types.h"
+i"SC_Sem.h"
+i"SC_Rate.h"
+i"SC_SndBuf.h"
+i"SC_RGen.h"
+i"HashTable.h"
+i"SC_World.h"
+i"SC_Reply.h"
+i"MsgFifo.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Lib.h
+c000000004AEC99DE0000000000000617
+t1257019870
+s1559
+i"SC_Errors.h"
+i"SC_Lock.h"
+i"SC_Types.h"
+i"Hash.h"
+i"HashTable.h"
+i<stdlib.h>
+i<string.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Lib_Cintf.h
+c000000004AEC99DE0000000000000B1E
+t1257019870
+s2846
+i"SC_Lib.h"
+i"SC_Reply.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_List.h
+c000000004AEC99DE000000000000122C
+t1257019870
+s4652
+i<stdexcept>
+i<assert.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Lock.h
+c000000004A8130DF00000000000004A6
+t1249980639
+s1190
+i<pthread.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Prototypes.h
+c000000004AEC99DE0000000000002629
+t1257019870
+s9769
+i<ctype.h>
+i"SC_Types.h"
+i"scsynthsend.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Samp.h
+c000000004A8130DF00000000000004AB
+t1249980639
+s1195
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_SequencedCommand.h
+c000000004B09ADB50000000000003445
+t1258925493
+s13381
+i"OSC_Packet.h"
+i"SC_World.h"
+i"SC_BufGen.h"
+i"sc_msg_iter.h"
+i<sndfile-win.h>
+i<sndfile.h>
+i<new>
+i"SC_GraphDef.h"
+i"SC_GraphDef.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_Str4.h
+c000000004A8130DF0000000000000997
+t1249980639
+s2455
+i"Hash.h"
+i<stdio.h>
+i<limits.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_SyncCondition.h
+c000000004A8130DF00000000000004A0
+t1249980639
+s1184
+i<pthread.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_SynthDef.h
+c000000004AEC99DE00000000000004C9
+t1257019870
+s1225
+i"SC_Types.h"
+i"sc_msg_iter.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_UnitDef.h
+c000000004AEC99DE000000000000074E
+t1257019870
+s1870
+i"SC_Types.h"
+i"SC_Unit.h"
+i"HashTable.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_UnitSpec.h
+c000000004AEC99DE00000000000004D9
+t1257019870
+s1241
+i<ctype.h>
+i"SC_Unit.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Headers/server/SC_WireSpec.h
+c000000004A8130DF00000000000004FF
+t1249980639
+s1279
+i"SC_Types.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/Rendezvous.o
+t1260038655
+s5316
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_AllocPool.o
+t1260038653
+s56884
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_BufGen.o
+t1260038655
+s20896
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Carbon.o
+t1260038657
+s7176
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_ComPort.o
+t1260038658
+s89944
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Complex.o
+t1260038658
+s15236
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_CoreAudio.o
+t1260038659
+s128576
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Dimension.o
+t1260038658
+s12700
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_DirUtils.o
+t1260038655
+s29908
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Errors.o
+t1260038658
+s3640
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Graph.o
+t1260038659
+s62080
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_GraphDef.o
+t1260038660
+s70484
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Group.o
+t1260038659
+s45356
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib.o
+t1260038659
+s48480
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib_Cintf.o
+t1260038660
+s42600
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_MiscCmds.o
+t1260038661
+s149980
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Node.o
+t1260038661
+s48464
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Rate.o
+t1260038661
+s17116
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Sem.o
+t1260038653
+s6324
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_SequencedCommand.o
+t1260038662
+s190288
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StandAloneInfo_Darwin.o
+t1260038653
+s17068
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Str4.o
+t1260038662
+s3984
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringBuffer.o
+t1260038653
+s22428
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringParser.o
+t1260038654
+s7692
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_SyncCondition.o
+t1260038662
+s7620
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Unit.o
+t1260038662
+s20008
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_UnitDef.o
+t1260038662
+s42004
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Win32Utils.o
+t1260038654
+s1084
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_World.o
+t1260038663
+s152820
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/Samp.o
+t1260038657
+s19728
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/dtoa.o
+t1260038652
+s46064
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/g_fmt.o
+t1260038651
+s3520
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynth
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynth.LinkFileList
+c000000004B1AA9FB0000000000000F72
+t1260038651
+s3954
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynth_main.o
+t1260038662
+s27928
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynthsend.o
+t1260038654
+s13564
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/Rendezvous.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_AllocPool.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_BufGen.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Carbon.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_ComPort.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Complex.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_CoreAudio.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Dimension.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_DirUtils.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Errors.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Graph.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_GraphDef.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Group.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Lib.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Lib_Cintf.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_MiscCmds.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Node.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Rate.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Sem.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_SequencedCommand.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_StandAloneInfo_Darwin.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Str4.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_StringBuffer.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_StringParser.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_SyncCondition.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Unit.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_UnitDef.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Win32Utils.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_World.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/Samp.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/dtoa.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/g_fmt.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/scsynth
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/scsynth.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/scsynth_main.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/scsynthsend.o
+t2
+s0
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_AllocPool.cpp
+c000000004B1E00810000000000004281
+t1260257409
+s17025
+i<string.h>
+i<stdexcept>
+i"SC_AllocPool.h"
+i"SC_BoundsMacros.h"
+i<assert.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_DirUtils.cpp
+c000000004B15888C000000000000320C
+t1259702412
+s12812
+i<stdlib.h>
+i<string.h>
+i<stdio.h>
+i<direct.h>
+i"SC_Win32Utils.h"
+i<dirent.h>
+i<glob.h>
+i<sys/param.h>
+i<sys/stat.h>
+i<sys/types.h>
+i<stdexcept>
+i"SC_DirUtils.h"
+i"SC_StandAloneInfo_Darwin.h"
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFBundle.h>
+i<CoreServices/CoreServices.h>
+i<curl/curl.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Sem.cpp
+c000000004A8130DA00000000000005BE
+t1249980634
+s1470
+i"SC_Sem.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StandAloneInfo_Darwin.cpp
+c000000004AEC99DD00000000000008B8
+t1257019869
+s2232
+i<sys/param.h>
+i<stdexcept>
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFBundle.h>
+i"SC_StandAloneInfo_Darwin.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringBuffer.cpp
+c000000004A8130DA0000000000000C32
+t1249980634
+s3122
+i"SC_StringBuffer.h"
+i<assert.h>
+i<stdio.h>
+i<string.h>
+i<stdexcept>
+i<stdio.h>
+i<stdarg.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringParser.cpp
+c000000004A8130DA0000000000000649
+t1249980634
+s1609
+i"SC_StringParser.h"
+i"SC_BoundsMacros.h"
+i<string.h>
+i<stdlib.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Win32Utils.cpp
+c000000004AEC99DD0000000000001849
+t1257019869
+s6217
+i<cstdio>
+i<cstring>
+i<sys/timeb.h>
+i<time.h>
+i"SC_Win32Utils.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/dtoa.c
+c000000004AEC99DD0000000000010AB9
+t1257019869
+s68281
+i"SC_Endian.h"
+i"stdio.h"
+i"stdlib.h"
+i"string.h"
+i"locale.h"
+i"errno.h"
+i"float.h"
+i"math.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/g_fmt.c
+c000000004AEC99DD00000000000009E0
+t1257019869
+s2528
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/common/scsynthsend.cpp
+c000000004A8130DA0000000000000673
+t1249980634
+s1651
+i<sys/types.h>
+i<winsock2.h>
+i<netinet/in.h>
+i<sys/socket.h>
+i"scsynthsend.h"
+i"SC_Endian.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/Rendezvous.cpp
+c000000004AEC99DC000000000000296D
+t1257019868
+s10605
+i"Rendezvous.h"
+i<CoreServices/CoreServices.h>
+i<avahi-client/client.h>
+i<avahi-client/publish.h>
+i<avahi-common/alternative.h>
+i<avahi-common/error.h>
+i<avahi-common/malloc.h>
+i<avahi-common/thread-watch.h>
+i<avahi-common/timeval.h>
+i<pthread.h>
+i<stdlib.h>
+i<stdio.h>
+i<howl.h>
+i<sys/poll.h>
+i<pthread.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_BufGen.cpp
+c000000004AEC99DC00000000000005C3
+t1257019868
+s1475
+i"SC_BufGen.h"
+i"SC_World.h"
+i"SC_Unit.h"
+i"SC_InterfaceTable.h"
+i<stdio.h>
+i<stdlib.h>
+i<dirent.h>
+i<string.h>
+i"SC_Prototypes.h"
+i"SC_Str4.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Carbon.cpp
+c000000004AEC99DC0000000000001F39
+t1257019868
+s7993
+i<stdlib.h>
+i<string.h>
+i"SC_World.h"
+i<Carbon/Carbon.h>
+i<TargetConditionals.h>
+i<stdio.h>
+i<string.h>
+i<unistd.h>
+i<signal.h>
+i<setjmp.h>
+i<xmmintrin.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_ComPort.cpp
+c000000004AEC99DC0000000000004C59
+t1257019868
+s19545
+i"SC_ComPort.h"
+i"../../headers/server/SC_ComPort.h"
+i"SC_Endian.h"
+i"SC_Lock.h"
+i"SC_HiddenWorld.h"
+i"SC_WorldOptions.h"
+i"sc_msg_iter.h"
+i<ctype.h>
+i<stdexcept>
+i<stdarg.h>
+i<winsock2.h>
+i<netinet/tcp.h>
+i<errno.h>
+i<unistd.h>
+i<errno.h>
+i<unistd.h>
+i<errno.h>
+i"Rendezvous.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Complex.cpp
+c000000004AEC99DC0000000000000DE6
+t1257019868
+s3558
+i"SC_Complex.h"
+i"SC_Constants.h"
+i"SC_Samp.h"
+i<math.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_CoreAudio.cpp
+c000000004B0879910000000000015788
+t1258846609
+s87944
+i"SC_CoreAudio.h"
+i"SC_Sem.h"
+i"SC_ComPort.h"
+i<stdarg.h>
+i"SC_SequencedCommand.h"
+i"SC_Prototypes.h"
+i"SC_HiddenWorld.h"
+i"SC_Endian.h"
+i"SC_Lib_Cintf.h"
+i<stdlib.h>
+i<pthread.h>
+i<algorithm>
+i<sys/time.h>
+i"SC_VFP11.h"
+i"SC_Win32Utils.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Dimension.cpp
+c000000004A8130DA00000000000004C3
+t1249980634
+s1219
+i"SC_Dimension.h"
+i"SC_Prototypes.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Errors.cpp
+c000000004AEC99DC0000000000000914
+t1257019868
+s2324
+i"SC_Errors.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Graph.cpp
+c000000004AEC99DC00000000000045D4
+t1257019868
+s17876
+i"SC_Graph.h"
+i"SC_GraphDef.h"
+i"SC_Unit.h"
+i"SC_UnitSpec.h"
+i"SC_UnitDef.h"
+i"SC_HiddenWorld.h"
+i"SC_Wire.h"
+i"SC_WireSpec.h"
+i<stdio.h>
+i<string.h>
+i"SC_Prototypes.h"
+i"SC_Errors.h"
+i"Unroll.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_GraphDef.cpp
+c000000004AEC99DC0000000000004AFA
+t1257019868
+s19194
+i"clz.h"
+i"SC_Graph.h"
+i"SC_GraphDef.h"
+i"SC_Wire.h"
+i"SC_WireSpec.h"
+i"SC_UnitSpec.h"
+i"SC_UnitDef.h"
+i"SC_HiddenWorld.h"
+i<stdio.h>
+i<stdlib.h>
+i<dirent.h>
+i<stdexcept>
+i"ReadWriteMacros.h"
+i"SC_Prototypes.h"
+i"SC_CoreAudio.h"
+i"SC_DirUtils.h"
+i"SC_Win32Utils.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Group.cpp
+c000000004AEC99DC00000000000030D5
+t1257019868
+s12501
+i"SC_Group.h"
+i"SC_GraphDef.h"
+i"Hash.h"
+i"sc_msg_iter.h"
+i<string.h>
+i<stdio.h>
+i"SC_Prototypes.h"
+i"SC_Str4.h"
+i"SC_World.h"
+i"SC_Errors.h"
+i"scsynthsend.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib.cpp
+c000000004AEC99DC0000000000000F94
+t1257019868
+s3988
+i"SC_Lib.h"
+i"SC_Lib_Cintf.h"
+i"SC_ComPort.h"
+i"SC_SequencedCommand.h"
+i"scsynthsend.h"
+i<string.h>
+i<ctype.h>
+i"SC_Prototypes.h"
+i"SC_Str4.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib_Cintf.cpp
+c000000004AEC99DC000000000000277A
+t1257019868
+s10106
+i"SC_Lib_Cintf.h"
+i"SC_ComPort.h"
+i"SC_CoreAudio.h"
+i"SC_UnitDef.h"
+i"SC_BufGen.h"
+i"SC_World.h"
+i"SC_StringParser.h"
+i"SC_InterfaceTable.h"
+i"SC_DirUtils.h"
+i<stdexcept>
+i<dirent.h>
+i<dlfcn.h>
+i"SC_Win32Utils.h"
+i<libgen.h>
+i<sys/param.h>
+i<mach-o/dyld.h>
+i<mach-o/getsect.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_MiscCmds.cpp
+c000000004AEC99DC000000000000C4B9
+t1257019868
+s50361
+i"SC_Lib.h"
+i"SC_ComPort.h"
+i"SC_CoreAudio.h"
+i"SC_HiddenWorld.h"
+i"SC_Graph.h"
+i"SC_GraphDef.h"
+i"SC_Group.h"
+i"SC_UnitDef.h"
+i<stdexcept>
+i"SC_Lib_Cintf.h"
+i"SC_SequencedCommand.h"
+i<new>
+i"SC_Prototypes.h"
+i"scsynthsend.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Node.cpp
+c000000004AEC99DC0000000000002D79
+t1257019868
+s11641
+i"SC_Group.h"
+i"SC_SynthDef.h"
+i"SC_World.h"
+i"SC_Errors.h"
+i<stdio.h>
+i<stdexcept>
+i<limits.h>
+i"SC_Prototypes.h"
+i"SC_HiddenWorld.h"
+i"Unroll.h"
+i"SC_Unit.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Rate.cpp
+c000000004AEC99DC0000000000000635
+t1257019868
+s1589
+i"SC_Rate.h"
+i"SC_Constants.h"
+i"SC_Prototypes.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SequencedCommand.cpp
+c000000004AEC99DC00000000000092FC
+t1257019868
+s37628
+i"SC_SequencedCommand.h"
+i"SC_CoreAudio.h"
+i"SC_Errors.h"
+i"scsynthsend.h"
+i"SC_Prototypes.h"
+i"SC_HiddenWorld.h"
+i"SC_Sem.h"
+i"SC_DirUtils.h"
+i"SC_StringParser.h"
+i"sc_msg_iter.h"
+i<string.h>
+i"sc_msg_iter.h"
+i<string.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Str4.cpp
+c000000004A8130DA0000000000000534
+t1249980634
+s1332
+i"SC_Str4.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SyncCondition.cpp
+c000000004A8130DA0000000000000947
+t1249980634
+s2375
+i"SC_SyncCondition.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Unit.cpp
+c000000004AEC99DC0000000000000A76
+t1257019868
+s2678
+i"SC_Unit.h"
+i"SC_UnitSpec.h"
+i"SC_UnitDef.h"
+i"SC_World.h"
+i"SC_Wire.h"
+i"Unroll.h"
+i<stdio.h>
+i"SC_Prototypes.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_UnitDef.cpp
+c000000004AEC99DC0000000000000EC5
+t1257019868
+s3781
+i"SC_UnitDef.h"
+i"SC_World.h"
+i"SC_Unit.h"
+i"SC_InterfaceTable.h"
+i"SC_Prototypes.h"
+i"SC_Str4.h"
+i<stdlib.h>
+i"SC_Lib_Cintf.h"
+i"sc_msg_iter.h"
+i"SC_Graph.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_World.cpp
+c000000004AEC99DC0000000000008A61
+t1257019868
+s35425
+i<string.h>
+i"SC_World.h"
+i"SC_WorldOptions.h"
+i"SC_HiddenWorld.h"
+i"SC_InterfaceTable.h"
+i"SC_AllocPool.h"
+i"SC_GraphDef.h"
+i"SC_UnitDef.h"
+i"SC_BufGen.h"
+i"SC_Node.h"
+i"SC_CoreAudio.h"
+i"SC_Group.h"
+i"SC_Errors.h"
+i<stdio.h>
+i"SC_Prototypes.h"
+i"SC_Samp.h"
+i"SC_DirUtils.h"
+i"../../headers/server/SC_ComPort.h"
+i"SC_Win32Utils.h"
+i"SC_ComPort.h"
+i"SC_StringParser.h"
+i<direct.h>
+i<sys/param.h>
+i<sys/resource.h>
+i<sys/mman.h>
+i"config.h"
+i<stdlib.h>
+i<errno.h>
+i"scsynthsend.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/Samp.cpp
+c000000004AEC99DC00000000000008C6
+t1257019868
+s2246
+i"SC_Samp.h"
+i"SC_Constants.h"
+i<stdlib.h>
+i<stdexcept>
+
+N/Users/scott/Documents/_code/SuperCollider3/Source/server/scsynth_main.cpp
+c000000004AEC99DC0000000000002ABB
+t1257019868
+s10939
+i"SC_WorldOptions.h"
+i<stdio.h>
+i<stdarg.h>
+i<stdlib.h>
+i<math.h>
+i"clz.h"
+i<stdexcept>
+i<pthread.h>
+i<winsock2.h>
+i<sys/wait.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/build/scsynth
+t1260038663
+s1594136
+
+N/Users/scott/Documents/_code/SuperCollider3/headers/server/OSC_Packet.h
+c000000004A8130DF00000000000004AA
+t1249980639
+s1194
+i"SC_Reply.h"
+
+N/Users/scott/Documents/_code/SuperCollider3/headers/server/SC_ComPort.h
+c000000004AEC99DE00000000000010F8
+t1257019870
+s4344
+i<sys/types.h>
+i<winsock2.h>
+i<sys/socket.h>
+i"OSC_Packet.h"
+i"SC_Sem.h"
+i<CoreFoundation/CFMessagePort.h>
+
+N/Users/scott/Documents/_code/SuperCollider3/libsndfile/scUBlibsndfile.a
+c000000004AEC99E7000000000047FCA0
+t1257019879
+s4717728
+
+N/Users/scott/Documents/_code/SuperCollider3/libsndfile/sndfile.h
+c000000004A8130EC0000000000004E69
+t1249980652
+s20073
+i<stdio.h>
+i<sys/types.h>
+
+N/usr/include/TargetConditionals.h
+c000000004A11A9B300000000000031E9
+t1242671539
+s12777
+
+N/usr/include/assert.h
+c000000004A5C14A60000000000000DCB
+t1247548582
+s3531
+
+N/usr/include/ctype.h
+c000000004A5C14A60000000000002C18
+t1247548582
+s11288
+
+N/usr/include/curl/curl.h
+c000000004A11D204000000000001110E
+t1242681860
+s69902
+
+N/usr/include/dirent.h
+c000000004A5C14A700000000000016D3
+t1247548583
+s5843
+
+N/usr/include/dlfcn.h
+c000000004AB98DF40000000000000B1C
+t1253674484
+s2844
+
+N/usr/include/errno.h
+c000000004A5C14A600000000000003EB
+t1247548582
+s1003
+
+N/usr/include/glob.h
+c000000004A5C14A7000000000000153D
+t1247548583
+s5437
+
+N/usr/include/libgen.h
+c000000004A5C14A60000000000000790
+t1247548582
+s1936
+
+N/usr/include/locale.h
+c000000004A5C14A600000000000008F0
+t1247548582
+s2288
+
+N/usr/include/mach-o/dyld.h
+c000000004AB98DF40000000000003D47
+t1253674484
+s15687
+
+N/usr/include/mach-o/getsect.h
+c000000004A4D4DFA0000000000000BD2
+t1246580218
+s3026
+
+N/usr/include/machine/endian.h
+c000000004A73D64900000000000006C3
+t1249105481
+s1731
+
+N/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/usr/include/netinet/in.h
+c000000004A73D64C000000000000539D
+t1249105484
+s21405
+
+N/usr/include/netinet/tcp.h
+c000000004A73D64E000000000000202F
+t1249105486
+s8239
+
+N/usr/include/pthread.h
+c000000004A5C14A700000000000038F0
+t1247548583
+s14576
+
+N/usr/include/setjmp.h
+c000000004A5C14A60000000000000438
+t1247548582
+s1080
+
+N/usr/include/signal.h
+c000000004A5C14A700000000000014F0
+t1247548583
+s5360
+
+N/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/usr/include/sys/_types.h
+c000000004A73D6560000000000001845
+t1249105494
+s6213
+
+N/usr/include/sys/mman.h
+c000000004A73D6530000000000002098
+t1249105491
+s8344
+
+N/usr/include/sys/param.h
+c000000004A73D65300000000000027BE
+t1249105491
+s10174
+
+N/usr/include/sys/poll.h
+c000000004A73D653000000000000123C
+t1249105491
+s4668
+
+N/usr/include/sys/resource.h
+c000000004A73D6540000000000002436
+t1249105492
+s9270
+
+N/usr/include/sys/socket.h
+c000000004A73D65400000000000059BC
+t1249105492
+s22972
+
+N/usr/include/sys/stat.h
+c000000004A73D6550000000000004A1D
+t1249105493
+s18973
+
+N/usr/include/sys/time.h
+c000000004A73D6550000000000001E17
+t1249105493
+s7703
+
+N/usr/include/sys/timeb.h
+c000000004A73D65500000000000010C2
+t1249105493
+s4290
+
+N/usr/include/sys/types.h
+c000000004A73D6550000000000002905
+t1249105493
+s10501
+
+N/usr/include/sys/wait.h
+c000000004A73D656000000000000273C
+t1249105494
+s10044
+
+N/usr/include/time.h
+c000000004A5C14A7000000000000178E
+t1247548583
+s6030
+
+N/usr/include/unistd.h
+c000000004A5C14A7000000000000563E
+t1247548583
+s22078
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004AB3AF23000000000000EA8F
+t1253289763
+s60047
+i<xmmintrin.h>
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004AB3AF230000000000001538
+t1253289763
+s5432
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004AB3AF240000000000000C7E
+t1253289764
+s3198
+i"syslimits.h"
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/mm_malloc.h
+c000000004AB3AF24000000000000093D
+t1253289764
+s2365
+i<stdlib.h>
+i<errno.h>
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/mmintrin.h
+c000000004AB3AF230000000000009260
+t1253289763
+s37472
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004AB3AF2300000000000010DD
+t1253289763
+s4317
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004AB3AF230000000000003197
+t1253289763
+s12695
+i<machine/ansi.h>
+i<sys/_types.h>
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
+c000000004AB3AC2D0000000000000155
+t1253289005
+s341
+
+N/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/xmmintrin.h
+c000000004AB3AF23000000000000BECA
+t1253289763
+s48842
+i<mmintrin.h>
+i<mm_malloc.h>
+i<emmintrin.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies281731451#281731451#0(0"0(0#1#0"4300934600#0"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/Rendezvous.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/Rendezvous.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731454.432883
+e281731455.662098
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/Rendezvous.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/Rendezvous.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@80"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/Rendezvous.cpp281731454#281731455#0(0"0(0#0#72"/Users/scott/Documents/_code/SuperCollider3/Source/server/Rendezvous.cpp4300934600#988"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/Rendezvous.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/Rendezvous.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/Rendezvous.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/Rendezvous.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_AllocPool.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_AllocPool.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731451.621680
+e281731453.383171
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_AllocPool.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_AllocPool.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@82"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_AllocPool.cpp281731451#281731453#0(0"0(0#0#74"/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_AllocPool.cpp4300934600#992"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_AllocPool.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_AllocPool.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_AllocPool.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_AllocPool.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_BufGen.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_BufGen.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731455.753057
+e281731455.938433
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_BufGen.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_BufGen.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@79"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_BufGen.cpp281731455#281731455#0(0"0(0#0#71"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_BufGen.cpp4300934600#986"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_BufGen.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_BufGen.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_BufGen.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_BufGen.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Carbon.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Carbon.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731455.938536
+e281731457.348023
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Carbon.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Carbon.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@79"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Carbon.cpp281731455#281731457#0(0"0(0#0#71"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Carbon.cpp4300934600#986"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Carbon.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Carbon.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Carbon.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Carbon.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_ComPort.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_ComPort.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731457.442942
+e281731458.354208
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_ComPort.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_ComPort.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@80"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_ComPort.cpp281731457#281731458#0(0"0(0#0#72"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_ComPort.cpp4300934600#988"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_ComPort.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_ComPort.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_ComPort.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_ComPort.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Complex.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Complex.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731457.348167
+e281731458.179808
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Complex.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Complex.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@80"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Complex.cpp281731457#281731458#0(0"0(0#0#72"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Complex.cpp4300934600#988"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Complex.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Complex.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Complex.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Complex.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_CoreAudio.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_CoreAudio.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731458.179895
+e281731459.206551
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_CoreAudio.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_CoreAudio.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@82"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_CoreAudio.cpp281731458#281731459#0(0"0(0#0#74"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_CoreAudio.cpp4300934600#992"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_CoreAudio.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_CoreAudio.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_CoreAudio.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_CoreAudio.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Dimension.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Dimension.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731458.354308
+e281731458.524529
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Dimension.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Dimension.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@82"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Dimension.cpp281731458#281731458#0(0"0(0#0#74"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Dimension.cpp4300934600#992"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Dimension.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Dimension.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Dimension.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Dimension.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_DirUtils.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_DirUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731452.327677
+e281731455.752961
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_DirUtils.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_DirUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@81"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_DirUtils.cpp281731452#281731455#0(0"0(0#0#73"/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_DirUtils.cpp4300934600#990"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_DirUtils.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_DirUtils.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_DirUtils.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_DirUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Errors.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Errors.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731458.524613
+e281731458.583155
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Errors.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Errors.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@79"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Errors.cpp281731458#281731458#0(0"0(0#0#71"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Errors.cpp4300934600#986"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Errors.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Errors.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Errors.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Errors.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Graph.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Graph.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731458.583241
+e281731459.443245
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Graph.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Graph.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@78"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Graph.cpp281731458#281731459#0(0"0(0#0#70"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Graph.cpp4300934600#984"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Graph.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Graph.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Graph.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Graph.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_GraphDef.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_GraphDef.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731459.206736
+e281731460.006538
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_GraphDef.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_GraphDef.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@81"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_GraphDef.cpp281731459#281731460#0(0"0(0#0#73"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_GraphDef.cpp4300934600#990"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_GraphDef.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_GraphDef.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_GraphDef.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_GraphDef.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Group.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Group.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731459.443336
+e281731459.655938
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Group.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Group.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@78"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Group.cpp281731459#281731459#0(0"0(0#0#70"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Group.cpp4300934600#984"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Group.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Group.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Group.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Group.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731459.656025
+e281731459.956917
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@76"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib.cpp281731459#281731459#0(0"0(0#0#68"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib.cpp4300934600#980"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib_Cintf.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib_Cintf.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731459.957012
+e281731460.797229
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib_Cintf.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib_Cintf.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@82"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib_Cintf.cpp281731459#281731460#0(0"0(0#0#74"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib_Cintf.cpp4300934600#992"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib_Cintf.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib_Cintf.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Lib_Cintf.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib_Cintf.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_MiscCmds.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_MiscCmds.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731460.006616
+e281731461.019554
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_MiscCmds.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_MiscCmds.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@81"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_MiscCmds.cpp281731460#281731461#0(0"0(0#0#73"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_MiscCmds.cpp4300934600#990"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_MiscCmds.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_MiscCmds.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_MiscCmds.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_MiscCmds.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Node.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Node.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731460.797502
+e281731461.480095
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Node.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Node.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@77"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Node.cpp281731460#281731461#0(0"0(0#0#69"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Node.cpp4300934600#982"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Node.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Node.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Node.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Node.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Rate.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Rate.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731461.019646
+e281731461.953601
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Rate.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Rate.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@77"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Rate.cpp281731461#281731461#0(0"0(0#0#69"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Rate.cpp4300934600#982"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Rate.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Rate.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Rate.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Rate.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Sem.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Sem.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731453.383347
+e281731453.465336
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Sem.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Sem.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@76"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Sem.cpp281731453#281731453#0(0"0(0#0#68"/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Sem.cpp4300934600#980"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Sem.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Sem.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Sem.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Sem.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_SequencedCommand.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SequencedCommand.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731461.480182
+e281731462.422064
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_SequencedCommand.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SequencedCommand.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@89"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SequencedCommand.cpp281731461#281731462#0(0"0(0#0#81"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SequencedCommand.cpp4300934600#1006"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SequencedCommand.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_SequencedCommand.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_SequencedCommand.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SequencedCommand.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StandAloneInfo_Darwin.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StandAloneInfo_Darwin.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731453.465450
+e281731453.709983
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_StandAloneInfo_Darwin.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StandAloneInfo_Darwin.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@94"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StandAloneInfo_Darwin.cpp281731453#281731453#0(0"0(0#0#86"/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StandAloneInfo_Darwin.cpp4300934600#1016"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StandAloneInfo_Darwin.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StandAloneInfo_Darwin.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StandAloneInfo_Darwin.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StandAloneInfo_Darwin.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Str4.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Str4.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731461.953694
+e281731462.005207
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Str4.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Str4.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@77"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Str4.cpp281731461#281731462#0(0"0(0#0#69"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Str4.cpp4300934600#982"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Str4.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Str4.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Str4.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Str4.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringBuffer.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringBuffer.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731453.710067
+e281731453.993358
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringBuffer.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringBuffer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@85"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringBuffer.cpp281731453#281731453#0(0"0(0#0#77"/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringBuffer.cpp4300934600#998"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringBuffer.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringBuffer.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringBuffer.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringBuffer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringParser.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringParser.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731453.993445
+e281731454.132807
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringParser.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringParser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@85"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringParser.cpp281731453#281731454#0(0"0(0#0#77"/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringParser.cpp4300934600#998"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringParser.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringParser.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_StringParser.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringParser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_SyncCondition.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SyncCondition.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731462.005307
+e281731462.041564
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_SyncCondition.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SyncCondition.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@86"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SyncCondition.cpp281731462#281731462#0(0"0(0#0#78"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SyncCondition.cpp4300934600#1000"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SyncCondition.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_SyncCondition.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_SyncCondition.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SyncCondition.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Unit.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Unit.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731462.041654
+e281731462.211546
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Unit.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Unit.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@77"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Unit.cpp281731462#281731462#0(0"0(0#0#69"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Unit.cpp4300934600#982"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Unit.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Unit.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Unit.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Unit.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_UnitDef.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_UnitDef.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731462.211636
+e281731462.442446
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_UnitDef.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_UnitDef.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@80"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_UnitDef.cpp281731462#281731462#0(0"0(0#0#72"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_UnitDef.cpp4300934600#988"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_UnitDef.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_UnitDef.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_UnitDef.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_UnitDef.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Win32Utils.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Win32Utils.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731454.132891
+e281731454.189307
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_Win32Utils.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Win32Utils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@83"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Win32Utils.cpp281731454#281731454#0(0"0(0#0#75"/Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Win32Utils.cpp4300934600#994"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Win32Utils.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Win32Utils.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_Win32Utils.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Win32Utils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_World.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_World.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731462.422214
+e281731463.097712
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/SC_World.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_World.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@78"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_World.cpp281731462#281731463#0(0"0(0#0#70"/Users/scott/Documents/_code/SuperCollider3/Source/server/SC_World.cpp4300934600#984"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_World.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_World.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/SC_World.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_World.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/Samp.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/Samp.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731455.662218
+e281731457.442848
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/Samp.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/Samp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@74"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/Samp.cpp281731455#281731457#0(0"0(0#0#66"/Users/scott/Documents/_code/SuperCollider3/Source/server/Samp.cpp4300934600#976"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/Samp.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/Samp.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/Samp.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/Samp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/dtoa.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/dtoa.c normal i386 c com.apple.compilers.gcc.4_0
+s281731451.445748
+e281731452.327580
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/dtoa.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/dtoa.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@72"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/dtoa.c281731451#281731452#0(0"0(0#0#64"/Users/scott/Documents/_code/SuperCollider3/Source/common/dtoa.c4300934600#944"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/common/dtoa.c -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/dtoa.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/dtoa.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/dtoa.c normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/g_fmt.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/g_fmt.c normal i386 c com.apple.compilers.gcc.4_0
+s281731451.447631
+e281731451.621539
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/g_fmt.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/g_fmt.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@73"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/g_fmt.c281731451#281731451#0(0"0(0#0#65"/Users/scott/Documents/_code/SuperCollider3/Source/common/g_fmt.c4300934600#946"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/common/g_fmt.c -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/g_fmt.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/g_fmt.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/g_fmt.c normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynth_main.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/scsynth_main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731462.442540
+e281731462.677913
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/scsynth_main.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/server/scsynth_main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@82"Compile /Users/scott/Documents/_code/SuperCollider3/Source/server/scsynth_main.cpp281731462#281731462#0(0"0(0#0#74"/Users/scott/Documents/_code/SuperCollider3/Source/server/scsynth_main.cpp4300934600#992"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/server/scsynth_main.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynth_main.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynth_main.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/scsynth_main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynthsend.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/scsynthsend.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s281731454.189390
+e281731454.432800
+r1
+xCompileC
+xIntermediate Build Files/scsynth.build/Objects-normal/i386/scsynthsend.o
+x/Users/scott/Documents/_code/SuperCollider3/Source/common/scsynthsend.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@81"Compile /Users/scott/Documents/_code/SuperCollider3/Source/common/scsynthsend.cpp281731454#281731454#0(0"0(0#0#73"/Users/scott/Documents/_code/SuperCollider3/Source/common/scsynthsend.cpp4300934600#990"    cd /Users/scott/Documents/_code/SuperCollider3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/scsynth.hmap" -F/Users/scott/Documents/_code/SuperCollider3/build -I/Users/scott/Documents/_code/SuperCollider3/build/include "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources/i386" "-I/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/DerivedSources" -DSC_DARWIN -faltivec -c /Users/scott/Documents/_code/SuperCollider3/Source/common/scsynthsend.cpp -o "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynthsend.o"0#
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynthsend.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/scsynthsend.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/Rendezvous.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/Rendezvous.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_AllocPool.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_AllocPool.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_BufGen.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_BufGen.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Carbon.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Carbon.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_ComPort.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_ComPort.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Complex.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Complex.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_CoreAudio.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_CoreAudio.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Dimension.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Dimension.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_DirUtils.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_DirUtils.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Errors.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Errors.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Graph.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Graph.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_GraphDef.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_GraphDef.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Group.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Group.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Lib.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Lib_Cintf.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Lib_Cintf.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_MiscCmds.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_MiscCmds.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Node.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Node.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Rate.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Rate.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Sem.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Sem.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_SequencedCommand.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SequencedCommand.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_StandAloneInfo_Darwin.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StandAloneInfo_Darwin.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Str4.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Str4.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_StringBuffer.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringBuffer.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_StringParser.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_StringParser.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_SyncCondition.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_SyncCondition.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Unit.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_Unit.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_UnitDef.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_UnitDef.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_Win32Utils.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/SC_Win32Utils.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/SC_World.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/SC_World.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/Samp.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/Samp.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/dtoa.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/dtoa.c normal ppc c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/g_fmt.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/g_fmt.c normal ppc c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/scsynth_main.o" /Users/scott/Documents/_code/SuperCollider3/Source/server/scsynth_main.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "Intermediate Build Files/scsynth.build/Objects-normal/ppc/scsynthsend.o" /Users/scott/Documents/_code/SuperCollider3/Source/common/scsynthsend.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+r0
+
+CCreateUniversalBinary /Users/scott/Documents/_code/SuperCollider3/build/scsynth normal "i386 ppc"
+r0
+
+CLd "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynth" normal i386
+r0
+
+CLd "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/ppc/scsynth" normal ppc
+r0
+
+CLd /Users/scott/Documents/_code/SuperCollider3/build/scsynth normal i386
+s281731463.097796
+e281731463.735030
+r1
+xLd
+x/Users/scott/Documents/_code/SuperCollider3/build/scsynth
+xnormal
+xi386
+lSLF07#2@62"Link /Users/scott/Documents/_code/SuperCollider3/build/scsynth281731463#281731463#0(0"0(0#0#0"4300934600#734"    cd /Users/scott/Documents/_code/SuperCollider3    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/g++-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -L/Users/scott/Documents/_code/SuperCollider3/build -L/Users/scott/Documents/_code/SuperCollider3/libsndfile -L/Users/scott/Documents/_code/SuperCollider3/libsndfile -F/Users/scott/Documents/_code/SuperCollider3/build -filelist "/Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/scsynth.build/Objects-normal/i386/scsynth.LinkFileList" -mmacosx-version-min=10.4 -framework CoreAudio -framework CoreServices /Users/scott/Documents/_code/SuperCollider3/libsndfile/scUBlibsndfile.a -o /Users/scott/Documents/_code/SuperCollider3/build/scsynth0#
+

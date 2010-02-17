@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/supercollider/!svn/ver/9547/trunk/libsndfile
+END
+libsndfile.lib
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/7074/trunk/libsndfile/libsndfile.lib
+END
+VERSION
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/supercollider/!svn/ver/9547/trunk/libsndfile/VERSION
+END
+libsndfile.dll
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/7074/trunk/libsndfile/libsndfile.dll
+END
+sndfile-win.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9547/trunk/libsndfile/sndfile-win.h
+END
+scUBlibsndfile.a
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9376/trunk/libsndfile/scUBlibsndfile.a
+END
+libsndfile.a
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9162/trunk/libsndfile/libsndfile.a
+END
+sndfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/9162/trunk/libsndfile/sndfile.h
+END
+libsndfile_iphone.a
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9299/trunk/libsndfile/libsndfile_iphone.a
+END

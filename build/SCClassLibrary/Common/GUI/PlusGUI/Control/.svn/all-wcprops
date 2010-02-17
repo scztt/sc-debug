@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/PlusGUI/Control
+END
+SynthDescPlusGUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/PlusGUI/Control/SynthDescPlusGUI.sc
+END
+server-scope.sc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/PlusGUI/Control/server-scope.sc
+END
+ServerPlusGUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/PlusGUI/Control/ServerPlusGUI.sc
+END
+server-meter.sc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/supercollider/!svn/ver/9105/trunk/build/SCClassLibrary/Common/GUI/PlusGUI/Control/server-meter.sc
+END
+WiiMoteGUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/PlusGUI/Control/WiiMoteGUI.sc
+END
+SynthDescLibPlusGUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/PlusGUI/Control/SynthDescLibPlusGUI.sc
+END
+UGen-scope.sc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/PlusGUI/Control/UGen-scope.sc
+END
+GeneralHIDGUI.sc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/GUI/PlusGUI/Control/GeneralHIDGUI.sc
+END
+scopeResponse.sc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/supercollider/!svn/ver/8682/trunk/build/SCClassLibrary/Common/GUI/PlusGUI/Control/scopeResponse.sc
+END

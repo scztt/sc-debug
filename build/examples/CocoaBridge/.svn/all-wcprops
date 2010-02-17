@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/8558/trunk/build/examples/CocoaBridge
+END
+NSControl-SCWindow.scd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/8558/trunk/build/examples/CocoaBridge/NSControl-SCWindow.scd
+END
+SCNSObject control actions.scd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/supercollider/!svn/ver/8552/trunk/build/examples/CocoaBridge/SCNSObject%20control%20actions.scd
+END
+boolean.scd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8558/trunk/build/examples/CocoaBridge/boolean.scd
+END
+NSPopupButton.scd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/8558/trunk/build/examples/CocoaBridge/NSPopupButton.scd
+END
+SCNSObjectsTest.scd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/8552/trunk/build/examples/CocoaBridge/SCNSObjectsTest.scd
+END
+NSTableView.scd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/8558/trunk/build/examples/CocoaBridge/NSTableView.scd
+END
+notification.scd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/8552/trunk/build/examples/CocoaBridge/notification.scd
+END

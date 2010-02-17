@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9255/trunk/build/Help/UGens/Filters
+END
+Lag2UD.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/Lag2UD.html
+END
+Resonz.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/Resonz.html
+END
+OneZero.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/OneZero.html
+END
+HPZ1.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/HPZ1.html
+END
+Lag3.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/Lag3.html
+END
+LPZ1.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/LPZ1.html
+END
+Clip.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9255/trunk/build/Help/UGens/Filters/Clip.html
+END
+FOS.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/FOS.html
+END
+Ringz.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/Ringz.html
+END
+LagUD.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/7157/trunk/build/Help/UGens/Filters/LagUD.html
+END
+Median.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/Median.html
+END
+LinExp.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Filters/LinExp.html
+END
+Klank.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/6416/trunk/build/Help/UGens/Filters/Klank.html
+END
+BPF.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/BPF.html
+END
+Formlet.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/Formlet.html
+END
+BRF.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/BRF.html
+END
+Wrap.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9255/trunk/build/Help/UGens/Filters/Wrap.html
+END
+DynKlank.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8835/trunk/build/Help/UGens/Filters/DynKlank.html
+END
+BPZ2.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/BPZ2.html
+END
+HPF.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/HPF.html
+END
+MoogFF.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/6748/trunk/build/Help/UGens/Filters/MoogFF.html
+END
+Lag3UD.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/7157/trunk/build/Help/UGens/Filters/Lag3UD.html
+END
+BRZ2.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/BRZ2.html
+END
+LPF.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/LPF.html
+END
+Normalizer.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Filters/Normalizer.html
+END
+LeakDC.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/LeakDC.html
+END
+HPZ2.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/HPZ2.html
+END
+Fold.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9255/trunk/build/Help/UGens/Filters/Fold.html
+END
+LinLin.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Filters/LinLin.html
+END
+Lag2.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/Lag2.html
+END
+LPZ2.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/LPZ2.html
+END
+TwoPole.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/TwoPole.html
+END
+FreqShift.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/6846/trunk/build/Help/UGens/Filters/FreqShift.html
+END
+AmpComp.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/6193/trunk/build/Help/UGens/Filters/AmpComp.html
+END
+AmpCompA.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Filters/AmpCompA.html
+END
+MidEQ.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Filters/MidEQ.html
+END
+RHPF.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/RHPF.html
+END
+Ramp.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/Ramp.html
+END
+OnePole.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/OnePole.html
+END
+Lag.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/Lag.html
+END
+RLPF.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/RLPF.html
+END
+SOS.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/SOS.html
+END
+Limiter.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Filters/Limiter.html
+END
+MulAdd.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/6437/trunk/build/Help/UGens/Filters/MulAdd.html
+END
+TwoZero.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Filters/TwoZero.html
+END

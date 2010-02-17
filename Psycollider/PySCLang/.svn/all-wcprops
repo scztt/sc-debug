@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/9545/trunk/Psycollider/PySCLang
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/Psycollider/PySCLang/stdafx.h
+END
+PySCLang.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/6094/trunk/Psycollider/PySCLang/PySCLang.cpp
+END
+PySCLang.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9545/trunk/Psycollider/PySCLang/PySCLang.vcproj
+END
+PySCLang_Module_GUIStuff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/Psycollider/PySCLang/PySCLang_Module_GUIStuff.cpp
+END
+PySCLang_vpost_stuff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/Psycollider/PySCLang/PySCLang_vpost_stuff.cpp
+END
+PySCLang_Module.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/Psycollider/PySCLang/PySCLang_Module.cpp
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9417/trunk/Psycollider/PySCLang/setup.py
+END
+PySCLang_VM.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9417/trunk/Psycollider/PySCLang/PySCLang_VM.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/Psycollider/PySCLang/stdafx.cpp
+END
+PySCLang_Module.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9417/trunk/Psycollider/PySCLang/PySCLang_Module.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9417/trunk/Psycollider/PySCLang/ReadMe.txt
+END
+PySCLang.def
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/6094/trunk/Psycollider/PySCLang/PySCLang.def
+END

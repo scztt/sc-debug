@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9537/trunk/build/Help/UGens/InOut
+END
+OffsetOut.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9537/trunk/build/Help/UGens/InOut/OffsetOut.html
+END
+SoundIn.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/7061/trunk/build/Help/UGens/InOut/SoundIn.html
+END
+MaxLocalBufs.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/8480/trunk/build/Help/UGens/InOut/MaxLocalBufs.html
+END
+LocalIn.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/InOut/LocalIn.html
+END
+LocalOut.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/InOut/LocalOut.html
+END
+LocalBuf.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8480/trunk/build/Help/UGens/InOut/LocalBuf.html
+END
+AudioIn.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/8396/trunk/build/Help/UGens/InOut/AudioIn.html
+END
+AbstractIn.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8949/trunk/build/Help/UGens/InOut/AbstractIn.html
+END
+AbstractOut.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8949/trunk/build/Help/UGens/InOut/AbstractOut.html
+END
+InTrig.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/InOut/InTrig.html
+END
+SharedIn.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/InOut/SharedIn.html
+END
+SharedOut.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/InOut/SharedOut.html
+END
+XOut.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9537/trunk/build/Help/UGens/InOut/XOut.html
+END
+ReplaceOut.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9203/trunk/build/Help/UGens/InOut/ReplaceOut.html
+END
+In.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/InOut/In.html
+END
+Out.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9537/trunk/build/Help/UGens/InOut/Out.html
+END
+InFeedback.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8948/trunk/build/Help/UGens/InOut/InFeedback.html
+END

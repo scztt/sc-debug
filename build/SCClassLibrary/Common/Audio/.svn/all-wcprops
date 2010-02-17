@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9534/trunk/build/SCClassLibrary/Common/Audio
+END
+SystemSynthDefs.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/SystemSynthDefs.sc
+END
+MoogFF.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/MoogFF.sc
+END
+Pan.sc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Pan.sc
+END
+FFT.sc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9534/trunk/build/SCClassLibrary/Common/Audio/FFT.sc
+END
+BEQSuite.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/BEQSuite.sc
+END
+BasicOpsUGen.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/BasicOpsUGen.sc
+END
+EnvGen.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/EnvGen.sc
+END
+Osc.sc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9504/trunk/build/SCClassLibrary/Common/Audio/Osc.sc
+END
+AudioIn.sc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/AudioIn.sc
+END
+asSynthDesc.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9452/trunk/build/SCClassLibrary/Common/Audio/asSynthDesc.sc
+END
+Hilbert.sc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/7502/trunk/build/SCClassLibrary/Common/Audio/Hilbert.sc
+END
+canFreeSynth.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/canFreeSynth.sc
+END
+PartConv.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/PartConv.sc
+END
+InfoUGens.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/InfoUGens.sc
+END
+PhysicalModel.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9169/trunk/build/SCClassLibrary/Common/Audio/PhysicalModel.sc
+END
+InOut.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/InOut.sc
+END
+MacUGens.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9460/trunk/build/SCClassLibrary/Common/Audio/MacUGens.sc
+END
+UGenCategories.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/UGenCategories.sc
+END
+SynthDesc.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9531/trunk/build/SCClassLibrary/Common/Audio/SynthDesc.sc
+END
+FSinOsc.sc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/FSinOsc.sc
+END
+Trig.sc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Trig.sc
+END
+PitchShift.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/PitchShift.sc
+END
+Poll.sc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Poll.sc
+END
+Compander.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Compander.sc
+END
+Noise.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Noise.sc
+END
+Pluck.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Pluck.sc
+END
+FFTUnpacking.sc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/FFTUnpacking.sc
+END
+Delays.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Delays.sc
+END
+MachineListening.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/MachineListening.sc
+END
+DiskIO.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/DiskIO.sc
+END
+Gendyn.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Gendyn.sc
+END
+SynthDef.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/SynthDef.sc
+END
+iPhoneUGens.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/iPhoneUGens.sc
+END
+Filter.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Filter.sc
+END
+InterplEnv.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/InterplEnv.sc
+END
+Line.sc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Line.sc
+END
+Demand.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Demand.sc
+END
+Env.sc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9422/trunk/build/SCClassLibrary/Common/Audio/Env.sc
+END
+Splay.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Splay.sc
+END
+PSinGrain.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/PSinGrain.sc
+END
+IEnvGen.sc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/IEnvGen.sc
+END
+Mix.sc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Mix.sc
+END
+Chaos.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/Chaos.sc
+END
+UGen.sc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/UGen.sc
+END
+FreeVerb.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/FreeVerb.sc
+END
+FFT2.sc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/FFT2.sc
+END
+GrainUGens.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9469/trunk/build/SCClassLibrary/Common/Audio/GrainUGens.sc
+END
+BufIO.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/BufIO.sc
+END
+CheckBadValues.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/CheckBadValues.sc
+END
+GVerb.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/GVerb.sc
+END
+DelayWr.sc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/Audio/DelayWr.sc
+END

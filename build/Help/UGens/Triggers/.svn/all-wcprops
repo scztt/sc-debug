@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/8961/trunk/build/Help/UGens/Triggers
+END
+LeastChange.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/8167/trunk/build/Help/UGens/Triggers/LeastChange.html
+END
+SendTrig.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8677/trunk/build/Help/UGens/Triggers/SendTrig.html
+END
+Peak.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/8961/trunk/build/Help/UGens/Triggers/Peak.html
+END
+Gate.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/6421/trunk/build/Help/UGens/Triggers/Gate.html
+END
+Timer.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/UGens/Triggers/Timer.html
+END
+Stepper.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/Stepper.html
+END
+TDelay.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/TDelay.html
+END
+TWindex.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/TWindex.html
+END
+InRange.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/InRange.html
+END
+Sweep.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/Sweep.html
+END
+RunningMin.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/RunningMin.html
+END
+InRect.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/6442/trunk/build/Help/UGens/Triggers/InRect.html
+END
+RunningMax.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/RunningMax.html
+END
+Trig1.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/7693/trunk/build/Help/UGens/Triggers/Trig1.html
+END
+MostChange.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/8166/trunk/build/Help/UGens/Triggers/MostChange.html
+END
+PeakFollower.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/PeakFollower.html
+END
+Schmidt.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/Schmidt.html
+END
+TWChoose.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8193/trunk/build/Help/UGens/Triggers/TWChoose.html
+END
+Phasor.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/6846/trunk/build/Help/UGens/Triggers/Phasor.html
+END
+ToggleFF.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/ToggleFF.html
+END
+PulseDivider.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/PulseDivider.html
+END
+LastValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/LastValue.html
+END
+PulseCount.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/PulseCount.html
+END
+TChoose.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8183/trunk/build/Help/UGens/Triggers/TChoose.html
+END
+SendReply.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/8747/trunk/build/Help/UGens/Triggers/SendReply.html
+END
+Trig.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/Trig.html
+END
+Poll.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/UGens/Triggers/Poll.html
+END
+SetResetFF.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/7371/trunk/build/Help/UGens/Triggers/SetResetFF.html
+END

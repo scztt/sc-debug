@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/WiiMote_OSX
+END
+HISTORY.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/WiiMote_OSX/HISTORY.txt
+END
+wiiremote.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/WiiMote_OSX/wiiremote.c
+END
+COPYRIGHT.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/6094/trunk/Source/lang/LangPrimSource/WiiMote_OSX/COPYRIGHT.txt
+END
+wiiremote.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/WiiMote_OSX/wiiremote.h
+END

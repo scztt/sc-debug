@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath
+END
+License
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/License
+END
+libsimdmath.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/libsimdmath.pdf
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9482/trunk/nova-simd/libsimdmath/Makefile
+END

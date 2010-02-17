@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/8394/trunk/build/Help/BinaryOps
+END
+hypotApx.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/hypotApx.html
+END
+ring1.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/ring1.html
+END
+scaleneg.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/scaleneg.html
+END
+ring3.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/ring3.html
+END
+division.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/division.html
+END
+round.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/round.html
+END
+difsqr.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/difsqr.html
+END
+sqrsum.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/sqrsum.html
+END
+excess.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/excess.html
+END
+addition.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/addition.html
+END
+subtraction.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/subtraction.html
+END
+greaterthan.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/7063/trunk/build/Help/BinaryOps/greaterthan.html
+END
+amclip.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/amclip.html
+END
+atan2.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/atan2.html
+END
+fold2.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/fold2.html
+END
+clip2.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/clip2.html
+END
+lessorequalthan.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/7063/trunk/build/Help/BinaryOps/lessorequalthan.html
+END
+ring2.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/ring2.html
+END
+lessthan.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/7063/trunk/build/Help/BinaryOps/lessthan.html
+END
+ring4.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/ring4.html
+END
+min.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/min.html
+END
+max.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/max.html
+END
+sqrdif.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/sqrdif.html
+END
+absdif.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/absdif.html
+END
+sumsqr.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/sumsqr.html
+END
+trunc.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/trunc.html
+END
+wrap2.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/wrap2.html
+END
+thresh.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/thresh.html
+END
+multiplication.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/multiplication.html
+END
+greaterorequalthan.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/7063/trunk/build/Help/BinaryOps/greaterorequalthan.html
+END
+modulo.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/6430/trunk/build/Help/BinaryOps/modulo.html
+END
+hypot.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/BinaryOps/hypot.html
+END
+exponentiation.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/8269/trunk/build/Help/BinaryOps/exponentiation.html
+END
+pow.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/8268/trunk/build/Help/BinaryOps/pow.html
+END

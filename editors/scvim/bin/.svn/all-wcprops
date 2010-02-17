@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/supercollider/!svn/ver/9425/trunk/editors/scvim/bin
+END
+scvim
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9425/trunk/editors/scvim/bin/scvim
+END
+sclangpipe_app
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9332/trunk/editors/scvim/bin/sclangpipe_app
+END
+scvim_make_help
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9177/trunk/editors/scvim/bin/scvim_make_help
+END

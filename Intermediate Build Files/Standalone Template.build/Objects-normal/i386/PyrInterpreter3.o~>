@@ -1,0 +1,36 @@
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:22:21: error: Opcodes.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:23:28: error: PyrInterpreter.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:24:26: error: PyrPrimitive.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:25:31: error: PyrPrimitiveProto.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:26:25: error: PyrMathPrim.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:27:25: error: PyrListPrim.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:28:23: error: PyrKernel.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:29:24: error: PyrMessage.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:30:26: error: PyrParseNode.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:31:23: error: PyrSignal.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:32:22: error: PyrSched.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:33:30: error: SC_InlineUnaryOp.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:34:31: error: SC_InlineBinaryOp.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:35:28: error: PyrKernelProto.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:36:28: error: PyrSymbolTable.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:54:23: error: InitAlloc.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:55:20: error: bullet.h: No such file or directory
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:61: error: 'int32' does not name a type
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:62: error: 'int32' does not name a type
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:69: error: 'VMGlobals' does not name a type
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:70: error: expected constructor, destructor, or type conversion before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:72: error: expected initializer before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:92: error: 'PyrBlock' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:92: error: 'theBlock' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:92: error: 'PyrClass' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:92: error: 'theClass' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:92: error: expected primary-expression before 'unsigned'
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:92: error: initializer expression list treated as compound expression
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:93: error: 'PyrSlot' has not been declared
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:103: error: expected initializer before '*' token
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:110: error: variable or field 'runInterpreter' declared void
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:110: error: 'VMGlobals' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:110: error: 'g' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:110: error: 'PyrSymbol' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:110: error: 'selector' was not declared in this scope
+/Users/scott/Documents/_code/SuperCollider3/Source/lang/LangSource/PyrInterpreter3.cpp:110: error: expected primary-expression before 'int'

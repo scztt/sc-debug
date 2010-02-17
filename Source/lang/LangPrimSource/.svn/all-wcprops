@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9547/trunk/Source/lang/LangPrimSource
+END
+PyrArchiver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/PyrArchiver.cpp
+END
+PyrListPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangPrimSource/PyrListPrim.cpp
+END
+PyrCharPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/PyrCharPrim.cpp
+END
+PyrSignalPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangPrimSource/PyrSignalPrim.cpp
+END
+PyrBitPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/PyrBitPrim.cpp
+END
+PyrFilePrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9547/trunk/Source/lang/LangPrimSource/PyrFilePrim.cpp
+END
+PyrSerialPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangPrimSource/PyrSerialPrim.cpp
+END
+PyrPrimitive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangPrimSource/PyrPrimitive.cpp
+END
+SC_Speech.M
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/lang/LangPrimSource/SC_Speech.M
+END
+PyrUnixPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/PyrUnixPrim.cpp
+END
+PyrPlatformPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/PyrPlatformPrim.cpp
+END
+SC_ComPort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/SC_ComPort.cpp
+END
+SC_AlsaMIDI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/SC_AlsaMIDI.cpp
+END
+SC_PortMIDI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9532/trunk/Source/lang/LangPrimSource/SC_PortMIDI.cpp
+END
+PyrMathPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangPrimSource/PyrMathPrim.cpp
+END
+SC_Wii.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9474/trunk/Source/lang/LangPrimSource/SC_Wii.cpp
+END
+OSCData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9438/trunk/Source/lang/LangPrimSource/OSCData.cpp
+END
+PyrUStringPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangPrimSource/PyrUStringPrim.cpp
+END
+SC_CoreMIDI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/SC_CoreMIDI.cpp
+END
+PyrSched.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9474/trunk/Source/lang/LangPrimSource/PyrSched.cpp
+END
+PyrArrayPrimitives.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangPrimSource/PyrArrayPrimitives.cpp
+END
+SC_CoreAudioPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/SC_CoreAudioPrim.cpp
+END
+PyrSymbolPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangPrimSource/PyrSymbolPrim.cpp
+END
+PyrStringPrim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9502/trunk/Source/lang/LangPrimSource/PyrStringPrim.cpp
+END
+SC_HID.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/SC_HID.cpp
+END
+SC_Speech.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/SC_Speech.cpp
+END
+SC_LID.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9474/trunk/Source/lang/LangPrimSource/SC_LID.cpp
+END

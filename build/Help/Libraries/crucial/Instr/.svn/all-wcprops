@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/7689/trunk/build/Help/Libraries/crucial/Instr
+END
+AudioSpec.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/7397/trunk/build/Help/Libraries/crucial/Instr/AudioSpec.html
+END
+Instr.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/7188/trunk/build/Help/Libraries/crucial/Instr/Instr.html
+END
+InstrSpawner.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/6268/trunk/build/Help/Libraries/crucial/Instr/InstrSpawner.html
+END
+Patch.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/7689/trunk/build/Help/Libraries/crucial/Instr/Patch.html
+END
+Interface.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/supercollider/!svn/ver/7228/trunk/build/Help/Libraries/crucial/Instr/Interface.html
+END
+InstrAt.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/7188/trunk/build/Help/Libraries/crucial/Instr/InstrAt.html
+END
+InstrSynthDef.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/7188/trunk/build/Help/Libraries/crucial/Instr/InstrSynthDef.html
+END
+StreamSpec.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/7188/trunk/build/Help/Libraries/crucial/Instr/StreamSpec.html
+END
+ControlPrototypes.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/7188/trunk/build/Help/Libraries/crucial/Instr/ControlPrototypes.html
+END

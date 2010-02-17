@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/supercollider/!svn/ver/9561/trunk/Source/common
+END
+SC_DirUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9561/trunk/Source/common/SC_DirUtils.cpp
+END
+SC_StringBuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9082/trunk/Source/common/SC_StringBuffer.cpp
+END
+scsynthsend.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/common/scsynthsend.cpp
+END
+fftlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/common/fftlib.c
+END
+sc_popen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9500/trunk/Source/common/sc_popen.cpp
+END
+dtoa.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/common/dtoa.c
+END
+SC_StringParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9082/trunk/Source/common/SC_StringParser.cpp
+END
+SC_Win32Utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/common/SC_Win32Utils.cpp
+END
+SC_AllocPool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/common/SC_AllocPool.cpp
+END
+SC_Sem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/common/SC_Sem.cpp
+END
+SC_fftlib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/common/SC_fftlib.cpp
+END
+g_fmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/common/g_fmt.c
+END
+SC_StandAloneInfo_Darwin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/common/SC_StandAloneInfo_Darwin.cpp
+END

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9540/trunk/Source/lang/LangSource
+END
+AdvancingAllocPool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/AdvancingAllocPool.cpp
+END
+SC_TerminalClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/SC_TerminalClient.cpp
+END
+Samp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/Samp.cpp
+END
+PyrObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangSource/PyrObject.cpp
+END
+PyrMathOps.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangSource/PyrMathOps.cpp
+END
+DumpParseNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangSource/DumpParseNode.cpp
+END
+SC_LanguageClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/SC_LanguageClient.cpp
+END
+dumpByteCodes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/dumpByteCodes.cpp
+END
+PyrSymbolTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/PyrSymbolTable.cpp
+END
+PyrSignal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/PyrSignal.cpp
+END
+PyrLexer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9474/trunk/Source/lang/LangSource/PyrLexer.cpp
+END
+cmdLineFuncs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/cmdLineFuncs.cpp
+END
+PyrParseNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9478/trunk/Source/lang/LangSource/PyrParseNode.cpp
+END
+InitAlloc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/InitAlloc.cpp
+END
+PyrMessage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9477/trunk/Source/lang/LangSource/PyrMessage.cpp
+END
+SC_LibraryConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/SC_LibraryConfig.cpp
+END
+SimpleStack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/SimpleStack.cpp
+END
+PyrMathSupport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/PyrMathSupport.cpp
+END
+PyrInterpreter3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9540/trunk/Source/lang/LangSource/PyrInterpreter3.cpp
+END
+VMGlobals.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/lang/LangSource/VMGlobals.cpp
+END
+GC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/GC.cpp
+END
+PyrFileUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/PyrFileUtils.cpp
+END
+alloca.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/alloca.cpp
+END
+ByteCodeArray.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangSource/ByteCodeArray.cpp
+END

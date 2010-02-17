@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities
+END
+HID_Error_Handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities/HID_Error_Handler.h
+END
+HID_Utilities.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities/HID_Utilities.c
+END
+HID_Utilities_Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities/HID_Utilities_Internal.h
+END
+HID_Name_Lookup.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities/HID_Name_Lookup.h
+END
+HID_Queue_Utilities.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities/HID_Queue_Utilities.c
+END
+HID_Utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities/HID_Utilities.h
+END
+HID_Utilities_External.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities/HID_Utilities_External.h
+END
+HID_Queue_Utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities/HID_Queue_Utilities.h
+END
+HID_Error_Handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities/HID_Error_Handler.c
+END
+HID_Name_Lookup.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/lang/LangPrimSource/HID_Utilities/HID_Name_Lookup.c
+END

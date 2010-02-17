@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9544/trunk/build/Help/Collections
+END
+Signal.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8957/trunk/build/Help/Collections/Signal.html
+END
+Array.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/Array.html
+END
+Collections.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/Collections.html
+END
+Int8Array.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/6479/trunk/build/Help/Collections/Int8Array.html
+END
+Archive.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/Collections/Archive.html
+END
+Event.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9544/trunk/build/Help/Collections/Event.html
+END
+MultiLevelIdentityDictionary.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/Collections/MultiLevelIdentityDictionary.html
+END
+Harmonics.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/7187/trunk/build/Help/Collections/Harmonics.html
+END
+Post.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/8190/trunk/build/Help/Collections/Post.html
+END
+Scale.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8728/trunk/build/Help/Collections/Scale.html
+END
+RawArray.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/Collections/RawArray.html
+END
+Set.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/8939/trunk/build/Help/Collections/Set.html
+END
+loadPaths example.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Collections/loadPaths%20example.html
+END
+SortedList.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Collections/SortedList.html
+END
+SparseArray.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/SparseArray.html
+END
+LibraryBase.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8909/trunk/build/Help/Collections/LibraryBase.html
+END
+LinkedList.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/Collections/LinkedList.html
+END
+Tuning.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8575/trunk/build/Help/Collections/Tuning.html
+END
+SymbolArray.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/Collections/SymbolArray.html
+END
+FloatArray.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/FloatArray.html
+END
+Environment.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/7597/trunk/build/Help/Collections/Environment.html
+END
+Library.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/8909/trunk/build/Help/Collections/Library.html
+END
+Dictionary.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8939/trunk/build/Help/Collections/Dictionary.html
+END
+IdentitySet.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8939/trunk/build/Help/Collections/IdentitySet.html
+END
+LinkedListNode.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/8953/trunk/build/Help/Collections/LinkedListNode.html
+END
+Wavetable.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/8957/trunk/build/Help/Collections/Wavetable.html
+END
+OrderedIdentitySet.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/OrderedIdentitySet.html
+END
+Order.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/Order.html
+END
+Association.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8910/trunk/build/Help/Collections/Association.html
+END
+ObjectTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/Collections/ObjectTable.html
+END
+IdentityDictionary.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/8939/trunk/build/Help/Collections/IdentityDictionary.html
+END
+Interval.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/Interval.html
+END
+PriorityQueue.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/6094/trunk/build/Help/Collections/PriorityQueue.html
+END
+Bag.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/Bag.html
+END
+TwoWayIdentityDictionary.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/8945/trunk/build/Help/Collections/TwoWayIdentityDictionary.html
+END
+Pair.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/Pair.html
+END
+Collection.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/Collection.html
+END
+Int32Array.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6481/trunk/build/Help/Collections/Int32Array.html
+END
+Int16Array.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/6480/trunk/build/Help/Collections/Int16Array.html
+END
+ArrayedCollection.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9148/trunk/build/Help/Collections/ArrayedCollection.html
+END
+IdentityBag.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/IdentityBag.html
+END
+Array2D.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/Array2D.html
+END
+Event_types.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9539/trunk/build/Help/Collections/Event_types.html
+END
+String.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9148/trunk/build/Help/Collections/String.html
+END
+SequenceableCollection.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9514/trunk/build/Help/Collections/SequenceableCollection.html
+END
+DoubleArray.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/DoubleArray.html
+END
+List.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/8940/trunk/build/Help/Collections/List.html
+END

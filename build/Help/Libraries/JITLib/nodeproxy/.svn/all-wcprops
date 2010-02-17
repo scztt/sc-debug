@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9400/trunk/build/Help/Libraries/JITLib/nodeproxy
+END
+Ndef.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9080/trunk/build/Help/Libraries/JITLib/nodeproxy/Ndef.html
+END
+BusPlug.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/8200/trunk/build/Help/Libraries/JITLib/nodeproxy/BusPlug.html
+END
+RecNodeProxy.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/8511/trunk/build/Help/Libraries/JITLib/nodeproxy/RecNodeProxy.html
+END
+NodeMap.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/6846/trunk/build/Help/Libraries/JITLib/nodeproxy/NodeMap.html
+END
+playN.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/8530/trunk/build/Help/Libraries/JITLib/nodeproxy/playN.html
+END
+ProxySynthDef.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/8461/trunk/build/Help/Libraries/JITLib/nodeproxy/ProxySynthDef.html
+END
+Monitor.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/8530/trunk/build/Help/Libraries/JITLib/nodeproxy/Monitor.html
+END
+NodeProxy.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9400/trunk/build/Help/Libraries/JITLib/nodeproxy/NodeProxy.html
+END
+EnvGate.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/8939/trunk/build/Help/Libraries/JITLib/nodeproxy/EnvGate.html
+END
+TempoBusClock.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/8166/trunk/build/Help/Libraries/JITLib/nodeproxy/TempoBusClock.html
+END
+NodeProxy_roles.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9400/trunk/build/Help/Libraries/JITLib/nodeproxy/NodeProxy_roles.html
+END

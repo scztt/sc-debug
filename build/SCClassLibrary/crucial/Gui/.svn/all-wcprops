@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui
+END
+ObjectGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/ObjectGui.sc
+END
+StringGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/StringGui.sc
+END
+CXMenu.sc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/CXMenu.sc
+END
+GridLayout.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/GridLayout.sc
+END
+Updater.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/Updater.sc
+END
+gui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/gui.sc
+END
+SelectButtonSet.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/SelectButtonSet.sc
+END
+SynthConsole.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/SynthConsole.sc
+END
+ActionButton.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9214/trunk/build/SCClassLibrary/crucial/Gui/ActionButton.sc
+END
+MLIDbrowser.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/MLIDbrowser.sc
+END
+CXLabel.sc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/CXLabel.sc
+END
+PageLayout.sc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Gui/PageLayout.sc
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/supercollider/!svn/ver/9578/trunk/build
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/supercollider/!svn/ver/9561/trunk/build/ChangeLog
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/supercollider/!svn/ver/6094/trunk/build/.cvsignore
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/supercollider/!svn/ver/9417/trunk/build/README
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/supercollider/!svn/ver/9579/trunk/nova-simd/testsuite
+END
+simd_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9485/trunk/nova-simd/testsuite/simd_tests.cpp
+END
+simd_binary_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9579/trunk/nova-simd/testsuite/simd_binary_tests.cpp
+END
+simd_ternary_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/supercollider/!svn/ver/9485/trunk/nova-simd/testsuite/simd_ternary_tests.cpp
+END
+softclip_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9485/trunk/nova-simd/testsuite/softclip_test.cpp
+END
+test_helper.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9485/trunk/nova-simd/testsuite/test_helper.hpp
+END
+simd_round_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9572/trunk/nova-simd/testsuite/simd_round_tests.cpp
+END
+simd_memory_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/supercollider/!svn/ver/9572/trunk/nova-simd/testsuite/simd_memory_tests.cpp
+END
+simd_math_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/9572/trunk/nova-simd/testsuite/simd_math_tests.cpp
+END
+simd_mix_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9572/trunk/nova-simd/testsuite/simd_mix_tests.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9572/trunk/nova-simd/testsuite/CMakeLists.txt
+END
+ampmod_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/supercollider/!svn/ver/9485/trunk/nova-simd/testsuite/ampmod_test.cpp
+END
+simd_unary_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/9487/trunk/nova-simd/testsuite/simd_unary_tests.cpp
+END
+simd_pan_tests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9572/trunk/nova-simd/testsuite/simd_pan_tests.cpp
+END

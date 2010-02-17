@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/supercollider/!svn/ver/9561/trunk/windows
+END
+LicenseForWinInstaller.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9079/trunk/windows/LicenseForWinInstaller.rtf
+END
+copyright_info_forwinbundle.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/supercollider/!svn/ver/8192/trunk/windows/copyright_info_forwinbundle.txt
+END
+SC3Win.sln
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/supercollider/!svn/ver/9001/trunk/windows/SC3Win.sln
+END
+keywords.list
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/supercollider/!svn/ver/9553/trunk/windows/keywords.list
+END
+TODO.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/supercollider/!svn/ver/8247/trunk/windows/TODO.txt
+END
+INSTALL.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/supercollider/!svn/ver/8192/trunk/windows/INSTALL.txt
+END
+startup.sc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/supercollider/!svn/ver/8192/trunk/windows/startup.sc
+END
+sc3-win-installer-template.wxs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/supercollider/!svn/ver/9561/trunk/windows/sc3-win-installer-template.wxs
+END
+Win32Tests.sc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/supercollider/!svn/ver/7073/trunk/windows/Win32Tests.sc
+END
+distrowin.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/9558/trunk/windows/distrowin.py
+END
+WindowsReleaseHowTo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/8192/trunk/windows/WindowsReleaseHowTo.txt
+END
+scsynth.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/8443/trunk/windows/scsynth.vcproj
+END

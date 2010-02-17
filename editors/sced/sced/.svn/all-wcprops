@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/supercollider/!svn/ver/9335/trunk/editors/sced/sced
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/8378/trunk/editors/sced/sced/util.py
+END
+Logger.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/8378/trunk/editors/sced/sced/Logger.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/8378/trunk/editors/sced/sced/__init__.py
+END
+Settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/8378/trunk/editors/sced/sced/Settings.py
+END
+LogPanel.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/8378/trunk/editors/sced/sced/LogPanel.py
+END
+ConfigurationDialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/supercollider/!svn/ver/8378/trunk/editors/sced/sced/ConfigurationDialog.py
+END
+ScLang.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9335/trunk/editors/sced/sced/ScLang.py
+END
+WindowHelper.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/8804/trunk/editors/sced/sced/WindowHelper.py
+END

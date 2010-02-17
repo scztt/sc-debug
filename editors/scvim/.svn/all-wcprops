@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/supercollider/!svn/ver/9425/trunk/editors/scvim
+END
+BUGS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/supercollider/!svn/ver/7503/trunk/editors/scvim/BUGS
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/supercollider/!svn/ver/9279/trunk/editors/scvim/TODO
+END
+scvimrc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/supercollider/!svn/ver/9280/trunk/editors/scvim/scvimrc
+END
+SConstruct
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scvim/SConstruct
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/supercollider/!svn/ver/7503/trunk/editors/scvim/COPYING
+END
+SCVim.scd
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9177/trunk/editors/scvim/SCVim.scd
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/supercollider/!svn/ver/7728/trunk/editors/scvim/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scvim/README
+END

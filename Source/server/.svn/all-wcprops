@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/supercollider/!svn/ver/9466/trunk/Source/server
+END
+SC_CoreAudio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9466/trunk/Source/server/SC_CoreAudio.cpp
+END
+scsynth_main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/scsynth_main.cpp
+END
+SC_SequencedCommand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_SequencedCommand.cpp
+END
+Samp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/Samp.cpp
+END
+SC_Errors.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_Errors.cpp
+END
+Rendezvous.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/Rendezvous.cpp
+END
+SC_Unit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_Unit.cpp
+END
+SC_GraphDef.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_GraphDef.cpp
+END
+SC_ComPort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_ComPort.cpp
+END
+SC_SyncCondition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/server/SC_SyncCondition.cpp
+END
+SC_Dimension.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/server/SC_Dimension.cpp
+END
+SC_Node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_Node.cpp
+END
+SC_World.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9420/trunk/Source/server/SC_World.cpp
+END
+SC_Lib_Cintf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_Lib_Cintf.cpp
+END
+SC_Rate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_Rate.cpp
+END
+SC_Group.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_Group.cpp
+END
+SC_Str4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9079/trunk/Source/server/SC_Str4.cpp
+END
+SC_UnitDef.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_UnitDef.cpp
+END
+SC_Graph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/supercollider/!svn/ver/9431/trunk/Source/server/SC_Graph.cpp
+END
+SC_MiscCmds.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_MiscCmds.cpp
+END
+SC_Carbon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_Carbon.cpp
+END
+SC_AU.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_AU.cpp
+END
+SC_Lib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_Lib.cpp
+END
+SC_BufGen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_BufGen.cpp
+END
+SC_Complex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_Complex.cpp
+END
+SC_Jack.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9417/trunk/Source/server/SC_Jack.cpp
+END

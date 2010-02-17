@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/osx/objC
+END
+SCNSObject.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/osx/objC/SCNSObject.sc
+END
+SCWindowPlusCocoa.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/osx/objC/SCWindowPlusCocoa.sc
+END
+plusAsNSReturn.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/Common/osx/objC/plusAsNSReturn.sc
+END

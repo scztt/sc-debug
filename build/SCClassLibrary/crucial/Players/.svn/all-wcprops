@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players
+END
+PlayerEfxFunc.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/PlayerEfxFunc.sc
+END
+SimpleTrigger.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/SimpleTrigger.sc
+END
+AbstractPlayer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/AbstractPlayer.sc
+END
+PlayerBasicOps.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/PlayerBasicOps.sc
+END
+SimpleTriggerGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/supercollider/!svn/ver/6094/trunk/build/SCClassLibrary/crucial/Players/SimpleTriggerGui.sc
+END
+Silence.sc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/supercollider/!svn/ver/7778/trunk/build/SCClassLibrary/crucial/Players/Silence.sc
+END
+SimplePlayerEffect.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/SimplePlayerEffect.sc
+END
+AbstractPlayerGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/AbstractPlayerGui.sc
+END
+PlayerBasicOpsGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/supercollider/!svn/ver/6094/trunk/build/SCClassLibrary/crucial/Players/PlayerBasicOpsGui.sc
+END
+PlayerPool.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/PlayerPool.sc
+END
+pathUtilities.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/pathUtilities.sc
+END
+KrPlayer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/KrPlayer.sc
+END
+HasSubject.sc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/HasSubject.sc
+END
+PlayerPoolGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/PlayerPoolGui.sc
+END
+Patching.sc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/Patching.sc
+END
+PlayerMixer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/PlayerMixer.sc
+END
+TempoPlayer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/TempoPlayer.sc
+END
+BeatClockPlayer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/BeatClockPlayer.sc
+END
+PlayerSocket.sc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/PlayerSocket.sc
+END
+AudioInPlayer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/supercollider/!svn/ver/9417/trunk/build/SCClassLibrary/crucial/Players/AudioInPlayer.sc
+END
+PlayerMixerGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/supercollider/!svn/ver/6094/trunk/build/SCClassLibrary/crucial/Players/PlayerMixerGui.sc
+END
+BeatClockPlayerGui.sc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/supercollider/!svn/ver/6094/trunk/build/SCClassLibrary/crucial/Players/BeatClockPlayerGui.sc
+END
