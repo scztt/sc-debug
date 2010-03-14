@@ -2738,7 +2738,7 @@ SCView* NewSCScope(SCContainerView *inParent, PyrObject* inObj, SCRect inBounds)
 }
 
 SCScope::SCScope(SCContainerView *inParent, PyrObject* inObj, SCRect inBounds)
-	: SCView(inParent, inObj, inBounds), mBufNum(0), mStyle(0), mGridOn(true)
+	: SCView(inParent, inObj, inBounds), mBufNum(0), mStyle(0), mGridOn(true), mRefresh(false)
 {
 	mZoom = mInvZoom = SCMakePoint(1.,1.);
 	mScroll = SCMakePoint(0.,0.);
@@ -2768,7 +2768,8 @@ void SCScope::animate()
 {
 	bool didChange;
 	/*int err =*/ getScopeBuf(mBufNum, &mSndBuf, didChange);
-	if (didChange) refresh();
+	if (didChange || mRefresh) refresh();
+	mRefresh = false;
 }
 
 void SCScope::draw0(CGContextRef cgc)
@@ -3028,6 +3029,11 @@ int SCScope::setProperty(PyrSymbol *symbol, PyrSlot *slot)
 	if (strcmp(name, "style")==0) {
 		err = slotIntVal(slot, &mStyle);
 		if (err) return err;
+		refresh();
+		return errNone;
+	}
+	if (strcmp(name, "refresh")==0) {
+		mRefresh = IsTrue(slot);
 		refresh();
 		return errNone;
 	}

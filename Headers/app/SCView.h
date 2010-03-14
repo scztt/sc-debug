@@ -537,6 +537,7 @@ protected:
 	SCColor mWaveColors[kMaxScopeChannels];
 	SCColor mGridColor;
 	bool mGridOn;
+	bool mRefresh;
 };
 SCView* NewSCScope(SCContainerView *inParent, PyrObject* inObj, SCRect inBounds);
 
