@@ -160,6 +160,7 @@ struct PyrBlock : public PyrObjectHdr
 	PyrSlot varNames;			// ***variables in block
 	PyrSlot sourceCode;			// source code if it is a closed function.
 	PyrSlot debugTable;			// line number <> bytecode lookup table
+	PyrSlot cachedFrame;		// cached block frame
 };
 
 struct PyrMethod : public PyrBlock

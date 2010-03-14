@@ -231,6 +231,9 @@ extern int gFormatElemTag[NUMOBJFORMATS];
 void dumpObject(PyrObject *obj);
 void dumpObjectSlot(PyrSlot *slot);
 
+void initCachedFrames(VMGlobals *g);
+void initCachedFrame(VMGlobals *g, PyrMethod* method);
+
 bool respondsTo(PyrSlot *slot, PyrSymbol *selector);
 bool isSubclassOf(struct PyrClass *classobj, struct PyrClass *testclass);
 

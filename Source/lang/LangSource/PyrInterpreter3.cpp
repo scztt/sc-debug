@@ -30,6 +30,7 @@
 #include "PyrParseNode.h"
 #include "PyrSignal.h"
 #include "PyrSched.h"
+#include "PyrObject.h"
 #include "SC_InlineUnaryOp.h"
 #include "SC_InlineBinaryOp.h"
 #include "PyrKernelProto.h"
@@ -49,10 +50,20 @@
 #define kBigBigFloat DBL_MAX
 #define kSmallSmallFloat DBL_MIN
 
+#define JUMPTABLE 0
+#if JUMPTABLE
+	#define OP_(op) OP_##op
+	#define ENDOP goto end;
+#else
+	#define OP_(op) case op
+	#define ENDOP break;
+#endif
 
 #include <new>
 #include "InitAlloc.h"
 #include "bullet.h"
+
+
 
 //void tellPlugInsAboutToRun();
 double timeNow();
@@ -353,6 +364,8 @@ bool initRuntime(VMGlobals *g, int poolSize, AllocPool *inPool)
 	initPatterns();
 	initUniqueMethods();
 	initGUI();
+	initCachedFrames(g);
+	
 #if SANITYCHECKLITE
 	g->gc->SanityCheck();
 #endif
@@ -476,7 +489,7 @@ void Interpret(VMGlobals *g)
 {
 	// byte code values
 	unsigned char *ip;
-	unsigned char op1;
+	unsigned int op1;
 	int op2, op3, index, tag;
 	// interpreter globals
 
@@ -491,6 +504,11 @@ void Interpret(VMGlobals *g)
 	PyrClosure *closure;
 	PyrMethod *meth;
 	int m,mmax;
+#if JUMPTABLE
+	const itype jumpTable[] = { 
+		&&OP_0, &&OP_1, &&OP_2, &&OP_3, &&OP_4, &&OP_5, &&OP_6, &&OP_7, &&OP_8, &&OP_9, &&OP_10, &&OP_11, &&OP_12, &&OP_13, &&OP_14, &&OP_15, &&OP_16, &&OP_17, &&OP_18, &&OP_19, &&OP_20, &&OP_21, &&OP_22, &&OP_23, &&OP_24, &&OP_25, &&OP_26, &&OP_27, &&OP_28, &&OP_29, &&OP_30, &&OP_31, &&OP_32, &&OP_33, &&OP_34, &&OP_35, &&OP_36, &&OP_37, &&OP_38, &&OP_39, &&OP_40, &&OP_41, &&OP_42, &&OP_43, &&OP_44, &&OP_45, &&OP_46, &&OP_47, &&OP_48, &&OP_49, &&OP_50, &&OP_51, &&OP_52, &&OP_53, &&OP_54, &&OP_55, &&OP_56, &&OP_57, &&OP_58, &&OP_59, &&OP_60, &&OP_61, &&OP_62, &&OP_63, &&OP_64, &&OP_65, &&OP_66, &&OP_67, &&OP_68, &&OP_69, &&OP_70, &&OP_71, &&OP_72, &&OP_73, &&OP_74, &&OP_75, &&OP_76, &&OP_77, &&OP_78, &&OP_79, &&OP_80, &&OP_81, &&OP_82, &&OP_83, &&OP_84, &&OP_85, &&OP_86, &&OP_87, &&OP_88, &&OP_89, &&OP_90, &&OP_91, &&OP_92, &&OP_93, &&OP_94, &&OP_95, &&OP_96, &&OP_97, &&OP_98, &&OP_99, &&OP_100, &&OP_101, &&OP_102, &&OP_103, &&OP_104, &&OP_105, &&OP_106, &&OP_107, &&OP_108, &&OP_109, &&OP_110, &&OP_111, &&OP_112, &&OP_113, &&OP_114, &&OP_115, &&OP_116, &&OP_117, &&OP_118, &&OP_119, &&OP_120, &&OP_121, &&OP_122, &&OP_123, &&OP_124, &&OP_125, &&OP_126, &&OP_127, &&OP_128, &&OP_129, &&OP_130, &&OP_131, &&OP_132, &&OP_133, &&OP_134, &&OP_135, &&OP_136, &&OP_137, &&OP_138, &&OP_139, &&OP_140, &&OP_141, &&OP_142, &&OP_143, &&OP_144, &&OP_145, &&OP_146, &&OP_147, &&OP_148, &&OP_149, &&OP_150, &&OP_151, &&OP_152, &&OP_153, &&OP_154, &&OP_155, &&OP_156, &&OP_157, &&OP_158, &&OP_159, &&OP_160, &&OP_161, &&OP_162, &&OP_163, &&OP_164, &&OP_165, &&OP_166, &&OP_167, &&OP_168, &&OP_169, &&OP_170, &&OP_171, &&OP_172, &&OP_173, &&OP_174, &&OP_175, &&OP_176, &&OP_177, &&OP_178, &&OP_179, &&OP_180, &&OP_181, &&OP_182, &&OP_183, &&OP_184, &&OP_185, &&OP_186, &&OP_187, &&OP_188, &&OP_189, &&OP_190, &&OP_191, &&OP_192, &&OP_193, &&OP_194, &&OP_195, &&OP_196, &&OP_197, &&OP_198, &&OP_199, &&OP_200, &&OP_201, &&OP_202, &&OP_203, &&OP_204, &&OP_205, &&OP_206, &&OP_207, &&OP_208, &&OP_209, &&OP_210, &&OP_211, &&OP_212, &&OP_213, &&OP_214, &&OP_215, &&OP_216, &&OP_217, &&OP_218, &&OP_219, &&OP_220, &&OP_221, &&OP_222, &&OP_223, &&OP_224, &&OP_225, &&OP_226, &&OP_227, &&OP_228, &&OP_229, &&OP_230, &&OP_231, &&OP_232, &&OP_233, &&OP_234, &&OP_235, &&OP_236, &&OP_237, &&OP_238, &&OP_239, &&OP_240, &&OP_241, &&OP_242, &&OP_243, &&OP_244, &&OP_245, &&OP_246, &&OP_247, &&OP_248, &&OP_249, &&OP_250, &&OP_251, &&OP_252, &&OP_253, &&OP_254, &&OP_255
+	};
+#endif
 
 #if 0
 	unsigned char *bzero;
@@ -540,6 +558,7 @@ void Interpret(VMGlobals *g)
 #endif
 	op1 = ip[1];
 	++ip;
+//	op1 = *(++ip);
 #if BCSTAT
 	++bcstat[op1];
 	++bcpair[prevop][op1];
@@ -615,8 +634,12 @@ void Interpret(VMGlobals *g)
 		}
 	}
 				
+#if JUMPTABLE
+	goto *jumpTable[op1];
+#else
 	switch (op1) {
-		case 0 : //	push class
+#endif
+		OP_(0) : //	push class
 			op2 = ip[1]; ++ip; // get literal index
 			classobj = g->block->selectors.uo->slots[op2].us->u.classobj;
 			if (classobj) {
@@ -625,23 +648,23 @@ void Interpret(VMGlobals *g)
 				postfl("Execution warning: Class '%s' not found\n", g->block->selectors.uo->slots[op2].us->name);
 				slotCopy(++sp, (PyrSlot*)&gSpecialValues[svNil]);
 			}
-			break;
-		case 1 : // opExtended, opPushInstVar
+			ENDOP;
+		OP_(1) : // opExtended, opPushInstVar
 			op2 = ip[1]; ++ip; // get inst var index
 			slotCopy(++sp, &g->receiver.uo->slots[op2]);
-			break;
-		case 2 : // opExtended, opPushTempVar
+			ENDOP;
+		OP_(2) : // opExtended, opPushTempVar
 			op2 = ip[1]; // get temp var level
 			op3 = ip[2]; // get temp var index
 			ip += 2;
 			for (tframe = g->frame; --op2; tframe = tframe->context.uof) { /* noop */ }
 			slotCopy(++sp, &tframe->vars[op3]);
-			break;
-		case 3 : // opExtended, opPushTempZeroVar
+			ENDOP;
+		OP_(3) : // opExtended, opPushTempZeroVar
 			op2 = ip[1]; ++ip; // get temp var index
 			slotCopy(++sp, &g->frame->vars[op2]);
-			break;
-		case 4 : // opExtended, opPushLiteral
+			ENDOP;
+		OP_(4) : // opExtended, opPushLiteral
 			op2 = ip[1]; ++ip; // get literal index
 			// push a block as a closure if it is one
 			slot = g->block->selectors.uo->slots + op2;
@@ -662,14 +685,14 @@ void Interpret(VMGlobals *g)
 			} else {
 				slotCopy(++sp, slot);
 			}
-			break;
-		case 5 : // opExtended, opPushClassVar
+			ENDOP;
+		OP_(5) : // opExtended, opPushClassVar
 			op2 = ip[1]; // get class
 			op3 = ip[2]; // get class var index
 			ip += 2;
 			slotCopy(++sp, &g->classvars->slots[(op2<<8)|op3]);
-			break;
-		case 6 :  // opExtended, opPushSpecialValue == push a special class
+			ENDOP;
+		OP_(6) :  // opExtended, opPushSpecialValue == push a special class
 			op2 = ip[1]; ++ip; // get class name index
 			classobj = gSpecialClasses[op2]->u.classobj;
 			if (classobj) {
@@ -677,8 +700,8 @@ void Interpret(VMGlobals *g)
 			} else {
 				slotCopy(++sp, (PyrSlot*)&gSpecialValues[svNil]);
 			}
-			break;
-		case 7 : // opExtended, opStoreInstVar
+			ENDOP;
+		OP_(7) : // opExtended, opStoreInstVar
 			op2 = ip[1]; ++ip; // get inst var index
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
@@ -687,8 +710,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 8 : // opExtended, opStoreTempVar
+			ENDOP;
+		OP_(8) : // opExtended, opStoreTempVar
 			op2 = ip[1]; // get temp var level
 			op3 = ip[2]; // get temp var index
 			ip += 2;
@@ -696,15 +719,15 @@ void Interpret(VMGlobals *g)
 			slot = tframe->vars + op3;
 			slotCopy(slot, sp);
 			g->gc->GCWrite(tframe, slot);
-			break;
-		case 9 : // opExtended, opStoreClassVar
+			ENDOP;
+		OP_(9) : // opExtended, opStoreClassVar
 			op2 = ip[1]; // get index of class name literal
 			op3 = ip[2]; // get class var index
 			ip += 2;
 			slotCopy(&g->classvars->slots[(op2<<8)|op3], sp);
 			g->gc->GCWrite(g->classvars, sp);
-			break;
-		case 10 : // opExtended, opSendMsg
+			ENDOP;
+		OP_(10) : // opExtended, opSendMsg
 			numArgsPushed = ip[1]; // get num args
 			numKeyArgsPushed = ip[2]; // get num keyword args
 			op3 = ip[3]; // get selector index
@@ -716,7 +739,7 @@ void Interpret(VMGlobals *g)
 			if (numKeyArgsPushed) goto key_class_lookup;
 			else goto class_lookup;
 
-		case 11 : // opExtended, opSendSuper
+		OP_(11) : // opExtended, opSendSuper
 			numArgsPushed = ip[1]; // get num args
 			numKeyArgsPushed = ip[2]; // get num keyword args
 			op3 = ip[3]; // get selector index
@@ -729,7 +752,7 @@ void Interpret(VMGlobals *g)
 			if (numKeyArgsPushed) goto key_msg_lookup;
 			else goto msg_lookup;
 
-		case 12 :  // opExtended, opSendSpecialMsg
+		OP_(12) :  // opExtended, opSendSpecialMsg
 			numArgsPushed = ip[1]; // get num args
 			numKeyArgsPushed = ip[2]; // get num keyword args
 			op3 = ip[3]; // get selector index
@@ -741,7 +764,7 @@ void Interpret(VMGlobals *g)
 			if (numKeyArgsPushed) goto key_class_lookup;
 			else goto class_lookup;
 
-		case 13 :  // opExtended, opSendSpecialUnaryArithMsg
+		OP_(13) :  // opExtended, opSendSpecialUnaryArithMsg
 			op2 = ip[1]; ++ip; // get selector index
 			g->sp = sp; g->ip = ip;
 			g->primitiveIndex = op2;
@@ -750,25 +773,25 @@ void Interpret(VMGlobals *g)
 			g->tailCall = 0;
 #endif
 			sp = g->sp; ip = g->ip;
-			break;
-		case 14 :  // opExtended, opSendSpecialBinaryArithMsg
+			ENDOP;
+		OP_(14) :  // opExtended, opSendSpecialBinaryArithMsg
 			op2 = ip[1]; ++ip; // get selector index
 			g->sp = sp; g->ip = ip;
 			g->primitiveIndex = op2;
 			doSpecialBinaryArithMsg(g, 2, false);
 			sp = g->sp; ip = g->ip;
-			break;
-		case 15 : // opExtended, opSpecialOpcode (none yet)
+			ENDOP;
+		OP_(15) : // opExtended, opSpecialOpcode (none yet)
 			op2 = ip[1]; ++ip; // get extended special opcode
 			switch (op2) {
 				case opgProcess : // push thisProcess
-					++sp; SetObject(sp, g->process); break;
+					++sp; SetObject(sp, g->process); ENDOP;
 				case opgThread : // push thisProcess
-					++sp; SetObject(sp, g->thread); break;
+					++sp; SetObject(sp, g->thread); ENDOP;
 				case opgMethod : // push thisMethod
-					++sp; SetObject(sp, g->method); break;
+					++sp; SetObject(sp, g->method); ENDOP;
 				case opgFunctionDef : // push thisFunctionDef
-					++sp; SetObject(sp, g->block); break;
+					++sp; SetObject(sp, g->block); ENDOP;
 				case opgFunction : // push thisFunc
 					// push a closure
 					g->sp = sp; // gc may push the stack
@@ -779,30 +802,30 @@ void Interpret(VMGlobals *g)
 					SetObject(&closure->block, g->block);
 					SetObject(&closure->context, g->frame->context.uof);
 					++sp; SetObject(sp, closure);
-					break;
+					ENDOP;
 				default :
-					slotCopy(++sp, (PyrSlot*)&gSpecialValues[svNil]); break;
+					slotCopy(++sp, (PyrSlot*)&gSpecialValues[svNil]); ENDOP;
 			}
-			break;
+			ENDOP;
 		// opPushInstVar, 0..15
-		case 16 : slotCopy(++sp, &g->receiver.uo->slots[ 0]); break;
-		case 17 : slotCopy(++sp, &g->receiver.uo->slots[ 1]); break;
-		case 18 : slotCopy(++sp, &g->receiver.uo->slots[ 2]); break;
-		case 19 : slotCopy(++sp, &g->receiver.uo->slots[ 3]); break;
-		case 20 : slotCopy(++sp, &g->receiver.uo->slots[ 4]); break;
-		case 21 : slotCopy(++sp, &g->receiver.uo->slots[ 5]); break;
-		case 22 : slotCopy(++sp, &g->receiver.uo->slots[ 6]); break;
-		case 23 : slotCopy(++sp, &g->receiver.uo->slots[ 7]); break;
-		case 24 : slotCopy(++sp, &g->receiver.uo->slots[ 8]); break;
-		case 25 : slotCopy(++sp, &g->receiver.uo->slots[ 9]); break;
-		case 26 : slotCopy(++sp, &g->receiver.uo->slots[10]); break;
-		case 27 : slotCopy(++sp, &g->receiver.uo->slots[11]); break;
-		case 28 : slotCopy(++sp, &g->receiver.uo->slots[12]); break;
-		case 29 : slotCopy(++sp, &g->receiver.uo->slots[13]); break;
-		case 30 : slotCopy(++sp, &g->receiver.uo->slots[14]); break;
-		case 31 : slotCopy(++sp, &g->receiver.uo->slots[15]); break;
+		OP_(16) : slotCopy(++sp, &g->receiver.uo->slots[ 0]); ENDOP;
+		OP_(17) : slotCopy(++sp, &g->receiver.uo->slots[ 1]); ENDOP;
+		OP_(18) : slotCopy(++sp, &g->receiver.uo->slots[ 2]); ENDOP;
+		OP_(19) : slotCopy(++sp, &g->receiver.uo->slots[ 3]); ENDOP;
+		OP_(20) : slotCopy(++sp, &g->receiver.uo->slots[ 4]); ENDOP;
+		OP_(21) : slotCopy(++sp, &g->receiver.uo->slots[ 5]); ENDOP;
+		OP_(22) : slotCopy(++sp, &g->receiver.uo->slots[ 6]); ENDOP;
+		OP_(23) : slotCopy(++sp, &g->receiver.uo->slots[ 7]); ENDOP;
+		OP_(24) : slotCopy(++sp, &g->receiver.uo->slots[ 8]); ENDOP;
+		OP_(25) : slotCopy(++sp, &g->receiver.uo->slots[ 9]); ENDOP;
+		OP_(26) : slotCopy(++sp, &g->receiver.uo->slots[10]); ENDOP;
+		OP_(27) : slotCopy(++sp, &g->receiver.uo->slots[11]); ENDOP;
+		OP_(28) : slotCopy(++sp, &g->receiver.uo->slots[12]); ENDOP;
+		OP_(29) : slotCopy(++sp, &g->receiver.uo->slots[13]); ENDOP;
+		OP_(30) : slotCopy(++sp, &g->receiver.uo->slots[14]); ENDOP;
+		OP_(31) : slotCopy(++sp, &g->receiver.uo->slots[15]); ENDOP;
 
-		case 32 : // JumpIfTrue
+		OP_(32) : // JumpIfTrue
 			// cannot compare with o_false because it is NaN
 			if ( IsTrue(sp) ) {
 				jmplen = (ip[1]<<8) | ip[2];
@@ -817,115 +840,115 @@ void Interpret(VMGlobals *g)
 				goto class_lookup;
 			}
 			--sp;
-			break;
+			ENDOP;
 
 		// opPushTempVar, levels 1..7
-		case 33 : slotCopy(++sp, &g->frame->context.uof->vars[ip[1]]); ++ip; break;
-		case 34 : slotCopy(++sp, &g->frame->context.uof->context.uof->vars[ip[1]]); ++ip; break;
-		case 35 : slotCopy(++sp, &g->frame->context.uof->context.uof->context.uof->vars[ip[1]]); ++ip; break;
-		case 36 : slotCopy(++sp, &g->frame->context.uof->context.uof->context.uof->
-					context.uof->vars[ip[1]]); ++ip; break;
-		case 37 : slotCopy(++sp, &g->frame->context.uof->context.uof->context.uof->
-					context.uof->context.uof->vars[ip[1]]); ++ip; break;
-		case 38 : slotCopy(++sp, &g->frame->context.uof->context.uof->context.uof->
-					context.uof->context.uof->context.uof->vars[ip[1]]); ++ip; break;
-		case 39 : slotCopy(++sp, &g->frame->context.uof->context.uof->context.uof->
-					context.uof->context.uof->context.uof->context.uof->vars[ip[1]]); ++ip; break;
+		OP_(33) : slotCopy(++sp, &g->frame->context.uof->vars[ip[1]]); ++ip; ENDOP;
+		OP_(34) : slotCopy(++sp, &g->frame->context.uof->context.uof->vars[ip[1]]); ++ip; ENDOP;
+		OP_(35) : slotCopy(++sp, &g->frame->context.uof->context.uof->context.uof->vars[ip[1]]); ++ip; ENDOP;
+		OP_(36) : slotCopy(++sp, &g->frame->context.uof->context.uof->context.uof->
+					context.uof->vars[ip[1]]); ++ip; ENDOP;
+		OP_(37) : slotCopy(++sp, &g->frame->context.uof->context.uof->context.uof->
+					context.uof->context.uof->vars[ip[1]]); ++ip; ENDOP;
+		OP_(38) : slotCopy(++sp, &g->frame->context.uof->context.uof->context.uof->
+					context.uof->context.uof->context.uof->vars[ip[1]]); ++ip; ENDOP;
+		OP_(39) : slotCopy(++sp, &g->frame->context.uof->context.uof->context.uof->
+					context.uof->context.uof->context.uof->context.uof->vars[ip[1]]); ++ip; ENDOP;
 
 		// push literal constants.
-		case 40 :
+		OP_(40) :
 			ival = ip[1];
 			ip+=1;
 			slotCopy(++sp, &g->block->constants.uo->slots[ival]);
-			break;
-		case 41 :
+			ENDOP;
+		OP_(41) :
 			ival = (ip[1] << 8) | ip[2];
 			ip+=2;
 			slotCopy(++sp, &g->block->constants.uo->slots[ival]);
-			break;
-		case 42 :
+			ENDOP;
+		OP_(42) :
 			ival = (ip[1] << 16) | (ip[2] << 8) | ip[3];
 			ip+=3;
 			slotCopy(++sp, &g->block->constants.uo->slots[ival]);
-			break;
-		case 43 :
+			ENDOP;
+		OP_(43) :
 			ival = (ip[1] << 24) | (ip[2] << 16) | (ip[3] << 8) | ip[4];
 			ip+=4;
 			slotCopy(++sp, &g->block->constants.uo->slots[ival]);
-			break;
+			ENDOP;
 
 		// push integers.
-		case 44 :
+		OP_(44) :
 			ival = (int32)(ip[1] << 24) >> 24;
 			ip+=1;
 			++sp; SetInt(sp, ival);
-			break;
-		case 45 :
+			ENDOP;
+		OP_(45) :
 			ival = (int32)((ip[1] << 24) | (ip[2] << 16)) >> 16;
 			ip+=2;
 			++sp; SetInt(sp, ival);
-			break;
-		case 46 :
+			ENDOP;
+		OP_(46) :
 			ival = (int32)((ip[1] << 24) | (ip[2] << 16) | (ip[3] << 8)) >> 8;
 			ip+=3;
 			++sp; SetInt(sp, ival);
-			break;
-		case 47 :
+			ENDOP;
+		OP_(47) :
 			ival = (int32)((ip[1] << 24) | (ip[2] << 16) | (ip[3] << 8) | ip[4]);
 			ip+=4;
 			++sp; SetInt(sp, ival);
-			break;
+			ENDOP;
 
 
 		// opPushTempZeroVar
-		case 48 : slotCopy(++sp, &g->frame->vars[ 0]); break;
-		case 49 : slotCopy(++sp, &g->frame->vars[ 1]); break;
-		case 50 : slotCopy(++sp, &g->frame->vars[ 2]); break;
-		case 51 : slotCopy(++sp, &g->frame->vars[ 3]); break;
-		case 52 : slotCopy(++sp, &g->frame->vars[ 4]); break;
-		case 53 : slotCopy(++sp, &g->frame->vars[ 5]); break;
-		case 54 : slotCopy(++sp, &g->frame->vars[ 6]); break;
-		case 55 : slotCopy(++sp, &g->frame->vars[ 7]); break;
-		case 56 : slotCopy(++sp, &g->frame->vars[ 8]); break;
-		case 57 : slotCopy(++sp, &g->frame->vars[ 9]); break;
-		case 58 : slotCopy(++sp, &g->frame->vars[10]); break;
-		case 59 : slotCopy(++sp, &g->frame->vars[11]); break;
-		case 60 : slotCopy(++sp, &g->frame->vars[12]); break;
-		case 61 : slotCopy(++sp, &g->frame->vars[13]); break;
-		case 62 : slotCopy(++sp, &g->frame->vars[14]); break;
-		case 63 : slotCopy(++sp, &g->frame->vars[15]); break;
+		OP_(48) : slotCopy(++sp, &g->frame->vars[ 0]); ENDOP;
+		OP_(49) : slotCopy(++sp, &g->frame->vars[ 1]); ENDOP;
+		OP_(50) : slotCopy(++sp, &g->frame->vars[ 2]); ENDOP;
+		OP_(51) : slotCopy(++sp, &g->frame->vars[ 3]); ENDOP;
+		OP_(52) : slotCopy(++sp, &g->frame->vars[ 4]); ENDOP;
+		OP_(53) : slotCopy(++sp, &g->frame->vars[ 5]); ENDOP;
+		OP_(54) : slotCopy(++sp, &g->frame->vars[ 6]); ENDOP;
+		OP_(55) : slotCopy(++sp, &g->frame->vars[ 7]); ENDOP;
+		OP_(56) : slotCopy(++sp, &g->frame->vars[ 8]); ENDOP;
+		OP_(57) : slotCopy(++sp, &g->frame->vars[ 9]); ENDOP;
+		OP_(58) : slotCopy(++sp, &g->frame->vars[10]); ENDOP;
+		OP_(59) : slotCopy(++sp, &g->frame->vars[11]); ENDOP;
+		OP_(60) : slotCopy(++sp, &g->frame->vars[12]); ENDOP;
+		OP_(61) : slotCopy(++sp, &g->frame->vars[13]); ENDOP;
+		OP_(62) : slotCopy(++sp, &g->frame->vars[14]); ENDOP;
+		OP_(63) : slotCopy(++sp, &g->frame->vars[15]); ENDOP;
 
 		// case opPushLiteral
-		case 64 : slotCopy(++sp, &g->block->constants.uo->slots[ 0]); break;
-		case 65 : slotCopy(++sp, &g->block->constants.uo->slots[ 1]); break;
-		case 66 : slotCopy(++sp, &g->block->constants.uo->slots[ 2]); break;
-		case 67 : slotCopy(++sp, &g->block->constants.uo->slots[ 3]); break;
-		case 68 : slotCopy(++sp, &g->block->constants.uo->slots[ 4]); break;
-		case 69 : slotCopy(++sp, &g->block->constants.uo->slots[ 5]); break;
-		case 70 : slotCopy(++sp, &g->block->constants.uo->slots[ 6]); break;
-		case 71 : slotCopy(++sp, &g->block->constants.uo->slots[ 7]); break;
-		case 72 : slotCopy(++sp, &g->block->constants.uo->slots[ 8]); break;
-		case 73 : slotCopy(++sp, &g->block->constants.uo->slots[ 9]); break;
-		case 74 : slotCopy(++sp, &g->block->constants.uo->slots[10]); break;
-		case 75 : slotCopy(++sp, &g->block->constants.uo->slots[11]); break;
-		case 76 : slotCopy(++sp, &g->block->constants.uo->slots[12]); break;
-		case 77 : slotCopy(++sp, &g->block->constants.uo->slots[13]); break;
-		case 78 : slotCopy(++sp, &g->block->constants.uo->slots[14]); break;
-		case 79 : slotCopy(++sp, &g->block->constants.uo->slots[15]); break;
+		OP_(64) : slotCopy(++sp, &g->block->constants.uo->slots[ 0]); ENDOP;
+		OP_(65) : slotCopy(++sp, &g->block->constants.uo->slots[ 1]); ENDOP;
+		OP_(66) : slotCopy(++sp, &g->block->constants.uo->slots[ 2]); ENDOP;
+		OP_(67) : slotCopy(++sp, &g->block->constants.uo->slots[ 3]); ENDOP;
+		OP_(68) : slotCopy(++sp, &g->block->constants.uo->slots[ 4]); ENDOP;
+		OP_(69) : slotCopy(++sp, &g->block->constants.uo->slots[ 5]); ENDOP;
+		OP_(70) : slotCopy(++sp, &g->block->constants.uo->slots[ 6]); ENDOP;
+		OP_(71) : slotCopy(++sp, &g->block->constants.uo->slots[ 7]); ENDOP;
+		OP_(72) : slotCopy(++sp, &g->block->constants.uo->slots[ 8]); ENDOP;
+		OP_(73) : slotCopy(++sp, &g->block->constants.uo->slots[ 9]); ENDOP;
+		OP_(74) : slotCopy(++sp, &g->block->constants.uo->slots[10]); ENDOP;
+		OP_(75) : slotCopy(++sp, &g->block->constants.uo->slots[11]); ENDOP;
+		OP_(76) : slotCopy(++sp, &g->block->constants.uo->slots[12]); ENDOP;
+		OP_(77) : slotCopy(++sp, &g->block->constants.uo->slots[13]); ENDOP;
+		OP_(78) : slotCopy(++sp, &g->block->constants.uo->slots[14]); ENDOP;
+		OP_(79) : slotCopy(++sp, &g->block->constants.uo->slots[15]); ENDOP;
 
 		//	opPushClassVar
-		case 80 :  case 81 :  case 82 :  case 83 :
-		case 84 :  case 85 :  case 86 :  case 87 :
-		case 88 :  case 89 :  case 90 :  case 91 :
-		case 92 :  case 93 :  case 94 :  case 95 :
+		OP_(80) :  OP_(81) :  OP_(82) :  OP_(83) :
+		OP_(84) :  OP_(85) :  OP_(86) :  OP_(87) :
+		OP_(88) :  OP_(89) :  OP_(90) :  OP_(91) :
+		OP_(92) :  OP_(93) :  OP_(94) :  OP_(95) :
 			op2 = op1 & 15;
 			op3 = ip[1]; ++ip; // get class var index
 			slotCopy(++sp, &g->classvars->slots[(op2<<8)|op3]);
-			break;
+			ENDOP;
 
 		// opPushSpecialValue
-		case  96 : slotCopy(++sp, &g->receiver); break;
-		case  97 : // push one and subtract
+		OP_(96) : slotCopy(++sp, &g->receiver); ENDOP;
+		OP_(97) : // push one and subtract
 			if (IsInt(sp)) {
 				sp->ui--;
 #if TAILCALLOPTIMIZE
@@ -938,17 +961,17 @@ void Interpret(VMGlobals *g)
 				prSubNum(g, -1);
 				sp = g->sp; ip = g->ip;
 			}
-			break;
-		case  98 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svNegOne]); break;
-		case  99 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svZero]); break;
-		case 100 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svOne]); break;
-		case 101 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svTwo]); break;
-		case 102 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFHalf]); break;
-		case 103 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFNegOne]); break;
-		case 104 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFZero]); break;
-		case 105 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFOne]); break;
-		case 106 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFTwo]); break;
-		case 107 : // push one and add
+			ENDOP;
+		OP_(98) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svNegOne]); ENDOP;
+		OP_(99) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svZero]); ENDOP;
+		OP_(100) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svOne]); ENDOP;
+		OP_(101) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svTwo]); ENDOP;
+		OP_(102) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFHalf]); ENDOP;
+		OP_(103) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFNegOne]); ENDOP;
+		OP_(104) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFZero]); ENDOP;
+		OP_(105) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFOne]); ENDOP;
+		OP_(106) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFTwo]); ENDOP;
+		OP_(107) : // push one and add
 			if (IsInt(sp)) {
 				sp->ui++;
 #if TAILCALLOPTIMIZE
@@ -961,15 +984,15 @@ void Interpret(VMGlobals *g)
 				prAddNum(g, -1);
 				sp = g->sp; ip = g->ip;
 			}
-			break;
-		case 108 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svTrue]); break;
-		case 109 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFalse]); break;
-		case 110 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svNil]); break;
-		case 111 : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svInf]); break;
+			ENDOP;
+		OP_(108) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svTrue]); ENDOP;
+		OP_(109) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFalse]); ENDOP;
+		OP_(110) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svNil]); ENDOP;
+		OP_(111) : slotCopy(++sp, (PyrSlot*)&gSpecialValues[svInf]); ENDOP;
 
 		// opStoreInstVar, 0..15
 #if 1
-		case 112 :
+		OP_(112) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -977,8 +1000,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 113 :
+			ENDOP;
+		OP_(113) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -986,8 +1009,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 114 :
+			ENDOP;
+		OP_(114) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -995,8 +1018,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 115 :
+			ENDOP;
+		OP_(115) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1004,8 +1027,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 116 :
+			ENDOP;
+		OP_(116) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1013,8 +1036,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 117 :
+			ENDOP;
+		OP_(117) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1022,8 +1045,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 118 :
+			ENDOP;
+		OP_(118) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1031,8 +1054,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 119 :
+			ENDOP;
+		OP_(119) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1040,8 +1063,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 120 :
+			ENDOP;
+		OP_(120) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1049,8 +1072,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 121 :
+			ENDOP;
+		OP_(121) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1058,8 +1081,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 122 :
+			ENDOP;
+		OP_(122) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1067,8 +1090,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 123 :
+			ENDOP;
+		OP_(123) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1076,8 +1099,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 124 :
+			ENDOP;
+		OP_(124) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1085,8 +1108,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 125 :
+			ENDOP;
+		OP_(125) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1094,8 +1117,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 126 :
+			ENDOP;
+		OP_(126) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1103,8 +1126,8 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
-		case 127 :
+			ENDOP;
+		OP_(127) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1112,12 +1135,12 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
+			ENDOP;
 #else
-		case 112 :  case 113 :  case 114 :  case 115 :
-		case 116 :  case 117 :  case 118 :  case 119 :
-		case 120 :  case 121 :  case 122 :  case 123 :
-		case 124 :  case 125 :  case 126 :  case 127 :
+		OP_(112) :  OP_(113) :  OP_(114) :  OP_(115) :
+		OP_(116) :  OP_(117) :  OP_(118) :  OP_(119) :
+		OP_(120) :  OP_(121) :  OP_(122) :  OP_(123) :
+		OP_(124) :  OP_(125) :  OP_(126) :  OP_(127) :
 			obj = g->receiver.uo;
 			if (obj->obj_flags & obj_immutable) { StoreToImmutableA(g, (PyrSlot*&)sp, ip); }
 			else {
@@ -1125,60 +1148,60 @@ void Interpret(VMGlobals *g)
 				slotCopy(slot, sp--);
 				g->gc->GCWrite(obj, slot);
 			}
-			break;
+			ENDOP;
 #endif
 
 		// opStoreTempVar
-		case 128 :
+		OP_(128) :
 			op3 = ip[1]; ++ip;  // get temp var index
 			tframe = g->frame; // zero level
 			slot = tframe->vars + op3;
 			slotCopy(slot, sp--);
 			g->gc->GCWrite(tframe, slot);
-			break;
+			ENDOP;
 
-		case 129 :
+		OP_(129) :
 			op3 = ip[1]; ++ip;  // get temp var index
 			tframe = g->frame->context.uof; // one level
 			slot = tframe->vars + op3;
 			slotCopy(slot, sp--);
 			g->gc->GCWrite(tframe, slot);
-			break;
+			ENDOP;
 
-		case 130 :
+		OP_(130) :
 			op3 = ip[1]; ++ip;  // get temp var index
 			tframe = g->frame->context.uof->context.uof; // two levels
 			slot = tframe->vars + op3;
 			slotCopy(slot, sp--);
 			g->gc->GCWrite(tframe, slot);
-			break;
+			ENDOP;
 
-		case 131 :
+		OP_(131) :
 			op3 = ip[1]; ++ip;  // get temp var index
 			tframe = g->frame->context.uof->context.uof->context.uof; // three levels
 			slot = tframe->vars + op3;
 			slotCopy(slot, sp--);
 			g->gc->GCWrite(tframe, slot);
-			break;
+			ENDOP;
 
-		case 132 :
+		OP_(132) :
 			op3 = ip[1]; ++ip;  // get temp var index
 			tframe = g->frame->context.uof->context.uof->context.uof->context.uof; // four levels
 			slot = tframe->vars + op3;
 			slotCopy(slot, sp--);
 			g->gc->GCWrite(tframe, slot);
-			break;
+			ENDOP;
 
-		case 133 : case 134 : case 135 :
+		OP_(133) : OP_(134) : OP_(135) :
 			op2 = op1 & 15;
 			op3 = ip[1]; ++ip; // get temp var index
 			for (tframe = g->frame; op2--; tframe = tframe->context.uof) { /* noop */ }
 			slot = tframe->vars + op3;
 			slotCopy(slot, sp);
 			g->gc->GCWrite(tframe, slot);
-			break;
+			ENDOP;
 
-		case 136 :  // push inst var, send special selector
+		OP_(136) :  // push inst var, send special selector
 			op2 = ip[1]; // get inst var index
 			op3 = ip[2]; // get selector
 			ip+=2;
@@ -1191,7 +1214,7 @@ void Interpret(VMGlobals *g)
 
 			goto class_lookup;
 
-		case 137 :  // push all args, send msg
+		OP_(137) :  // push all args, send msg
 			numArgsPushed = METHRAW(g->block)->numargs;
 			pslot = g->frame->vars - 1;
 			for (m=0,mmax=numArgsPushed; m<mmax; ++m) *++sp = *++pslot;
@@ -1202,7 +1225,7 @@ void Interpret(VMGlobals *g)
 
 			goto class_lookup;
 
-		case 138 :  // push all but first arg, send msg
+		OP_(138) :  // push all but first arg, send msg
 			numArgsPushed = METHRAW(g->block)->numargs;
 			pslot = g->frame->vars;
 			for (m=0,mmax=numArgsPushed-1; m<mmax; ++m) *++sp = *++pslot;
@@ -1213,7 +1236,7 @@ void Interpret(VMGlobals *g)
 
 			goto class_lookup;
 
-		case 139 :  // push all args, send special
+		OP_(139) :  // push all args, send special
 			numArgsPushed = METHRAW(g->block)->numargs;
 			pslot = g->frame->vars - 1;
 			for (m=0,mmax=numArgsPushed; m<mmax; ++m) *++sp = *++pslot;
@@ -1224,7 +1247,7 @@ void Interpret(VMGlobals *g)
 
 			goto class_lookup;
 
-		case 140 :  // push all but first arg, send special
+		OP_(140) :  // push all but first arg, send special
 			numArgsPushed = METHRAW(g->block)->numargs;
 			pslot = g->frame->vars;
 			for (m=0,mmax=numArgsPushed-1; m<mmax; ++m) *++sp = *++pslot;
@@ -1235,7 +1258,7 @@ void Interpret(VMGlobals *g)
 
 			goto class_lookup;
 
-		case 141 :  // one arg pushed, push all but first arg, send msg
+		OP_(141) :  // one arg pushed, push all but first arg, send msg
 			numArgsPushed = METHRAW(g->block)->numargs + 1;
 			pslot = g->frame->vars;
 			for (m=0,mmax=numArgsPushed-2; m<mmax; ++m) *++sp = *++pslot;
@@ -1246,7 +1269,7 @@ void Interpret(VMGlobals *g)
 
 			goto class_lookup;
 
-		case 142 :  // one arg pushed, push all but first arg, send special
+		OP_(142) :  // one arg pushed, push all but first arg, send special
 			numArgsPushed = METHRAW(g->block)->numargs + 1;
 			pslot = g->frame->vars;
 			for (m=0,mmax=numArgsPushed-2; m<mmax; ++m) *++sp = *++pslot;
@@ -1257,7 +1280,7 @@ void Interpret(VMGlobals *g)
 
 			goto class_lookup;
 
-		case 143 : // loop byte codes
+		OP_(143) : // loop byte codes
 			// this is major cheating to speed up often used looping methods
 			// these byte codes are specific to their method and should only be used there.
 			op2 = ip[1]; ++ip; // get which one
@@ -1747,22 +1770,22 @@ void Interpret(VMGlobals *g)
 					break;
 
 			}
-			break;
+			ENDOP;
 
 
 		//	opStoreClassVar
-		case 144 :  case 145 :  case 146 :  case 147 :
-		case 148 :  case 149 :  case 150 :  case 151 :
-		case 152 :  case 153 :  case 154 :  case 155 :
-		case 156 :  case 157 :  case 158 :  case 159 :
+		OP_(144) :  OP_(145) :  OP_(146) :  OP_(147) :
+		OP_(148) :  OP_(149) :  OP_(150) :  OP_(151) :
+		OP_(152) :  OP_(153) :  OP_(154) :  OP_(155) :
+		OP_(156) :  OP_(157) :  OP_(158) :  OP_(159) :
 			op2 = op1 & 15;
 			op3 = ip[1]; ++ip; // get class var index
 			slotCopy(&g->classvars->slots[(op2<<8)|op3], sp--);
 			g->gc->GCWrite(g->classvars, (sp+1));
-			break;
+			ENDOP;
 
 		// opSendMsg
-		case 160 :
+		OP_(160) :
 			// special case for this as only arg
 			op2 = ip[1]; ++ip; // get selector index
 			slotCopy(++sp, &g->receiver);
@@ -1773,10 +1796,10 @@ void Interpret(VMGlobals *g)
 			goto class_lookup;
 		
 		// SendMsg??
-		case 161 :  case 162 :  case 163 :  
-		case 164 :  case 165 :  case 166 :  case 167 :  
-		case 168 :  case 169 :  case 170 :  case 171 :  
-		case 172 :  case 173 :  case 174 :  case 175 :
+		OP_(161) :  OP_(162) :  OP_(163) :  
+		OP_(164) :  OP_(165) :  OP_(166) :  OP_(167) :  
+		OP_(168) :  OP_(169) :  OP_(170) :  OP_(171) :  
+		OP_(172) :  OP_(173) :  OP_(174) :  OP_(175) :
 
 			op2 = ip[1]; ++ip; // get selector index
 			numArgsPushed = op1 & 15;
@@ -1784,13 +1807,13 @@ void Interpret(VMGlobals *g)
 			slot = sp - numArgsPushed + 1;
 			goto class_lookup;
 
-		case 176 : // opcTailCallReturnFromFunction
+		OP_(176) : // opcTailCallReturnFromFunction
 #if TAILCALLOPTIMIZE
 			g->tailCall = 2;
 #endif
-			break;
+			ENDOP;
 		// opSuperMsg
-		case 177 :
+		OP_(177) :
 			// special case for this as only arg
 			op2 = ip[1]; ++ip; // get selector index
 			slotCopy(++sp, &g->receiver);
@@ -1801,10 +1824,10 @@ void Interpret(VMGlobals *g)
 
 			goto msg_lookup;
 
-		case 178 :  case 179 :
-		case 180 :  case 181 :  case 182 :  case 183 :
-		case 184 :  case 185 :  case 186 :  case 187 :
-		case 188 :  case 189 :  case 190 :  case 191 :
+		OP_(178) :  OP_(179) :
+		OP_(180) :  OP_(181) :  OP_(182) :  OP_(183) :
+		OP_(184) :  OP_(185) :  OP_(186) :  OP_(187) :
+		OP_(188) :  OP_(189) :  OP_(190) :  OP_(191) :
 
 			op2 = ip[1]; ++ip; // get selector index
 			numArgsPushed = op1 & 15;
@@ -1815,7 +1838,7 @@ void Interpret(VMGlobals *g)
 			goto msg_lookup;
 
 		// opSendSpecialMsg
-		case 192 :
+		OP_(192) :
 
 			slotCopy(++sp, &g->receiver);
 			op2 = ip[1]; ++ip; // get selector index
@@ -1825,10 +1848,10 @@ void Interpret(VMGlobals *g)
 
 			goto class_lookup;
 
-		case 193 :  case 194 :  case 195 :
-		case 196 :  case 197 :  case 198 :  case 199 :
-		case 200 :  case 201 :  case 202 :  case 203 :
-		case 204 :  case 205 :  case 206 :  case 207 :
+		OP_(193) :  OP_(194) :  OP_(195) :
+		OP_(196) :  OP_(197) :  OP_(198) :  OP_(199) :
+		OP_(200) :  OP_(201) :  OP_(202) :  OP_(203) :
+		OP_(204) :  OP_(205) :  OP_(206) :  OP_(207) :
 
 			op2 = ip[1]; ++ip; // get selector index
 			numArgsPushed = op1 & 15;
@@ -1838,7 +1861,7 @@ void Interpret(VMGlobals *g)
 			goto class_lookup;
 
 		// opSendSpecialUnaryArithMsg
-		case 208 :  // opNeg
+		OP_(208) :  // opNeg
 			if (IsFloat(sp)) {
 				SetFloat(sp, -sp->uf);
 #if TAILCALLOPTIMIZE
@@ -1850,8 +1873,8 @@ void Interpret(VMGlobals *g)
 				g->tailCall = 0;
 #endif
 			} else goto unary_send;
-			break;
-		case 209 : // opNot
+			ENDOP;
+		OP_(209) : // opNot
 			if (IsTrue(&sp[0])) {
 				sp[0].utag = tagFalse;
 #if TAILCALLOPTIMIZE
@@ -1863,8 +1886,8 @@ void Interpret(VMGlobals *g)
 				g->tailCall = 0;
 #endif
 			} else goto unary_send;
-			break;
-		case 210 : // opIsNil
+			ENDOP;
+		OP_(210) : // opIsNil
 			if (IsNil(&sp[0])) {
 				sp[0].utag = tagTrue;
 			} else {
@@ -1873,8 +1896,8 @@ void Interpret(VMGlobals *g)
 #if TAILCALLOPTIMIZE
 			g->tailCall = 0;
 #endif
-			break;
-		case 211 : // opNotNil
+			ENDOP;
+		OP_(211) : // opNotNil
 			if (NotNil(&sp[0])) {
 				slotCopy(sp, (PyrSlot*)&gSpecialValues[svTrue]);
 			} else {
@@ -1883,20 +1906,20 @@ void Interpret(VMGlobals *g)
 #if TAILCALLOPTIMIZE
 			g->tailCall = 0;
 #endif
-			break;
+			ENDOP;
 
-		case 212 :  case 213 :  case 214 :  case 215 :
-		case 216 :  case 217 :  case 218 :  case 219 :
-		case 220 :  case 221 :  case 222 :  case 223 :
+		OP_(212) :  OP_(213) :  OP_(214) :  OP_(215) :
+		OP_(216) :  OP_(217) :  OP_(218) :  OP_(219) :
+		OP_(220) :  OP_(221) :  OP_(222) :  OP_(223) :
 			unary_send:
 			g->sp = sp; g->ip = ip;
 			g->primitiveIndex = op1 & 15;
 			doSpecialUnaryArithMsg(g, -1);
 			sp = g->sp; ip = g->ip;
-			break;
+			ENDOP;
 
 		// opSendSpecialBinaryArithMsg
-		case 224 : // add
+		OP_(224) : // add
 			if (IsInt(&sp[-1])) {
 				if (IsInt(&sp[0])) {
 					--sp; sp[0].ui += sp[1].ui;
@@ -1915,8 +1938,8 @@ void Interpret(VMGlobals *g)
 				prAddNum(g, -1);
 				sp = g->sp; ip = g->ip;
 			}
-			break;
-		case 225 : // subtract
+			ENDOP;
+		OP_(225) : // subtract
 			if (IsInt(&sp[-1])) {
 				if (IsInt(&sp[0])) {
 					--sp; sp[0].ui -= sp[1].ui;
@@ -1935,8 +1958,8 @@ void Interpret(VMGlobals *g)
 				prSubNum(g, -1);
 				sp = g->sp; ip = g->ip;
 			}
-			break;
-		case 226 :  // multiply
+			ENDOP;
+		OP_(226) :  // multiply
 			if (IsInt(&sp[-1])) {
 				if (IsInt(&sp[0])) {
 					--sp; sp[0].ui *= sp[1].ui;
@@ -1955,61 +1978,61 @@ void Interpret(VMGlobals *g)
 				prMulNum(g, -1);
 				sp = g->sp; ip = g->ip;
 			}
-			break;
+			ENDOP;
 
-		case 227 :
-		case 228 :  case 229 :  case 230 :  case 231 :
-		case 232 :  case 233 :  case 234 :  case 235 :
-		case 236 :  case 237 :  case 238 :  case 239 :
+		OP_(227) :
+		OP_(228) :  OP_(229) :  OP_(230) :  OP_(231) :
+		OP_(232) :  OP_(233) :  OP_(234) :  OP_(235) :
+		OP_(236) :  OP_(237) :  OP_(238) :  OP_(239) :
 			g->sp = sp; g->ip = ip;
 			g->primitiveIndex = op1 & 15;
 			doSpecialBinaryArithMsg(g, 2, false);
 			sp = g->sp; ip = g->ip;
-			break;
+			ENDOP;
 
 		// opSpecialOpcodes
 		// DROP 
-		case 240:
+		OP_(240):
 			--sp; 
-			break; // opDrop
-		case 241 : ++sp; *sp = sp[-1]; break;	// opDup
+			ENDOP; // opDrop
+		OP_(241) : ++sp; *sp = sp[-1]; ENDOP;	// opDup
 
-		case 242 : // opcFunctionReturn
+		OP_(242) : // opcFunctionReturn
 			g->sp = sp; g->ip = ip;
 			returnFromBlock(g);
 			sp = g->sp; ip = g->ip;
-			break;
-		case 243 : // opcReturn
+			ENDOP;
+		OP_(243) : // opcReturn
 			g->sp = sp; g->ip = ip;
 			returnFromMethod(g);
 			sp = g->sp; ip = g->ip;
-			break;
-		case 244 : // opcReturnSelf
+			ENDOP;
+		OP_(244) : // opcReturnSelf
 		slotCopy(++sp, &g->receiver);
 			g->sp = sp; g->ip = ip;
 			returnFromMethod(g);
 			sp = g->sp; ip = g->ip;
-			break;
-		case 245 : // opcReturnTrue
+			ENDOP;
+		OP_(245) : // opcReturnTrue
 			slotCopy(++sp, (PyrSlot*)&gSpecialValues[svTrue]);
 			g->sp = sp; g->ip = ip;
 			returnFromMethod(g);
 			sp = g->sp; ip = g->ip;
-			break;
-		case 246 : // opcReturnFalse
+			ENDOP;
+		OP_(246) : // opcReturnFalse
 			slotCopy(++sp, (PyrSlot*)&gSpecialValues[svFalse]);
 			g->sp = sp; g->ip = ip;
 			returnFromMethod(g);
 			sp = g->sp; ip = g->ip;
-			break;
-		case 247 : // opcReturnNil
+			ENDOP;
+		OP_(247) : // opcReturnNil
 			slotCopy(++sp, (PyrSlot*)&gSpecialValues[svNil]);
 			g->sp = sp; g->ip = ip;
 			returnFromMethod(g);
 			sp = g->sp; ip = g->ip;
-			break;
+			ENDOP;
 
-		case 248 : // opcJumpIfFalse
+		OP_(248) : // opcJumpIfFalse
 			// cannot compare with o_false because it is NaN
 			if ( IsFalse(sp) ) {
 				jmplen = (ip[1]<<8) | ip[2];
@@ -2024,8 +2047,8 @@ void Interpret(VMGlobals *g)
 				goto class_lookup;
 			}
 			--sp;
-			break;
-		case 249 : // opcJumpIfFalsePushNil
+			ENDOP;
+		OP_(249) : // opcJumpIfFalsePushNil
 			if ( IsFalse(sp)) {
 				jmplen = (ip[1]<<8) | ip[2];
 				ip += jmplen + 2;
@@ -2040,8 +2063,8 @@ void Interpret(VMGlobals *g)
 
 				goto class_lookup;
 			}
-			break;
-		case 250 : // opcJumpIfFalsePushFalse
+			ENDOP;
+		OP_(250) : // opcJumpIfFalsePushFalse
 			if (IsFalse(sp)) {
 				jmplen = (ip[1]<<8) | ip[2];
 				ip += jmplen + 2;
@@ -2056,8 +2079,8 @@ void Interpret(VMGlobals *g)
 
 				goto class_lookup;
 			}
-			break;
-		case 251 : // opcJumpIfTruePushTrue
+			ENDOP;
+		OP_(251) : // opcJumpIfTruePushTrue
 			if (IsFalse(sp)) {
 				--sp;
 				ip+=2;
@@ -2072,31 +2095,31 @@ void Interpret(VMGlobals *g)
 
 				goto class_lookup;
 			}
-			break;
-		case 252 : // opcJumpFwd
+			ENDOP;
+		OP_(252) : // opcJumpFwd
 			jmplen = (ip[1]<<8) | ip[2];
 			ip += jmplen + 2;
-			break;
-		case 253 : // opcJumpBak
+			ENDOP;
+		OP_(253) : // opcJumpBak
 			--sp; // also drops the stack. This saves an opcode in the while loop
 					// which is the only place this opcode is used.
 			jmplen = (ip[1]<<8) | ip[2];
 			ip -= jmplen;
 
 			//assert(g->gc->SanityCheck());
-			break;
-		case 254 : // opcSpecialBinaryOpWithAdverb
+			ENDOP;
+		OP_(254) : // opcSpecialBinaryOpWithAdverb
 			op2 = ip[1]; ++ip; // get selector index
 			g->sp = sp; g->ip = ip;
 			g->primitiveIndex = op2;
 			doSpecialBinaryArithMsg(g, 3, false);
 			sp = g->sp; ip = g->ip;
-			break;
-		case 255 : // opcTailCallReturnFromMethod
+			ENDOP;
+		OP_(255) : // opcTailCallReturnFromMethod
 #if TAILCALLOPTIMIZE
 			g->tailCall = 1;
 #endif
-			break;
+			ENDOP;
 
 			////////////////////////////////////
 
@@ -2118,7 +2141,7 @@ void Interpret(VMGlobals *g)
 				methraw = METHRAW(meth);
 				switch (methraw->methType) {
 					case methNormal : /* normal msg send */
-						g->sp = sp; g->ip = ip;
+							g->sp = sp; g->ip = ip;
 						executeMethod(g, meth, numArgsPushed);
 						sp = g->sp; ip = g->ip;
 						break;
@@ -2369,7 +2392,10 @@ void Interpret(VMGlobals *g)
 #if TAILCALLOPTIMIZE
 			g->tailCall = 0;
 #endif
+			
+#if JUMPTABLE==0
 	} // switch(op1)
+#endif
 
 	end:
 		continue;

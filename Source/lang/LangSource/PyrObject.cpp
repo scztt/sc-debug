@@ -1416,6 +1416,7 @@ void initClasses()
 		addIntrinsicVar(class_fundef, "varNames", &o_nil);
 		addIntrinsicVar(class_fundef, "sourceCode", &o_nil);
 		addIntrinsicVar(class_fundef, "debugTable", &o_nil);
+		addIntrinsicVar(class_fundef, "cachedFrame", &o_nil);
 
 	class_method = makeIntrinsicClass(s_method, s_fundef, 5, 0);
 		addIntrinsicVar(class_method, "ownerClass", &o_nil);
@@ -2294,6 +2295,48 @@ struct VMGlobals* scGlobals();
 struct VMGlobals* scGlobals()
 {
 	return gMainVMGlobals;
+}
+
+void initCachedFrames(VMGlobals *g)
+{
+	PyrClass *classobj;
+	PyrSlot *methods, *method;
+	PyrObject *array;
+	int i, j, numMethods;
+	
+	classobj = gClassList;
+	for (i=0; classobj; ++i) {
+		if (!IsNil(&classobj->methods))
+		{
+			methods = classobj->methods.uo->slots;
+			numMethods = classobj->methods.uo->size;
+			for (i=0; i<numMethods; ++i) {
+				initCachedFrame( g, methods[i].uom );
+			};
+		};
+		classobj = classobj->nextclass.uoc;
+	}
+}
+
+void initCachedFrame(VMGlobals *g, PyrMethod* method)
+{
+	PyrMethodRaw* methraw = METHRAW(method);
+	if (methraw->frameSize>0)
+	{
+		PyrFrame* frame = (PyrFrame*)g->gc->NewFrame(methraw->frameSize, obj_permanent, 0, methraw->needsHeapContext);
+		SetInt( &frame->method,1 );
+		SetInt( &frame->caller,1 );
+		SetInt( &frame->context,1 );
+		SetInt( &frame->homeContext,1 );
+		SetInt( &frame->ip,1 );
+		SetInt( &frame->line,1 );
+		SetInt( &frame->character,1 );
+		SetNil( &frame->vars[0] );
+		
+		{
+			SetObject( &method->cachedFrame, frame );
+		};	
+	}
 }
 
 PyrMethod* initPyrMethod(PyrMethod* method)

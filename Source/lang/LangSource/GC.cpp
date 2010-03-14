@@ -388,6 +388,10 @@ PyrObject *PyrGC::NewFrame(size_t inNumBytes, long inFlags, long inFormat, bool 
 {
 	PyrObject *obj = NULL;
 
+	if (inFlags & obj_permanent) {
+		return NewPermanent(inNumBytes, inFlags, inFormat);
+	}	
+	
 #if SANITYCHECK
 	SanityCheck();
 #endif
@@ -623,6 +627,7 @@ void PyrGC::ScanFrames()
 {
 	VMGlobals *g = mVMGlobals;
 	PyrFrame* frame = g->frame;
+	PyrFrame* lastframe;
 	while (frame) {
 #if 1
 		// this is more incremental
@@ -638,6 +643,7 @@ void PyrGC::ScanFrames()
 			ScanSlots(slots, size);
 		}
 #endif
+		lastframe = frame;
 		frame = frame->caller.uof;
 	}
 }

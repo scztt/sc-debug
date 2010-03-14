@@ -1054,8 +1054,20 @@ void executeMethod(VMGlobals *g, PyrMethod *meth, long numArgsPushed)
 
 	caller = g->frame;
 	//postfl("executeMethod allArgsPushed %d numKeyArgsPushed %d\n", allArgsPushed, numKeyArgsPushed);
-
-	frame = (PyrFrame*)g->gc->NewFrame(methraw->frameSize, 0, obj_slot, methraw->needsHeapContext);
+	// !strcmp(meth->name.us->name,"asSecs") */
+	if (!strcmp(meth->name.us->name,"++") || !strcmp(meth->name.us->name,"+/+"))
+	{
+		frame = 0;
+	};
+	if ( !IsNil(&meth->cachedFrame) && !IsNil(&meth->ownerclass) )
+	{
+		frame = (PyrFrame*)meth->cachedFrame.uof;
+		SetNil(&meth->cachedFrame);
+		printf("Checked out cached frame for method %s:%s (%p)\n",meth->ownerclass.s.u.oc->name.us->name, meth->name.us->name,frame);
+	} else {
+		frame = (PyrFrame*)g->gc->NewFrame(methraw->frameSize, 0, obj_slot, methraw->needsHeapContext);
+		printf("Creating new frame for method %s:%s (%p)\n",meth->ownerclass.s.u.oc->name.us->name, meth->name.us->name,frame);
+	};
 	vars = frame->vars - 1;
 	frame->classptr = class_frame;
 	frame->size = FRAMESIZE + proto->size;
@@ -1085,18 +1097,23 @@ void executeMethod(VMGlobals *g, PyrMethod *meth, long numArgsPushed)
 	if (numArgsPushed <= numargs) {	/* not enough args pushed */
 		/* push all args to frame */
 		for (m=0,mmax=numArgsPushed; m<mmax; ++m) slotCopy(++pslot, ++qslot);
+		//slotCopy(++pslot, ++qslot, numArgsPushed);
 
 		/* push default arg & var values */
 		pslot = vars + numArgsPushed;
 		qslot = proto->slots + numArgsPushed - 1;
 		for (m=0, mmax=numtemps - numArgsPushed; m<mmax; ++m) slotCopy(++pslot, ++qslot);
+		//slotCopy(++pslot, ++qslot, numtemps - numArgsPushed);
 	} else if (methraw->varargs) {
 		PyrObject *list;
 		PyrSlot *lslot;
 
 		/* push all normal args to frame */
 		for (m=0,mmax=numargs; m<mmax; ++m) slotCopy(++pslot, ++qslot);
-
+		//qslot = g->sp;
+		//pslot = vars;
+		// slotCopy(++pslot, ++qslot, numargs);
+		
 		/* push list */
 		i = numArgsPushed - numargs;
 		list = newPyrArray(g->gc, i, 0, false);
@@ -1110,12 +1127,14 @@ void executeMethod(VMGlobals *g, PyrMethod *meth, long numArgsPushed)
 		lslot = (list->slots - 1);
 		// fixed and raw sizes are zero
 		for (m=0,mmax=i; m<mmax; ++m) slotCopy(++lslot, ++qslot);
+		//slotCopy(++lslot, ++qslot, i);
 
 		if (methraw->numvars) {
 			/* push default keyword and var values */
 			pslot = vars + numargs + 1;
 			qslot = proto->slots + numargs;
 			for (m=0,mmax=methraw->numvars; m<mmax; ++m) slotCopy(++pslot, ++qslot);
+			// slotCopy(++lslot, ++qslot, methraw->numvars);
 		}
 	} else {
 		/* push all args to frame */
@@ -1134,6 +1153,16 @@ void executeMethod(VMGlobals *g, PyrMethod *meth, long numArgsPushed)
 	g->gc->SanityCheck();
 	CallStackSanity(g, "<executeMethod");
 #endif
+	
+	PyrFrame* last = (PyrFrame*)-1;
+	if( frame->context.uof->homeContext.uof->caller.uof )
+		last = frame->context.uof->homeContext.uof->caller.uof->homeContext.uof;
+	printf("Executed method %s:%s. frame:%p, frame.context.home:%p, frame.context.home.caller:%p, f.cxt.h.ca.context:%p\n\n",g->method->ownerclass.s.u.oc->name.us->name, g->method->name.us->name,
+		   frame, 
+		   frame->context.uof->homeContext.uof,
+		   frame->context.uof->homeContext.uof->caller.uof,
+		   last);
+	
 }
 
 void switchToThread(VMGlobals *g, PyrThread *newthread, int oldstate, int *numArgsPushed);
@@ -1199,10 +1228,12 @@ void returnFromBlock(VMGlobals *g)
 void returnFromMethod(VMGlobals *g)
 {
 	PyrFrame *returnFrame, *curframe, *homeContext;
-	PyrMethod *meth;
+	PyrMethod *meth, *frameMeth;
 	PyrMethodRaw *methraw;
 	curframe = g->frame;
-
+	
+	frameMeth = curframe->method.uom;
+	
 	//assert(curframe->context.uof == NULL);
 
 	/*if (gTraceInterpreter) {
@@ -1213,6 +1244,11 @@ void returnFromMethod(VMGlobals *g)
 	g->gc->SanityCheck();
 #endif
 	homeContext = curframe->context.uof->homeContext.uof;
+	
+	//printf("Returning from method %s:%s. curframe:%p, homecontext:%p, returnframe:%p, nextHomeContext:%p\n",g->method->ownerclass.s.u.oc->name.us->name, g->method->name.us->name,
+	//		curframe, homeContext,homeContext->caller.uof, homeContext->caller.uof->homeContext.uof);
+	
+	
 	if (homeContext == NULL) {
 		null_return:
 #if TAILCALLOPTIMIZE
@@ -1289,7 +1325,14 @@ void returnFromMethod(VMGlobals *g)
 				methraw = METHRAW(meth);
 				PyrFrame *nextFrame = tempFrame->caller.uof;
 				if (!methraw->needsHeapContext) {
-					g->gc->Free(tempFrame);
+					if (IsNil(&meth->cachedFrame)) {
+						SetObject( &meth->cachedFrame, tempFrame );
+						if (tempFrame != homeContext) SetNil(&tempFrame->caller);
+						//printf("Checked in cached frame for method %s:%s (%p)\n\n",meth->ownerclass.s.u.oc->name.us->name, meth->name.us->name,tempFrame);
+					} else {
+						//printf("Freed frame for method %s:%s (%p)\n\n",meth->ownerclass.s.u.oc->name.us->name, meth->name.us->name,tempFrame);
+						g->gc->Free(tempFrame);
+					}
 				} else {
 					if (tempFrame != homeContext) SetNil(&tempFrame->caller);
 				}
@@ -1317,8 +1360,14 @@ if (gTraceInterpreter) {
 
 		g->method = meth;
 		slotCopy(&g->receiver, &homeContext->vars[0]);
-
-	}
+	};
+	
+	if ( frameMeth && IsNil(&frameMeth->cachedFrame) )
+	{
+		//SetObject( &frameMeth->cachedFrame, curframe );
+		//SetNil( &curframe->caller );
+	};	
+	
 #if SANITYCHECK
 	g->gc->SanityCheck();
 #endif

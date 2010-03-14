@@ -30,6 +30,7 @@ A PyrSlot is an 8-byte value which is either a double precision float or a
 
 #include "SC_Endian.h"
 #include "PyrSymbol.h"
+#include <string.h>
 
 /*
 	Pyrite slots are the size of an 8 byte double. If the upper bits
@@ -263,15 +264,17 @@ inline int slotSymbolVal(PyrSlot *slot, PyrSymbol **symbol)
 
 inline void slotCopy(PyrSlot *dst, PyrSlot *src)
 {
-	double *dstp = (double*)dst;
-	double *srcp = (double*)src;
-	*dstp = *srcp;
+//	double *dstp = (double*)dst;
+//	double *srcp = (double*)src;
+//	*dstp = *srcp;
+	(*dst) = *src;
 }
 
 inline void slotCopy(PyrSlot *dst, PyrSlot *src, int num)
 {
 	double *dstp = (double*)dst - 1;
 	double *srcp = (double*)src - 1;
+//	memcpy(dst,src,num*sizeof(PyrSlot)); 
 	for (int i=0;i<num;++i) { *++dstp = *++srcp; }
 }
 

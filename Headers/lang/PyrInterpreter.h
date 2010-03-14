@@ -24,6 +24,8 @@
 #include "PyrSlot.h"
 #include "VMGlobals.h"
 
+typedef void *itype;
+
 extern bool gRunningInterpreterThread;
 
 extern int gNumClasses;
