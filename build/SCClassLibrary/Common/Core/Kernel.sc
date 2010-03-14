@@ -525,7 +525,15 @@ Interpreter {
 		^this.compile(string).valueArray(args).postln;
 	}
 	compile { arg string;
-		Document.current.notNil.if({ Document.current.name.postln });
+		var funcString, selectionStart, docIdentifier;
+		Document.current.notNil.if({
+			funcString = Document.current.selectedString;
+			selectionStart = Document.current.selectionStart;
+			docIdentifier = ( \name: Document.current.name, \path: Document.current.path );
+			"funcString: %\n".postf( funcString );
+			"selectionStart: %\n".postf( selectionStart );
+			"docIdentifier: %\n".postf( docIdentifier );
+		});
 		^this.prCompile( string );
 	}
 	
