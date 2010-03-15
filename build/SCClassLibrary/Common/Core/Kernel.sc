@@ -535,7 +535,6 @@ Interpreter {
 			"selectionStart: %\n".postf( selectionStart );
 			"docIdentifier: %\n".postf( docIdentifier );
 		});
-		Function
 		^function
 	}
 	
