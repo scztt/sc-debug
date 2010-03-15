@@ -525,16 +525,18 @@ Interpreter {
 		^this.compile(string).valueArray(args).postln;
 	}
 	compile { arg string;
-		var funcString, selectionStart, docIdentifier;
+		var funcString, selectionStart, docIdentifier, function;
+		function = this.prCompile( string );
 		Document.current.notNil.if({
-			funcString = Document.current.selectedString;
+			funcString = cmdLine;
 			selectionStart = Document.current.selectionStart;
 			docIdentifier = ( \name: Document.current.name, \path: Document.current.path );
 			"funcString: %\n".postf( funcString );
 			"selectionStart: %\n".postf( selectionStart );
 			"docIdentifier: %\n".postf( docIdentifier );
 		});
-		^this.prCompile( string );
+		Function
+		^function
 	}
 	
 	prCompile {
