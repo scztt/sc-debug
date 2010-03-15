@@ -4,5 +4,5 @@ Intermediate Build Files
 *.gcno
 .svn/*
 *.svn-base
-build
 *.dat
+build-state.dat
