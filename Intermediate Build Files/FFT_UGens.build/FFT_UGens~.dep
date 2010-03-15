@@ -1,7 +1,0 @@
-0000000044eeac240000000000001a55 f5cd13437aab1d063a0fdac6874eaffa ffffffffffffffffffffffffffffffff 0 /Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT_UGens.build/Objects-normal/i386/PartitionedConvolution.o
-000000000f8c25ed0000000000031a32 dcfebc2420feda5aeee105e8028913bd ffffffffffffffffffffffffffffffff 0 /Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT_UGens.build/Objects-normal/i386/SC_fftlib.o
-00000000485c4dc50000000000002aa5 fba89a97afff9baf9d8167395b3133fb ffffffffffffffffffffffffffffffff 0 /Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT_UGens.build/Objects-normal/i386/SCComplex.o
-0000000044eeac240000000000002d5d a326b86dc0a55d4ddfcd8976ef8ffd41 ffffffffffffffffffffffffffffffff 0 /Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT_UGens.build/Objects-normal/i386/FFTInterfaceTable.o
-0000000044eeac2400000000000057a2 547ea6d063ab8a161cb31c3de3f77780 ffffffffffffffffffffffffffffffff 0 /Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT_UGens.build/Objects-normal/i386/PV_UGens.o
-000000000c8a0a180000000000032add 1a8f8f0893716218aa48c62397b53294 ffffffffffffffffffffffffffffffff 0 /Users/scott/Documents/_code/SuperCollider3/Intermediate Build Files/FFT_UGens.build/Objects-normal/i386/FFT_UGens.o
-3f4ca445cb6552662059eb7f453e9617 8e2c54ed5fc7c0c5e5f417c1e064eee7 ffffffffffffffffffffffffffffffff 0 /Users/scott/Documents/_code/SuperCollider3/build/plugins/FFT_UGens.scx
