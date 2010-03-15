@@ -1053,20 +1053,14 @@ void executeMethod(VMGlobals *g, PyrMethod *meth, long numArgsPushed)
 	numargs = methraw->numargs;
 
 	caller = g->frame;
-	//postfl("executeMethod allArgsPushed %d numKeyArgsPushed %d\n", allArgsPushed, numKeyArgsPushed);
-	// !strcmp(meth->name.us->name,"asSecs") */
-	if (!strcmp(meth->name.us->name,"++") || !strcmp(meth->name.us->name,"+/+"))
-	{
-		frame = 0;
-	};
-	if ( !IsNil(&meth->cachedFrame) && !IsNil(&meth->ownerclass) )
+	if ( !IsNil(&meth->cachedFrame) && !IsNil(&meth->ownerclass) && false )
 	{
 		frame = (PyrFrame*)meth->cachedFrame.uof;
 		SetNil(&meth->cachedFrame);
 		printf("Checked out cached frame for method %s:%s (%p)\n",meth->ownerclass.s.u.oc->name.us->name, meth->name.us->name,frame);
 	} else {
 		frame = (PyrFrame*)g->gc->NewFrame(methraw->frameSize, 0, obj_slot, methraw->needsHeapContext);
-		printf("Creating new frame for method %s:%s (%p)\n",meth->ownerclass.s.u.oc->name.us->name, meth->name.us->name,frame);
+		//printf("Creating new frame for method %s:%s (%p)\n",meth->ownerclass.s.u.oc->name.us->name, meth->name.us->name,frame);
 	};
 	vars = frame->vars - 1;
 	frame->classptr = class_frame;
@@ -1154,15 +1148,15 @@ void executeMethod(VMGlobals *g, PyrMethod *meth, long numArgsPushed)
 	CallStackSanity(g, "<executeMethod");
 #endif
 	
-	PyrFrame* last = (PyrFrame*)-1;
-	if( frame->context.uof->homeContext.uof->caller.uof )
-		last = frame->context.uof->homeContext.uof->caller.uof->homeContext.uof;
-	printf("Executed method %s:%s. frame:%p, frame.context.home:%p, frame.context.home.caller:%p, f.cxt.h.ca.context:%p\n\n",g->method->ownerclass.s.u.oc->name.us->name, g->method->name.us->name,
-		   frame, 
-		   frame->context.uof->homeContext.uof,
-		   frame->context.uof->homeContext.uof->caller.uof,
-		   last);
-	
+//	PyrFrame* last = (PyrFrame*)-1;
+//	if( frame->context.uof->homeContext.uof->caller.uof )
+//		last = frame->context.uof->homeContext.uof->caller.uof->homeContext.uof;
+//	printf("Executed method %s:%s. frame:%p, frame.context.home:%p, frame.context.home.caller:%p, f.cxt.h.ca.context:%p\n\n",g->method->ownerclass.s.u.oc->name.us->name, g->method->name.us->name,
+//		   frame, 
+//		   frame->context.uof->homeContext.uof,
+//		   frame->context.uof->homeContext.uof->caller.uof,
+//		   last);
+//	
 }
 
 void switchToThread(VMGlobals *g, PyrThread *newthread, int oldstate, int *numArgsPushed);
@@ -1325,7 +1319,7 @@ void returnFromMethod(VMGlobals *g)
 				methraw = METHRAW(meth);
 				PyrFrame *nextFrame = tempFrame->caller.uof;
 				if (!methraw->needsHeapContext) {
-					if (IsNil(&meth->cachedFrame)) {
+					if (IsNil(&meth->cachedFrame) && false) {
 						SetObject( &meth->cachedFrame, tempFrame );
 						if (tempFrame != homeContext) SetNil(&tempFrame->caller);
 						//printf("Checked in cached frame for method %s:%s (%p)\n\n",meth->ownerclass.s.u.oc->name.us->name, meth->name.us->name,tempFrame);
